@@ -24,10 +24,10 @@ GearUI 2.0是一套面向iOS开发者**高效的**、**低学习成本的**编�
 
 无需编译，在本地修改UI布局后，可实时在真机和模拟器上查看效果！不再有任何等待。开发体验如下图，左侧编辑器和右面真机屏幕为同步录制。
 
-![实时预览](https://git.code.oa.com/gearui/gearui/uploads/AC58DE16346347FDA9121254EB99BACB/%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88.gif)
+![实时预览](实时预览.gif)
 
 实时预览使用请参考：
-[https://git.code.oa.com/gearui/gearui/wikis/%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88](https://git.code.oa.com/gearui/gearui/wikis/%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88)
+[https://github.com/shenqiliang/GearUI/wiki/%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88](https://github.com/shenqiliang/GearUI/wiki/%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88)
 
 # 高效布局
 
@@ -88,7 +88,7 @@ GearUI 2.0是一套面向iOS开发者**高效的**、**低学习成本的**编�
 
 ### 1. 下载代码
 
-	git clone http://git.code.oa.com/gearui/gearui.git
+	git clone https://github.com/shenqiliang/GearUI.git
 
 ### 2. 安装类模版和代码提示
 
@@ -109,7 +109,7 @@ GearUI 2.0是一套面向iOS开发者**高效的**、**低学习成本的**编�
 	use_frameworks!
 	
 	target '你的项目Target' do
-	    pod 'GearUI', :git => 'https://git.woa.com/gearui/gearui.git'
+	    pod 'GearUI', :git => 'https://github.com/shenqiliang/GearUI.git'
 	end
 
 执行`pod install`
@@ -271,7 +271,7 @@ GearUI底层使用iOS自动布局（AutoLayout）进行布局。
 
 通过`id`属性值前面加上`#`符号后，当UI加载时会自动绑定到响应`View/ViewController`的同名属性上，请确保类型一致即可。
 
-![](https://git.woa.com/gearui/gearui/uploads/12ABAAC099654DC495FD9392EA4B44A2/dynomicbind.png)
+![](dynomicbind.png)
 
 
 ## 属性表示方法
@@ -396,6 +396,4 @@ self.setKeyPathAttributes(["firstLayout.label1.text" : "我修改了label文本�
 * JavaScript脚本执行
 * GBI/GBX存储格式
 * 动态下发框架
-
-[https://git.code.oa.com/gearui/gearui/wikis/home](https://git.code.oa.com/gearui/gearui/wikis/home)
 
