@@ -1,0 +1,48 @@
+<ViewController title="Title" backgroundColor="white" >
+    <LayoutView backgroundColor="white" >
+        <ImageView left="0" top="0" right="0" bottom="0" contentMode="fill">guide_bg</ImageView>
+        <Label centerX="super.centerX" top="safeArea.top+91" height="14" font="bold;17">很简单吧， 你还可以试试：</Label>
+        
+        <Animation autoRun="yes" target="example_table" keyPath="opacity" duration="0.3" fromValue="0" toValue="1"/>
+        <Animation autoRun="yes" target="start" keyPath="opacity" delay="0.16" duration="0.3" fromValue="0" toValue="1"/>
+
+        <TableView id="example_table" alpha="0" top="safeArea.top+152" height="290" left="0" right="0"  backgroundColor="clear" separatorStyle="none" rowHeight="29" scrollEnabled="no" userInteractionEnabled="no">
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">9420，我要听有声书</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">9420，讲个睡前故事</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">9420，今天有什么新闻</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">9420，帮我找手机</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">9420，设一个8点的闹钟</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">9420，腾讯股价</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">9420，今天天气怎样</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">9420，提醒我10点开会</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">…</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" font="PingFangSC-Light;17">发现更多好玩的功能</Label>
+            </TableViewCell>
+        </TableView>
+
+        <GradientView left="0" right="0" top="safeArea.bottom-180" bottom="0" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#dfdfdf 0%,#dfdfdf 100%" locations="0,0.5"></GradientView>
+        
+        <Button alpha="0" id="start" bottom="safeArea.bottom-72" centerX="super.centerX" font="bold;29" titleColor="#00C2DE 100%">开始体验</Button>
+        
+    </LayoutView>
+</ViewController>
+

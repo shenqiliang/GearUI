@@ -1,0 +1,15 @@
+<ViewController title="全部标签">
+    <TableView left="0" right="0" top="0" bottom="0" id="tags_table_view" removeRedundantSeparator="true">
+        
+        <TableViewCell id="tags_cell" left="0" right="0" backgroundColor="#2D323F" separatorStyle="none" separatorInset="{0, 1000, 0, 0}">
+            <Label id="category_label" left="13" top="15" font="17" textColor="white" >有声小说</Label>
+            <CollectionView id="tags_collection_view" minimumLineSpacing="15" minimumInteritemSpacing="5.5" left="0" right="0" top="category_label.bottom" bottom="0" height="103" contentInset="{15,12,15,12}" backgroundColor="clear">
+                <CollectionViewCell id="tag_collection_cell" width="79.5" height="29">
+                    <ImageView top="0" left="0" bottom="0" right="0" image="#000000 10%" cornerRadius="14.5" borderColor="#7A7E89 100%" borderWidth="1"/>
+                    <Label id="name" centerY="super.centerY" centerX="super.centerX" font="13" textColor="white">童话故事</Label>
+                </CollectionViewCell>
+                <CollectionViewCell id="align_cell" width="79.5" height="29"></CollectionViewCell>
+            </CollectionView>
+        </TableViewCell>
+    </TableView>
+</ViewController>

@@ -1,0 +1,21 @@
+<ViewController title="我的关注">
+    <LayoutView>
+        <TableView id="id_follow_list" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorColor="darkGray"  removeRedundantSeparator="true">
+            <TableViewCell id="headerDateCell"  backgroundColor="clear" selectionStyle="none" separatorInset="{0,1000,0,0}" >
+                <Label id="date" left="30" top="27" font="17" right="30" textColor="#ffffff" textAlignment="center">8月13日 星期六 </Label>
+            </TableViewCell>
+            
+            <TableViewCell id="normalCell" backgroundColor="clear" selectionStyle="none" separatorInset="{0,22,0,22}"  >
+                <Label id="matchTimeLabel" left="30" top="24" font="13" right="30" textColor="#7A7E89 100%" textAlignment="center">07:00 NBA常规赛 </Label>
+                <Label id="scorLabel" left="team_left_icon.right+10" right="team_right_icon.left-10" top="matchTimeLabel.bottom+22" font="29" textAlignment="center" textColor="white" >121 - 90</Label>
+                <Label id="statusLabel" left="team_left_icon.right+10" right="team_right_icon.left-10" top="matchTimeLabel.bottom+62" font="13" textAlignment="center" textColor="#7A7E89 100%">已结束</Label>
+                <ImageView id="team_left_icon" left="30" top="matchTimeLabel.bottom+13" width="52" height="52" backgroundColor="white" cornerRadius="26"></ImageView>
+                <Label id="leftNameLabel" centerX="team_left_icon.centerX" top="team_left_icon.bottom+16" font="17" textColor="white">黄蜂</Label>
+                <ImageView id="team_right_icon" right="30" top="matchTimeLabel.bottom+13" width="52" height="52" backgroundColor="white" cornerRadius="26"></ImageView>
+                <Label id="rightNameLabel" centerX="team_right_icon.centerX" bottom="12" top="team_left_icon.bottom+16" font="17" textColor="white">公牛</Label>
+            </TableViewCell>
+            
+                        
+        </TableView>
+    </LayoutView>
+</ViewController>

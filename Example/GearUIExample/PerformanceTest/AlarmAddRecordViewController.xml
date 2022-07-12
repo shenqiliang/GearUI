@@ -1,0 +1,17 @@
+<ViewController title="添加录音" backgroundColor="#2D323F 100%" showNavigationBarShadow="YES">
+    <LayoutView id="id_topContainerView" left="0" top="96" right="0" height="164" backgroundColor="clear">
+        <ImageView id="id_microIcon" centerX="super.centerX" top="0" width="47" height="86">alarm_record_icon_micro</ImageView>
+        <LayoutView id="id_voiceWave" centerX="super.centerX" bottom="id_microIcon.bottom-42"  width="26" height="0" backgroundColor="white">
+        </LayoutView>
+        <Label id="id_recordName" centerX="super.centerX" top="id_microIcon.bottom+24" font="17" textColor="white">听听声音1</Label>
+        <Button id="id_nameEdit" left="id_recordName.right+12" centerY="id_recordName.centerY" width="15" height="15" image="alarm_record_icon_edit" touchEdgeInsets="{-20, -20, -20, -20}" delaysHighlighting="yes"></Button>
+        <Label id="id_recordTime" centerX="super.centerX" top="id_recordName.bottom+10" font="17" textColor="white">00:00</Label>
+    </LayoutView>
+    <Label id="id_recordTips" centerX="super.centerX" top="id_topContainerView.bottom+78" font="17" textColor="#7A7E89 100%">还可以说 9 s</Label>
+    <LayoutView id="id_bottomContainerView" left="0" bottom="0" right="0" height="240" backgroundColor="clear">
+        <Button id="id_actionButton" centerX="super.centerX" top="56" width="90" height="90" image="alarm_record_icon_start_r" delaysHighlighting="yes"></Button>
+        <Label id="id_actionLabel" centerX="super.centerX" top="id_actionButton.bottom+20" font="13" textColor="white">点击开始录音</Label>
+        <Button id="id_reRecordButton" right="id_actionButton.left-45" centerY="id_actionButton.centerY" image="alarm_record_icon_retry" delaysHighlighting="yes"></Button>
+        <Button id="id_saveButton" left="id_actionButton.right+45" centerY="id_actionButton.centerY" font="17" titleColor="#FFFFFF 100%" delaysHighlighting="yes" highlightedTitleColor="#FFFFFF 50%">保存</Button>
+    </LayoutView>
+</ViewController>

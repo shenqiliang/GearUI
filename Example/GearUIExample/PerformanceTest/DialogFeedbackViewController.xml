@@ -1,0 +1,13 @@
+<ViewController title="" backgroundColor="#2D323F 98%">
+    <Label id="title" top="147" centerX="super.centerX" height="33.5" font="24" textColor="white" >问题反馈</Label>
+    <TableView id="feedback_list" top="248" left="0" right="0" height="192" backgroundColor="#2D323F 100%" separatorStyle="none">
+        
+        <TableViewCell id="feedback_item" height="64" backgroundColor="#2D323F 100%">
+            <LayoutView centerX="super.centerX" top="7.5" width="240" height="49" backgroundColor="#414550 100%">
+                <Label id="content" centerX="super.centerX" centerY="super.centerY" font="17" textAlignment="center" textColor="white" >音箱听错了</Label>
+            </LayoutView>
+        </TableViewCell>
+        
+    </TableView>
+    <Button bottom="70" centerX="super.centerX" font="29" titleColor="#00C2DE 100%" tap="#closeAction">取消</Button>
+</ViewController>

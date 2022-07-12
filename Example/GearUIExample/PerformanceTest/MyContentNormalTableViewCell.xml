@@ -1,0 +1,10 @@
+<TableViewCell class="MyContentNormalTableViewCell">
+    <ImageView id="id_contentIcon" contentMode="scaleAspectFill" left="22" centerY="super.centerY" width="60" height="60"></ImageView>
+    <ImageView id="id_playIcon" width="15" height="15" centerX="id_contentIcon.centerX" centerY="id_contentIcon.centerY">my_content_play_icon</ImageView>
+    <LayoutView id="id_playMaskView" left="id_contentIcon.left" top="id_contentIcon.top" width="id_contentIcon.width" height="id_contentIcon.height" hidden="true" backgroundColor="#000000 90%"></LayoutView>
+    <ImageView id="id_playIndicator" width="15" height="16" centerX="id_contentIcon.centerX" centerY="id_contentIcon.centerY" animationDuration="1.16">PlayingMotion_%05d</ImageView>
+    <Label id="id_title" left="id_contentIcon.right+9" top="id_contentIcon.top+9" right="56" textColor="white" font="17"></Label>
+    <Label id="id_description" left="id_contentIcon.right+9" top="id_title.bottom+7" right="22" textColor="#7A7E89 100%" font="13"></Label>
+    <ActivityIndicatorView id="id_loadIndicator" width="15" height="15" right="27.5" centerY="super.centerY"
+        backgroundColor="#575B65 100%" hidden="true" hidesWhenStopped="true"></ActivityIndicatorView>
+</TableViewCell>

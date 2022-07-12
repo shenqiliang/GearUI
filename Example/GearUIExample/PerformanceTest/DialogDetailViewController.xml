@@ -1,0 +1,6 @@
+<ViewController title="Title">
+    <LayoutView id="#placeHolderView" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%">
+      
+    </LayoutView>
+    <Label left="8" bottom="35" right="8" textAlignment="center" textColor="#7A7E89 100%" hidden="true" font="13">内容来源</Label>
+</ViewController>

@@ -1,0 +1,19 @@
+<TableViewCell class="CountdownDialogViewCell">
+<LayoutView top="0" left="10" right="10" bottom="15" backgroundColor="#41485A 100%" cornerRadius="3" clipsToBounds="1">
+    <LayoutView id="title" left="0" right="0" height="36" top="0" backgroundColor="#3A4152 100%">
+        <ImageView left="12" top="8" width="20" height="20">ico_time</ImageView>
+        <Button id="feedback" right="12" top="8" width="20" height="20" image="反馈" touchEdgeInsets="{-20, -20, -20, -20}"></Button>
+    </LayoutView>
+    
+    <LayoutView id="chat" top="title.bottom" left="0" right="0">
+        <Label id="text" left="12" centerY="super.centerY" font="15" textColor="#FFFFFF 100%" numberOfLines="0" lineSpace="9" right="12">订个3分钟倒计时</Label>
+        <View id="sep" top="text.bottom+18" left="12" right="12" height="0.5" bottom="0" backgroundColor="#FFFFFF 10%"/>
+    </LayoutView>
+    
+    <LayoutView id="body" top="chat.bottom" height="86" left="0" right="0" bottom="0">
+        <Label id="countdown_text" left="12" centerY="super.centerY" font="50" textColor="#FFFFFF 100%" hidden="1" numberOfLines="0">3:00</Label>
+        <Label id="status" left="12" centerY="super.centerY" font="17" textColor="#FBFCFE 100%" hidden="1">3分钟倒计时已取消</Label>
+        <Button id="cancel_button" right="12" centerY="super.centerY" font="13" titleColor="#00C2DE 100%" hidden="1">取消</Button>
+    </LayoutView>
+</LayoutView>
+</TableViewCell>

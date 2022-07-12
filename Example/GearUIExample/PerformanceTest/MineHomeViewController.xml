@@ -1,0 +1,45 @@
+<ViewController title="我的" backgroundColor="#2D323F 100%">
+    <LayoutView id="layout_main">
+        <TableView style="grouped" left="0" right="0" top="0" bottom="0" id="#tableView" backgroundColor="#282D39 100%" headerViewNodeId="header" removeRedundantSeparator="true" contentInset="{0,0,10,0}">
+            
+            <LayoutView id="header" top="0" backgroundColor="clear" height="150">
+                <LayoutView id="#headerView" class="MineHeaderView">
+                    <LayoutView id="layout_0" centerY="super.centerY" left="0" width="super.width*0.33333" height="117" backgroundColor="clear">
+                        <ImageView id="item" top="18" centerX="super.centerX" width="48" height="item.width" clipsToBounds="1" backgroundColor="clear" contentMode="fill" highlightedCoverColor="#000000 50%" hidden="0">img_唱片_l</ImageView>
+                        <Label id="name" left="super.left" top="item.bottom+8" font="13" right="super.right" textColor="white" textAlignment="center" >音乐收藏</Label>
+                        <Button id="button" tap="miapage://favourite/home" delaysHighlighting="yes" centerX="item.centerX" centerY="item.centerY" width="item.width" height="item.width" backgroundImage="clear" touchEdgeInsets="{-20, -20, -20, -20}" />
+                    </LayoutView>
+                    
+                    <LayoutView id="layout_1" left="layout_0.right" top="layout_0.top" width="super.width*0.33333" height="layout_0.height">
+                        <ImageView id="item" top="18" centerX="super.centerX" width="48" height="item.width" clipsToBounds="1" backgroundColor="clear" contentMode="fill" highlightedCoverColor="#000000 50%" hidden="0">img_唱片_l</ImageView>
+                        <Label id="name" left="super.left" top="item.bottom+8" font="13" right="super.right" textColor="white" textAlignment="center" >最近播放</Label>
+                        <Button id="button" tap="miapage://history/home" delaysHighlighting="yes" centerX="item.centerX" centerY="item.centerY" width="item.width" height="item.width" backgroundImage="clear" touchEdgeInsets="{-20, -20, -20, -20}" />
+                    </LayoutView>
+                    
+                    <LayoutView id="layout_2" left="layout_1.right" top="layout_0.top" width="super.width*0.33333" height="layout_0.height">
+                        <ImageView id="item" top="18" centerX="super.centerX" width="48" height="item.width" clipsToBounds="1" backgroundColor="clear" contentMode="fill" highlightedCoverColor="#000000 50%" hidden="0">img_唱片_l</ImageView>
+                        <Label id="name" left="super.left" top="item.bottom+8" font="13" right="super.right" textColor="white" textAlignment="center" >QQ音乐歌单</Label>
+                        <Button id="button" tap="miapage://profile/services" delaysHighlighting="yes" centerX="item.centerX" centerY="item.centerY" width="item.width" height="item.width" backgroundImage="clear" touchEdgeInsets="{-20, -20, -20, -20}" />
+                    </LayoutView>
+                </LayoutView>
+            </LayoutView>
+            
+            <TableViewCell id="newItem" class="MineNewItemCell" height="61" backgroundColor="#2D323F 100%">
+                <ImageView id="icon" left="22" centerY="super.centerY" width="55" height="20">icon_新事项</ImageView>
+                <LayoutView id="line" centerY="icon.centerY" left="icon.right+7" backgroundColor="#FFFFFF 10%" width="1" height="22"></LayoutView>
+                <Label id="title" left="line.right+9" right="24" centerY="icon.centerY" font="17" textColor="white" height="21">17:30去买衣服</Label>
+                <ImageView id="arrow" centerY="super.centerY" right="22">Setting_btn_next</ImageView>
+            </TableViewCell>
+            
+            <TableViewCell id="downItem" class="MineDownItemCell" height="61" backgroundColor="#2D323F 100%">
+                <ImageView id="icon" left="22" top="17" width="30" height="30">img_唱片_l</ImageView>
+                <Label id="title" left="icon.right+12" centerY="icon.centerY" font="17" textColor="white" height="21">我的闹钟</Label>
+                <ImageView id="arrow" centerY="super.centerY" right="22">Setting_btn_next</ImageView>
+                <Label id="detail" centerY="super.centerY" right="arrow.left-8" font="13" textColor="#7A7E89 100%" height="21">2个</Label>
+            </TableViewCell>
+        </TableView>
+        
+        <ImageView id="#tipImageView" hidden="1" top="108" right="24" width="174.5" height="37.5">guide_你在QQ音乐创建的歌单</ImageView>
+        <ImageView id="#alarmTipsView" hidden="1" left="12" top="108" width="196" height="37.5">alarm_tips_icon</ImageView>
+    </LayoutView>
+</ViewController>

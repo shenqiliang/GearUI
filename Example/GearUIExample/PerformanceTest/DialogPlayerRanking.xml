@@ -1,0 +1,31 @@
+<LayoutView>
+    <TableView id="teamRankingTableView" separatorInset="{0,22,0,22}" left="0" right="0" top="41" bottom="0" backgroundColor="#2D323F 100%" separatorStyle="none"  removeRedundantSeparator="true">
+        
+        
+        
+        
+        <TableViewCell id="teamRankingTableViewNameCell" backgroundColor="clear" selectionStyle="none" >
+            <Label id="xibusaiqu" textColor="#7A7E89 100%" font="17"  height="24" top="11" left="28">西部赛区</Label>
+            <Label id="sheng" textColor="#7A7E89 100%" font="17"  height="24" top="xibusaiqu.top" left="220">球队</Label>
+            <Label id="fu" textColor="#7A7E89 100%" font="17"  height="24" top="xibusaiqu.top" left="309">得分</Label>
+        </TableViewCell>
+        
+        
+        
+        
+        
+        <TableViewCell id="teamRankingTableViewNameDetailCell" backgroundColor="clear" selectionStyle="none">
+            <LayoutView backgroundColor="clear">
+                <Label id="paimingLabel" textColor="#7A7E89 100%" font="17"  height="24" centerY="leftAvatarImageView.centerY" left="26">1</Label>
+                <ImageView id="leftAvatarImageView" left="paimingLabel.right+14" top="8" height="36" width="36" contentMode="fit" backgroundColor="white" cornerRadius="18" ></ImageView>
+                <Label id="nameLabel" textColor="white" font="17" height="24" centerY="leftAvatarImageView.centerY" left="leftAvatarImageView.right+10">库里</Label>
+                <Label id="teamLabel" textColor="#7A7E89 100%" font="17"  height="24" centerY="leftAvatarImageView.centerY" left="220">勇士</Label>
+                <Label id="defenResult" textColor="#7A7E89 100%" font="17" height="24" centerY="leftAvatarImageView.centerY" left="314" bottom="17">23</Label>
+                </LayoutView>
+        </TableViewCell>
+        
+        
+        
+
+    </TableView>
+</LayoutView>

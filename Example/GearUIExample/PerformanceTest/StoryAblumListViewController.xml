@@ -1,0 +1,15 @@
+<ViewController file="NetFMRecommendViewController" >
+    <LayoutView id="nodata_view" alpha="0" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F">
+        <Label centerY="super.centerY" centerX="super.centerX" font="17" textColor="#7A7E89 100%">筛选结果为空</Label>
+    </LayoutView>
+    <LayoutView id="filter_view" alpha="0" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 98%">
+        <CollectionView top="0" left="0" bottom="130" right="0" id="filter_list" minimumLineSpacing="0" minimumInteritemSpacing="15.5" backgroundColor="clear" contentInset="{0,27,0,27}">
+            <CollectionViewCell id="cell_item" height="61" width="100">
+                <ImageView top="15" left="5" bottom="15" right="5" image="#000000 10%" highlightedImage="#00C2DE 100%"  cornerRadius="15"/>
+                <Label id="name" centerY="super.centerY" centerX="super.centerX" font="17" textColor="white" highlightedTextColor="black">全部</Label>
+            </CollectionViewCell>
+        </CollectionView>
+        <Button id="btn_filter_cancel" left="48" bottom="72" height="30" titleColor="#00C2DE 100%" font="bold;24" touchEdgeInsets="{-20, -20, -20, -20}">取消</Button>
+        <Button id="btn_filter_ok" right="48" bottom="72" height="30" titleColor="#00C2DE 100%" font="bold;24" touchEdgeInsets="{-20, -20, -20, -20}">确定</Button>
+    </LayoutView>
+</ViewController>

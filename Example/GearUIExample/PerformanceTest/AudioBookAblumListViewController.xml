@@ -1,0 +1,15 @@
+<ViewController>
+    
+    <TableView id="main_table" left="0" right="0" top="0" bottom="0" removeRedundantSeparator="true" separatorInset="{0,98,0,0}">
+        
+        <TableViewCell id="recommend_cell" backgroundColor="clear">
+            <ImageView id="image" left="18" top="18" bottom="18.2" width="65" height="65.8" clipsToBounds="1" backgroundColor="gray" contentMode="fill">Music_img_cover</ImageView>
+            <GradientView left="image.left" top="image.top" bottom="image.bottom" right="image.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+            <Label id="title" left="image.right+15" right="34" top="image.top+1.5" font="17" textColor="white">伟大的博弈</Label>
+            <Label id="intro" left="image.right+15" right="34" top="image.top+30" font="13" textColor="#7A7E89 100%">封神榜残片引发的万千故事让人瞠目结舌</Label>
+            <Label id="episode" left="image.right+15" right="34" top="image.top+52" font="13" textColor="#7A7E89 100%">190集</Label>
+        </TableViewCell>
+        
+    </TableView>
+
+</ViewController>

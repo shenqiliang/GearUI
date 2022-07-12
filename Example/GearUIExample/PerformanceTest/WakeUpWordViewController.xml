@@ -1,0 +1,12 @@
+<ViewController title="自定义唤醒词" backgroundColor="#2D323F" >
+    <TableView id="main_table" backgroundColor="clear" separatorInset="{0,22,0,22}" separatorColor="darkGray" removeRedundantSeparator="true">
+        <TableViewCell id="cell_id" height="61" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <Label id="text_label" left="22" right="22" numberOfLines="0" top="19" font="17" textColor="white">你好小明</Label>
+            <ImageView id="selected_image" right="22" centerY="super.centerY" width="20" height="20">icon_checked_muteSetting</ImageView>
+        </TableViewCell>
+        <TableViewCell id="cell_id" height="61" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <Label left="22" top="19" font="17" textColor="white">你好爆米花</Label>
+        </TableViewCell>
+    </TableView>
+
+</ViewController>

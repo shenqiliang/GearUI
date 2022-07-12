@@ -1,0 +1,8 @@
+<ViewController title="Title" backgroundColor="#2D323F 100%" >
+    <LayoutView id="layoutView" backgroundColor="clear" >
+        <ImageView id="image_speaker" top="safeArea.top+100" left="super.left" right="super.right" width="super.width" height="image_speaker.width*0.7333" backgroundColor="clear"></ImageView>
+        <LayoutView id="#lottieView" top="image_speaker.top" bottom="image_speaker.bottom" left="image_speaker.left" right="image_speaker.right" backgroundColor="clear" />
+        <Label centerX="super.centerX" top="image_speaker.bottom+24" textColor="white" font="bold;17">唤醒音箱</Label>
+        <Label centerX="super.centerX" top="image_speaker.bottom+58" textColor="white" font="17">试试喊出音箱的名字“9420”</Label>
+   </LayoutView>
+</ViewController>

@@ -1,0 +1,6 @@
+<ViewController title="音箱收藏">
+    <LayoutView>
+        <TableView file="MediaItemTable">
+        </TableView>
+    </LayoutView>
+</ViewController>

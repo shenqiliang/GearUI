@@ -1,0 +1,17 @@
+<ViewController title="儿童信息" offsetViewWhenKeyboardShow="1" backgroundColor="#2D323F 100%" >
+    <TableView id="table" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" separatorInset="{0,22,0,22}" separatorColor="#ffffff 10%" removeRedundantSeparator="true" allowsSelection="0">
+        <TableViewCell id="nick_cell" backgroundColor="#2D323F 100%" height="61">
+            <Label left="22" centerY="super.centerY" font="17" textColor="white">宝宝昵称</Label>
+            <TextField id="nick_field" right="22" height="24" width="180" textAlignment="right" textColor="white" centerY="super.centerY" placeholder="必填(请输入中文)" placeholderColor="#7A7E89 100%"/>
+        </TableViewCell>
+        <TableViewCell id="age_cell" backgroundColor="#2D323F 100%" height="61">
+            <Label left="22" centerY="super.centerY" font="17" textColor="white">生日</Label>
+            <TextField id="age_field" right="22" height="24" width="150" textAlignment="right" textColor="white" centerY="super.centerY" placeholder="选填" placeholderColor="#7A7E89 100%"/>
+        </TableViewCell>
+        <TableViewCell id="gender_cell" backgroundColor="#2D323F 100%" height="61">
+            <Label left="22" centerY="super.centerY" font="17" textColor="white">性别</Label>
+            <TextField id="gender_field" right="22" height="24" width="150" textAlignment="right" textColor="white" centerY="super.centerY" placeholder="选填" placeholderColor="#7A7E89 100%"/>
+        </TableViewCell>
+        <TableViewCell id="ChildStoryTagsCell" file="ChildStoryTagsCell"/>
+    </TableView>
+</ViewController>

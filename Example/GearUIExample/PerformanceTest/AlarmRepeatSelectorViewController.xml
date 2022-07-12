@@ -1,0 +1,10 @@
+<ViewController title="重复" backgroundColor="#2D323F 100%" showNavigationBarShadow="YES">
+    <TableView id="id_tableView" separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorColor="#FFFFFF 10%" removeRedundantSeparator="true">
+        <TableViewCell id="id_repeatCell" height="61" backgroundColor="clear" selectedBackgroundColor="clear">
+            <LayoutView backgroundColor="clear" left="22" right="22" top="0" bottom="0">
+                <Label id="id_title" left="0" centerY="super.centerY" font="17"></Label>
+                <ImageView id="id_icon" right="0" centerY="super.centerY" width="20" height="20">alarm_icon_repeat_selected</ImageView>
+            </LayoutView>
+        </TableViewCell>
+    </TableView>
+</ViewController>

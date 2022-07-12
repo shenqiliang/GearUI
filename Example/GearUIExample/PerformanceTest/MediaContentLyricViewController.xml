@@ -1,0 +1,14 @@
+<ViewController backgroundColor="clear">
+    <LayoutView backgroundColor="clear">
+        <Label id="title" top="safeArea.top+59" left="30" right="30" textAlignment="center" height="37.5" font="bold;21" textColor="#FBFCFE 100%"/>
+        <Label id="detail" top="safeArea.top+94" left="30" right="30" textAlignment="center" height="18.5" font="13" textColor="#FBFCFE 100%"/>
+        <LayoutView id="#lyricView" top="detail.bottom+5" bottom="28" left="0" right="0">
+            <TableView id="#lyricTableView" top="0" bottom="0" left="0" right="0" separatorStyle="none" backgroundColor="clear" contentInset="{10,0,10,0}">
+                <TableViewCell id="lyricCell" backgroundColor="clear" selectedBackgroundColor="clear">
+                    <Label id="textLabel" width="super.width*0.64" centerX="super.centerX" lineSpace="2" top="10" bottom="10" textAlignment="center" textColor="white" numberOfLines="0" highlightedTextColor="#00C2DE 100%">Text</Label>
+                </TableViewCell>
+            </TableView>
+        </LayoutView>
+        <Label id="#emptyView" left="#lyricView.left" top="#lyricView.top" bottom="#lyricView.bottom" right="#lyricView.right" hidden="1" textColor="white" textAlignment="center" font="17">此歌曲暂时没有歌词，请您欣赏</Label>
+    </LayoutView>
+</ViewController>

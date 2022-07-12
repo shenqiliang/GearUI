@@ -1,0 +1,10 @@
+<ViewController title="">
+    <TableView id="id_tableView"  separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorColor="darkGray" removeRedundantSeparator="true">
+        <LayoutView id="id_sectionHeader" height="50" backgroundColor="#333847 100%">
+            <Button id="id_playIndicator" left="20.5" centerY="super.centerY" width="22" height="22" image="Music_list_icon_play" highlightedImage="Music_list_icon_play_highlight" touchEdgeInsets="{-8, -20, -8, -90}" delaysHighlighting="yes"></Button>
+            <Label id="id_playTitle" left="id_playIndicator.right+11" width="180" centerY="super.centerY" font="17" textColor="#FFFFFF 100%">顺序播放</Label>
+        </LayoutView>
+        <TableViewCell id="id_contentCell" height="106" file="MyContentNewsTableViewCell">
+        </TableViewCell>
+    </TableView>
+</ViewController>

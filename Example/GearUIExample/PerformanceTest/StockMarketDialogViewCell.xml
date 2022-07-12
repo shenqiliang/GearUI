@@ -1,0 +1,23 @@
+<TableViewCell class="StockMarketDialogViewCell">
+    <LayoutView top="0" left="10" right="10" bottom="15" backgroundColor="#41485A 100%" cornerRadius="3" clipsToBounds="1">
+        <LayoutView id="title" left="0" right="0" height="36" top="0" backgroundColor="#3A4152 100%">
+            <ImageView left="12" top="8" width="20" height="20">ico_stock</ImageView>
+            <Button id="feedback" right="12" top="8" width="20" height="20" image="反馈" touchEdgeInsets="{-20, -20, -20, -20}"></Button>
+        </LayoutView>
+        <LayoutView id="chat" top="title.bottom" left="0" right="0">
+            <Label id="text" left="12" centerY="super.centerY" font="15" textColor="#FBFCFE 100%" numberOfLines="0" lineSpace="9" right="12">今天的大盘指数</Label>
+            <View id="sep" top="text.bottom+18" left="12" right="12" height="0.5" bottom="0" backgroundColor="#FFFFFF 10%"/>
+        </LayoutView>
+        <LayoutView id="body" top="chat.bottom" height="108" left="0" right="0" bottom="0">
+            <Label id="market2_status" centerX="super.centerX" top="48" font="13" textAlignment="left" textColor="#FF475D 100%" >--</Label>
+            <Label id="market2" left="market2_status.left" top="17.5" font="17" textColor="#FBFCFE 100%" >--</Label>
+            <Label id="market2_price" left="market2_status.left" top="71.5" font="13" textAlignment="left" textColor="#FBFCFE 100%" >--</Label>
+            <Label id="market1" left="12" top="17.5" font="17" textAlignment="left" textColor="#FBFCFE 100%" >--</Label>
+            <Label id="market1_status" left="12" top="48" width="100" font="13" textAlignment="left" textColor="#FF475D 100%" >--</Label>
+            <Label id="market1_price" left="12" top="71.5" width="100" font="13" textAlignment="left" textColor="#FBFCFE 100%" >--</Label>
+            <Label id="market3_status" right="12" top="48" font="13" textAlignment="right" textColor="#FF475D 100%" >--</Label>
+            <Label id="market3"  left="market3_status.left" top="17.5" textAlignment="left" font="17" textColor="#FBFCFE 100%" >--</Label>
+            <Label id="market3_price" left="market3_status.left" top="71.5" font="13" textAlignment="left" textColor="#FBFCFE 100%" >--</Label>
+        </LayoutView>
+    </LayoutView>
+</TableViewCell>

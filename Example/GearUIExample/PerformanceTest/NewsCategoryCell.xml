@@ -1,0 +1,24 @@
+<TableViewCell class="NewsCategoryCell">
+    
+    <LayoutView id="layout_0" left="1" top="15" width="super.width*0.33333-2" height="layout_0.width+42" bottom="0">
+        <ImageView id="item" left="0" top="0" width="super.width" height="item.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+        <GradientView left="item.left" top="item.top" bottom="item.bottom" right="item.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+        <Label id="name" left="item.left+10" top="item.bottom+5" bottom="0" font="13" right="item.right" textAlignment="left" numberOfLines="0" textColor="white">头条新闻</Label>
+        <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="item.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+    </LayoutView>
+    
+    <LayoutView id="layout_1" centerX="super.centerX" top="15" width="super.width*0.33333-2" height="layout_0.width+42">
+        <ImageView id="item" left="0" top="0" width="super.width" height="item.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+        <GradientView left="item.left" top="item.top" bottom="item.bottom" right="item.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+        <Label id="name" left="item.left+10" top="item.bottom+5" bottom="0" font="13" right="item.right" textAlignment="left" numberOfLines="0" textColor="white">时政新闻</Label>
+        <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="item.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+    </LayoutView>
+    
+    <LayoutView id="layout_2" right="1" top="15" width="super.width*0.33333-2" height="layout_0.width+42">
+        <ImageView id="item" left="0" top="0" width="super.width" height="item.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+        <GradientView left="item.left" top="item.top" bottom="item.bottom" right="item.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+        <Label id="name" left="item.left+10" top="item.bottom+5" bottom="0" font="13" right="item.right" textAlignment="left" numberOfLines="0" textColor="white">财经新闻</Label>
+        <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="item.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+    </LayoutView>
+    
+</TableViewCell>

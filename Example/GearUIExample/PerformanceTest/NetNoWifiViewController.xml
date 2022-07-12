@@ -1,0 +1,7 @@
+<ViewController title="检查手机网络" backgroundColor="#2D323F 100%" closeMuiscBarWhenPush="1" extendedLayoutIncludesOpaqueBars="1" useSafeAreaLayout="1">
+    <LayoutView>
+        <ImageView id="wifi" centerX="super.centerX" centerY="super.centerY-106" height="175" width="175">ico_手机检查</ImageView>
+        <Label centerX="super.centerX" top="wifi.bottom+74" textAlignment="center" lineSpace="4" textColor="#FBFCFE 100%" font="17" numberOfLines="0">手机未连接WiFi网络<br/>音箱联网需要手机处在Wi-Fi环境下</Label>
+        <Button id="#connectButton" tap="#openSetting" bottom="61" centerX="super.centerX" height="49" left="30" right="30" backgroundColor="" font="bold;17" highlightedTitleColor="#ffffff 50%" backgroundImage="btn_bg_blue_large" titleColor="white">前往设置</Button>
+    </LayoutView>
+</ViewController>

@@ -1,0 +1,17 @@
+<ViewController backgroundColor="clear">
+    <Animation id="alertBackgroundAnimation" keyPath="opacity" target="#backgroundView" fromValue="0" timeFunction="easeInEaseOut" toValue="0.75" duration="0.2"/>
+    <Animation id="alertBody" target="#alertBody" duration="0.2">
+        <Animation keyPath="opacity" target="#alertBody" fromValue="0.0" toValue="1" duration="0.2" timeFunction="easeInEaseOut" beginTime="0"/>
+        <Animation keyPath="transform.scale" target="#alertBody" fromValue="1.2" toValue="1" duration="0.2" timeFunction="easeInEaseOut" beginTime="0"/>
+    </Animation>
+    <View id="#backgroundView" top="0" left="0" bottom="0" right="0" backgroundColor="black" alpha="0.75"/>
+    <LayoutView id="#alertBody" centerX="super.centerX" left="37" right="37" centerY="super.centerY" backgroundColor="#393F4F 100%" cornerRadius="3" clipsToBounds="1">
+        <Label id="#titleLabel" left="22" right="22" top="36" numberOfLines="0" font="17" textAlignment="center" textColor="white">提示文字，提示文字，提示文字，提示文字，提示文字，提示文字，提示文字。</Label>
+        <Label id="#messageLabel" left="22" right="22" top="#titleLabel.bottom+15|36" numberOfLines="0" font="17" textColor="white">提示文字，提示文字，提示文字，提示文字，提示文字，提示文字，提示文字。</Label>
+        <View bottom="49" height="0.5" left="0" right="0" top="#messageLabel.bottom+36|#titleLabel.bottom+36|72" backgroundColor="#ffffff 10%"/>
+        <Button id="#rightButton" tap="#rightButtonAction" right="0" bottom="0" height="49" width="super.width*0.5" backgroundImage="#393F4F 100%" titleColor="#00C2DE 100%" font="bold;17" touchEdgeInsets="{-20, -20, -20, -20}">确定</Button>
+        <View left="#leftButton.right" width="0.5" bottom="0" top="#leftButton.top" backgroundColor="#ffffff 10%"/>
+        <Button id="#leftButton" tap="#leftButtonAction" left="0" bottom="0" right="#rightButton.left-0.5|0" height="49" backgroundImage="#393F4F 100%" titleColor="white" font="bold;17" touchEdgeInsets="{-20, -20, -20, -20}">取消</Button>
+    </LayoutView>
+</ViewController>
+

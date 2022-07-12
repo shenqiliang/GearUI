@@ -1,0 +1,36 @@
+<ViewController title="Table View Demo">
+    <TableView id="#tableView" removeRedundantSeparator="true" headerViewNodeId="tableViewHeader">
+        <LayoutView id="tableViewHeader" height="230" backgroundColor="white">
+            <Label centerX="super.centerX" centerY="super.centerY" font="22" textColor="black">This is Table View Header</Label>
+        </LayoutView>
+        <TableViewSection headerViewNodeId="sectionHeader1">
+            <LayoutView id="sectionHeader1" height="20" backgroundColor="red">
+                <Label left="10" centerY="super.centerY" font="22" textColor="white">Section Header 1</Label>
+            </LayoutView>
+            <TableViewCell id="cell_id" height="100">
+                <Label left="10" top="10" font="22">Cell 100 Height</Label>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="40" separatorInset="{0,20,0,20}">
+                <Label left="10" top="10" font="22">Cell 40 Height</Label>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="120" separatorInset="{0,0,0,0}">
+                <Label left="10" top="10" font="22">Cell 120 Height</Label>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="200">
+                <Label left="10" top="10" font="22">Cell 200 Height</Label>
+            </TableViewCell>
+        </TableViewSection>
+        <TableViewSection headerViewNodeId="sectionHeader2" footerViewNodeId="sectionFooter2">
+            <LayoutView id="sectionHeader2" height="20" backgroundColor="red">
+                <Label left="10" centerY="super.centerY" font="22" textColor="white">Section Header 2</Label>
+            </LayoutView>
+            <LayoutView id="sectionFooter2" height="40" backgroundColor="black">
+                <Label left="10" centerY="super.centerY" font="22" textColor="white">Section Footer 2</Label>
+            </LayoutView>
+            <TableViewCell id="cell_id" height="200">
+                <Label left="10" top="10" font="22">Cell 200 Height</Label>
+            </TableViewCell>
+        </TableViewSection>
+    </TableView>
+
+</ViewController>

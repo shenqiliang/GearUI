@@ -1,0 +1,4 @@
+<LayoutView backgroundColor="#868B98 86%" cornerRadius="9">
+    <CircularProgressView id="volume" lineWidth="3" progress="0.1" centerY="super.centerY" centerX="super.centerX" width="118" height="118" circleColor="#FFFFFF 30%" fillColor="#FFFFFF 100%"/>
+    <Label id="textLabel" centerY="super.centerY" centerX="super.centerX" font="bold;17" textColor="white">音量1</Label>
+</LayoutView>

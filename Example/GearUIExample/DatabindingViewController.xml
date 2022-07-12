@@ -1,0 +1,25 @@
+<ViewController title="Image Views">
+    <!--  颜色图片  -->
+    <ImageView id="first" left="10" top="safeArea.top+10" width="100" height="100">red</ImageView>
+    <ImageView id="second" left="120" top="safeArea.top+10" width="100" height="100">#ffff00 90%</ImageView>
+    <ImageView id="third" left="240" top="safeArea.top+10" width="100" height="100">#00000033</ImageView>
+
+    <!--  形状图片  -->
+    <ImageView left="10" top="safeArea.top+120" width="100" height="100">triangle(points:[{0,0},{0,100},{100,100}],fill:green,stroke:red,width:12)</ImageView>
+    <ImageView left="120" top="safeArea.top+120" width="100" height="100">round(corner:20,fill:blue)</ImageView>
+    <ImageView left="240" top="safeArea.top+120" width="100" height="100">circle(points:[{50,50}],radius:50,fillColor:#888800 50%)</ImageView>
+    
+    <!--  网络图片  -->
+    <ImageView left="10" top="safeArea.top+230" width="300" height="100" image="https://mat1.gtimg.com/pingjs/ext2020/qqindex2018/dist/img/qq_logo_2x.png" placeholderImage="gray"></ImageView>
+
+    <!--  Gif图片  -->
+    <ImageView id="gifImageView" tap="#gifImageAction" left="10" top="safeArea.top+340" width="100" height="100" placeholderImage="gray">https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif</ImageView>
+
+    <!--  WebP图片  -->
+    <ImageView left="130" top="safeArea.top+340" width="100" height="100" placeholderImage="gray">https://www.gstatic.com/webp/gallery3/2_webp_a.sm.png</ImageView>
+
+    
+    <!--  WebP图片  -->
+    <ImageView left="10" top="safeArea.top+540" width="100" height="100" placeholderImage="gray" animationDuration="10">https://isparta.github.io/compare-webp/image/gif_webp/webp/1.webp</ImageView>
+
+</ViewController>

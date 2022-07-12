@@ -1,0 +1,5 @@
+<ViewController title="" backgroundColor="#2D323F 100%" showNavigationBarShadow="NO">
+    <Label id="id_timeLabel" top="175" centerX="super.centerX" font="75" textColor="white">10:30</Label>
+    <Button id="id_delayButton" top="id_timeLabel.bottom+100" centerX="super.centerX" width="200" height="49" font="17" titleColor="white" backgroundColor="#00C2DE 100%" cornerRadius="3" highlightedBackgroundImage="#000000 50%" delaysHighlighting="yes" highlightedTitleColor="#ffffff 50%">稍后再响</Button>
+    <Button id="id_closeButton" bottom="40" centerX="super.centerX" width="200" height="36" font="17" titleColor="white" backgroundColor="clear" delaysHighlighting="yes" highlightedTitleColor="#ffffff 50%">关闭闹钟</Button>
+</ViewController>

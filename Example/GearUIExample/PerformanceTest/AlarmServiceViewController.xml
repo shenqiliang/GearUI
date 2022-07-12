@@ -1,0 +1,12 @@
+<ViewController title="我的闹钟" backgroundColor="#2D323F 100%" showNavigationBarShadow="YES">
+    <TableView id="id_tableView" separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorColor="#4D515A 100%" removeRedundantSeparator="true">
+        <TableViewCell id="id_alarmCell" height="106" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <LayoutView backgroundColor="clear" left="22" right="22" top="0" bottom="0">
+                <Label id="id_timeBrief" left="0" top="42" font="17" width="37.5" textColor="white"></Label>
+                <Label id="id_timeDetail" left="id_timeBrief.right+2" top="10.5" font="50" textColor="white"></Label>
+                <Switch id="id_switch" top="27" right="0" onTintColor="#00C2DE"></Switch>
+                <Label id="id_description" left="0" right="0" bottom="15" font="13" textColor="#7A7E89 100%"></Label>
+            </LayoutView>
+        </TableViewCell>
+    </TableView>
+</ViewController>

@@ -1,0 +1,24 @@
+<LayoutView>
+    <TableView id="teamRankingTableView" separatorInset="{0,22,0,22}" left="0" right="0" top="41" bottom="0" backgroundColor="#2D323F 100%" separatorStyle="none"  removeRedundantSeparator="true">
+        <TableViewCell id="teamRankingTableViewNameCell" backgroundColor="clear" selectionStyle="none" >
+            <Label id="xibusaiqu" textColor="#7A7E89 100%" font="17"  height="24" top="0" left="28">西部赛区</Label>
+            <Label id="sheng" textColor="#7A7E89 100%" font="17"  height="24" top="xibusaiqu.top" left="170">胜</Label>
+            <Label id="fu" textColor="#7A7E89 100%" font="17"  height="24" top="xibusaiqu.top" left="210">负</Label>
+            <Label id="shenglv" textColor="#7A7E89 100%" font="17"  height="24" top="xibusaiqu.top" left="256">胜率</Label>
+            <Label id="shengcha" textColor="#7A7E89 100%" font="17"  height="24" top="xibusaiqu.top" left="309" bottom="18">胜差</Label>
+        </TableViewCell>
+        
+        <TableViewCell id="teamRankingTableViewNameDetailCell" backgroundColor="clear" selectionStyle="none">
+            <LayoutView backgroundColor="clear">
+                <Label id="paimingLabel" textColor="#7A7E89 100%" font="17"  height="24" centerY="leftAvatarImageView.centerY" left="26">1</Label>
+                <ImageView id="leftAvatarImageView" left="paimingLabel.right+14" top="8" height="36" width="36" contentMode="fit" backgroundColor="white" cornerRadius="18" ></ImageView>
+                <Label id="nameLabel" textColor="#7A7E89 100%" font="17" height="24" centerY="leftAvatarImageView.centerY" left="leftAvatarImageView.right+10">勇士</Label>
+                <Label id="winsLabel" textColor="#7A7E89 100%" font="17" textAlignment="center" width="24" height="24" centerY="leftAvatarImageView.centerY" left="168">8</Label>
+                <Label id="lossesLabel" textColor="#7A7E89 100%" font="17"  height="24" centerY="leftAvatarImageView.centerY" left="210">23</Label>
+                <Label id="winingPercentageLabel" textColor="#7A7E89 100%" font="17"  height="24" centerY="leftAvatarImageView.centerY" left="260">.698</Label>
+                <Label id="gamesBackLabel" textColor="#7A7E89 100%" font="17"  height="24" centerY="leftAvatarImageView.centerY" left="315" bottom="26">23</Label>
+            </LayoutView>
+        </TableViewCell>
+        
+    </TableView>
+</LayoutView>

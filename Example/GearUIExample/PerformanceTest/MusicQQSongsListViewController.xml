@@ -1,0 +1,32 @@
+<ViewController title="QQ音乐歌单" backgroundColor="#2D323F 100%" showNavigationBarShadow="true">
+    <LayoutView>
+        
+        <LayoutView id="music_guide_bind_view" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" hidden="true">
+            <ImageView id="music_icon_bind_music" centerX="super.centerX" top="94" width="96" height="96">Music_icon_empty_music</ImageView>
+            <Label centerX="super.centerX" top="music_icon_bind_music.bottom+4" font="17" height="24" textColor="#7A7E89 100%">绑定QQ音乐账号，即可导入歌单</Label>
+            <Button id="music_bind_button" left="30" right="30" bottom="super.bottom-61" centerX="super.centerX" height="49" font="bold;17" titleColor="#FFFFFF 100%" backgroundImage="音乐授权">绑定账号</Button>
+        </LayoutView>
+        
+        <LayoutView id="music_grant_view" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" hidden="true">
+            <ImageView id="music_grant_icon" centerX="super.centerX" top="90" width="84" height="97">Group 3的副本</ImageView>
+            <Label centerX="super.centerX" top="music_grant_icon.bottom+15.1" font="17" width="224" textAlignment="center" numberOfLines="0" textColor="#FFFFFF 100%">QQ音乐账号绑定已失效<br/>请重新绑定</Label>
+            <Button id="music_grant_button" left="30" right="30" bottom="super.bottom-61" centerX="super.centerX" height="49" font="bold;17" titleColor="#FFFFFF 100%" backgroundImage="音乐授权">立即绑定</Button>
+        </LayoutView>
+        
+        <LayoutView id="music_guide_empty_view" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" hidden="true">
+            <ImageView id="music_icon_empty_music" centerX="super.centerX" top="94" width="96" height="96">Music_icon_empty_music</ImageView>
+            <Label centerX="super.centerX" top="music_icon_empty_music.bottom+4" font="17" height="24" textColor="#7A7E89 100%">你的QQ音乐里没有歌单</Label>
+        </LayoutView>
+        
+        <CollectionView id="main_collection" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" hidden="true">
+            <CollectionViewCell id="cell_item" width="118" height="160">
+                <LayoutView>
+                    <Button id="cell_icon" highlightedBackgroundImage="#000000 50%" delaysHighlighting="yes" centerX="super.centerX" top="10" width="super.width" height="super.width" backgroundColor="clear"></Button>
+                    <Label id="cell_label" numberOfLines="2" lineSpace="4" width="super.width" top="cell_icon.bottom+14" font="13" textColor="#FFFFFF 100%" textAlignment="center">华语男声，深情大叔，讲故事用唱</Label>
+                </LayoutView>
+            </CollectionViewCell>
+        </CollectionView>
+        
+    </LayoutView>
+</ViewController>
+

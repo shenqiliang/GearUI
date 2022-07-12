@@ -1,0 +1,3 @@
+<ViewController title="Controls">
+    <TabControl id="#tabControl" action="#change" left="0" top="safeArea.top+10" selectedTitleFont="bold;20" selectedTitleColor="yellow" indicatorImage="round(corner:2,fillColor:blue)" width="200" indicatorSize="{20,4}" enableAnimation="1" itemSpace="0" height="30" items="Tab1;Tab2" backgroundColor="black"/>
+</ViewController>

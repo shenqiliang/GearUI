@@ -1,0 +1,3 @@
+<UITableViewCell class="HVATableViewCellChatTime">
+    <Label id="id_content" left="0" top="15" right="0" height="18" font="13" textColor="#4D515A 100%" textAlignment="center"></Label>
+</UITableViewCell>

@@ -1,0 +1,22 @@
+<ViewController title="技能中心"  >
+    <TableView id="#tableView" backgroundColor="clear" estimatedSectionHeaderHeight="32" headerViewNodeId="banner" removeRedundantSeparator="true">
+        <LayoutView id="banner" backgroundColor="clear">
+            <BannerView id="#bannerView" tap="#bannerAction" autoScroll="1" pageControlId="page" top="0" left="0" right="0" height="super.width*0.4" bottom="0" backgroundColor="gray" imagePaths=";;"/>
+            <PageControl id="page" left="#bannerView.left" right="#bannerView.right" bottom="#bannerView.bottom" height="20"/>
+        </LayoutView>
+        
+        <LayoutView id="section" height="32" backgroundColor="#282D39 100%">
+            <Label id="title" left="22" centerY="super.centerY" font="13" textColor="white" >生活</Label>
+        </LayoutView>
+
+        
+        <TableViewCell id="item" height="78">
+            <ImageView id="icon" left="22" top="17" width="43" height="43"></ImageView>
+            <Label id="title" left="81" centerY="super.top+27.5" font="17" textColor="white" height="21">闹钟</Label>
+            <Label id="detail" left="81" right="22" centerY="super.bottom-26" font="13" textColor="#7A7E89 100%" height="21">“9420，设定明天9点的闹钟”</Label>
+            <ImageView centerY="super.centerY" right="22">Setting_btn_next</ImageView>
+        </TableViewCell>
+
+    </TableView>
+
+</ViewController>

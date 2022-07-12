@@ -1,0 +1,11 @@
+<ViewController title="留言">
+    <TableView id="id_tableView" left="0" top="0" right="0" bottom="0" backgroundColor="#2D323F 100%" removeRedundantSeparator="true">
+        <TableViewCell id="HVATableViewCellChatTime" file="HVATableViewCellChatTime" height="33" backgroundColor="clear" selectionStyle="none">
+        </TableViewCell>
+        <TableViewCell id="HVATableViewCellChatSendText" file="HVATableViewCellChatSendText" height="48" backgroundColor="clear" selectionStyle="none">
+        </TableViewCell>
+        <TableViewCell id="HVATableViewCellChatSendVoice" file="HVATableViewCellChatSendVoice" height="43" backgroundColor="clear" selectionStyle="none">
+        </TableViewCell>
+    </TableView>
+    <Label id="id_emptyView" left="0" top="super.centerY-50" width="super.width" height="20" font="17" textColor="#7A7E89 100%" textAlignment="center">还没有发送过留言</Label>
+</ViewController>

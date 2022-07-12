@@ -1,0 +1,123 @@
+<ViewController title="通用服务">
+    <GradientView id="gradientView" left="0" right="0" top="0" height="410" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="clean, clean" locations="0,1"></GradientView>
+    <TableView id="#contentView" separatorStyle="none" style="grouped" top="0" left="0" bottom="0" right="0" backgroundColor="clear">
+        <TableViewCell id="banner_cell" class="ContentBannerTableViewCell" backgroundColor="#2D323F 100%" selectionStyle="none">
+            <BannerView id="banner" autoScroll="1" tap="#bannerTaped:" pageControlId="page" top="0" left="0" right="0" bottom="1" height="banner.width*0.4" backgroundColor="gray"/>
+            <PageControl id="page" left="banner.left" right="banner.right" bottom="banner.bottom" height="20"/>
+        </TableViewCell>
+        <TableViewCell id="entrance_image" class="ContentIconButtonTableViewCell" backgroundColor="#2D323F 100%" selectionStyle="none">
+            <CollectionView id="collectionView" top="0" bottom="0" minimumLineSpacing="0" minimumInteritemSpacing="5" left="0" right="0" height="76.5" backgroundColor="clear">
+                <CollectionViewCell id="collectionCell" width="48" height="76">
+                    <ImageView id="image" centerX="super.centerX" top="0" width="super.width" height="image.width"/>
+                    <Label id="title" top="image.bottom+8" centerX="super.centerX" font="13" textColor="white">入口</Label>
+                </CollectionViewCell>
+            </CollectionView>
+        </TableViewCell>
+        <TableViewCell id="entrance_text" class="ContentTagsTableViewCell" backgroundColor="#2D323F 100%" selectionStyle="none" height="29" >
+            <CollectionView id="collectionView" left="0" right="0" top="0" bottom="-14" backgroundColor="clear">
+                <CollectionViewCell id="collectionCell" width="80" height="29">
+                    <ImageView top="0" left="0" bottom="0" right="0" cornerRadius="14.5" borderColor="#7A7E89 100%" borderWidth="1"/>
+                    <Label id="title" centerY="super.centerY" centerX="super.centerX" font="13" textColor="white">入口</Label>
+                </CollectionViewCell>
+            </CollectionView>
+        </TableViewCell>
+        <LayoutView id="section_footer" height="10" backgroundColor="#2D323F 100%">
+        </LayoutView>
+        <LayoutView id="section_header" class="ContentSectionHeaderView" backgroundColor="#2D323F 100%">
+            <LayoutView id="layout" top="5" left="0" right="0" bottom="10">
+                <Label id="title" left="10" top="5" bottom="collectionView.top-10|5" font="bold;17" textColor="white">展示专区</Label>
+                <Label id="example" left="title.right+9" bottom="title.bottom-1" font="13" textColor="#ffffff 60%">“语音点播提示。”</Label>
+                <Label id="recommendTipView" left="title.right+9" bottom="title.bottom-1" font="13" hidden="1" textColor="#00C2DE 100%"><icon baselineOffset="-2.5">content_recomm_tip_icon</icon> 想要推荐更准确？</Label>
+                <Button id="more" centerY="title.centerY" right="20" font="13" titleColor="white" image="arrow_right" highlightedTitleColor="#FFFFFF 30%" layoutType="2" touchEdgeInsets="{-26,-20,-26,-20}" imageEdgeInsets="{0, 5, 0, -5}">更多</Button>
+                <CollectionView id="collectionView" left="10" right="10" height="24" alignLeft="1" bottom="0" backgroundColor="clear">
+                    <CollectionViewCell id="collectionCell" width="80" height="24">
+                        <ImageView top="0" left="0" bottom="0" right="0" cornerRadius="12" borderColor="#7A7E89 100%" borderWidth="1"/>
+                        <Label id="title" centerY="super.centerY" centerX="super.centerX" font="13" textColor="white">入口</Label>
+                    </CollectionViewCell>
+                </CollectionView>
+            </LayoutView>
+        </LayoutView>
+        <TableViewCell id="section_cell_1" selectionStyle="none" backgroundColor="#2D323F 100%">
+            <LayoutView id="layout_0" left="0" top="0" width="super.width*0.33333-2" height="layout_0.width+45" bottom="0">
+                <ImageView id="image" left="0" top="0" width="super.width" height="image.width" bottom="54" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+                <GradientView id="gradientView" left="image.left" top="image.top" bottom="image.bottom" right="image.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="title" left="image.left+9" top="image.bottom+5" textAlignment="left" font="13" right="image.right-9" textColor="white" numberOfLines="2">内容合集名称内容合集名称</Label>
+                <Label id="rightLabel" right="image.right-2.5" bottom="image.bottom-2.5" font="13" textColor="white">230集</Label>
+                <Label id="tag" right="image.right" top="image.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#000000 50%">标签</Label>
+                <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="image.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+            </LayoutView>
+            <LayoutView id="layout_1" centerX="super.centerX" top="0" width="super.width*0.33333-2" height="layout_0.width+33">
+                <ImageView id="image" left="0" top="0" width="super.width" height="image.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+                <GradientView id="gradientView" left="image.left" top="image.top" bottom="image.bottom" right="image.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="title" left="image.left+9" top="image.bottom+5" textAlignment="left" font="13" right="image.right-9" textColor="white" numberOfLines="2">内容合集名称内容合集名称</Label>
+                <Label id="rightLabel" right="image.right-2.5" bottom="image.bottom-2.5" font="13" textColor="white">230集</Label>
+                <Label id="tag" right="image.right" top="image.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#000000 50%">标签</Label>
+                <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="image.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+            </LayoutView>
+            <LayoutView id="layout_2" right="0" top="0" width="super.width*0.33333-2" height="layout_0.width+33">
+                <ImageView id="image" left="0" top="0" width="super.width" height="image.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+                <GradientView id="gradientView" left="image.left" top="image.top" bottom="image.bottom" right="image.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="title" left="image.left+9" top="image.bottom+5" textAlignment="left" font="13" right="image.right-9" textColor="white" numberOfLines="2">内容合集名称内容合集名称</Label>
+                <Label id="rightLabel" right="image.right-2.5" bottom="image.bottom-2.5" font="13" textColor="white">230集</Label>
+                <Label id="tag" right="image.right" top="image.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#000000 50%">标签</Label>
+                <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="image.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+            </LayoutView>
+        </TableViewCell>
+        <TableViewCell id="section_cell_2" backgroundColor="#2D323F 100%">
+            <ImageView id="image" left="8" top="3" bottom="2" width="117" height="117" backgroundColor="#C6C6C6 100%"></ImageView>
+            <LayoutView id="cover" left="image.left" right="image.right" top="image.top" bottom="image.bottom">
+                <GradientView id="gradientView" left="super.left" top="super.top" bottom="super.bottom" right="super.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="tag" right="super.right" top="super.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#000000 50%">标签</Label>
+                <Label id="rightLabel" right="super.right-2.5" bottom="super.bottom-2.5" font="13" textColor="white">230集</Label>
+            </LayoutView>
+            <Label id="title" left="image.right+12" top="12.5" right="12" font="15" textColor="white">内容合集名称</Label>
+            <Label id="subtitle" left="image.right+12" top="39.5" right="12" font="13" textColor="#7A7E89 100%">合集信息一</Label>
+            <Label id="subtitle2" left="image.right+12" top="63.5" right="12" font="13" textColor="#7A7E89 100%">合集信息二</Label>
+            <Label id="subtitle3" left="image.right+12" top="87.5" right="12" font="13" textColor="#7A7E89 100%">合集信息三</Label>
+        </TableViewCell>
+        <TableViewCell id="section_cell_3" backgroundColor="#2D323F 100%">
+            <ImageView id="image" left="10" top="17.5" bottom="17.5" width="65" height="65" backgroundColor="#C6C6C6 100%"></ImageView>
+            <Label id="title" left="image.right+12" top="19" right="12" font="17" textColor="white">内容合集名称</Label>
+            <Label id="subtitle" left="image.right+12" top="44" right="12" font="13" textColor="#7A7E89 100%">内容介绍内容介绍</Label>
+            <Label  id="subtitle2" left="image.right+12" bottom="18" right="12" font="13" textColor="#7A7E89 100%">内容信息</Label>
+        </TableViewCell>
+        <TableViewCell id="section_cell_4" backgroundColor="#2D323F 100%">
+            <ImageView id="image" left="10" top="11" bottom="11" width="60" height="60" backgroundColor="#C6C6C6 100%"></ImageView>
+            <Label id="subtitle" left="image.right+12" top="19" right="12" font="17" textColor="white">内容合集名称</Label>
+            <Label id="subtitle2" left="image.right+12" bottom="17" right="12" font="13" textColor="#7A7E89 100%">内容信息</Label>
+        </TableViewCell>
+        <TableViewCell id="section_cell_5" selectionStyle="none" backgroundColor="#2D323F 100%">
+            <ImageView id="image" left="0" right="0" top="10"  height="super.width*0.4" backgroundColor="#C6C6C6"></ImageView>
+            <LayoutView id="cover" left="image.left" right="image.right" top="image.top" bottom="image.bottom">
+                <GradientView id="gradientView" left="super.left" top="super.top" bottom="super.bottom" right="super.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="tag" right="super.right" top="super.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#000000 50%">标签</Label>
+                <Label id="rightLabel" right="super.right-2.5" bottom="super.bottom-2.5" font="13" textColor="white">230集</Label>
+            </LayoutView>
+            <Label  id="title" left="9.5" right="9.5" top="image.bottom+5" bottom="10" font="13" textColor="white">介绍文案介绍文案介绍文案介绍文案介绍文案介绍文案介绍</Label>
+            <Button id="button" delaysHighlighting="yes" left="0" right="0" top="image.top" bottom="image.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+        </TableViewCell>
+        <TableViewCell id="section_cell_6" selectionStyle="none" backgroundColor="#2D323F 100%">
+            <LayoutView id="layout_0" left="0" width="super.width*0.5-1.5" top="0" bottom="0">
+                <ImageView id="image" left="0" right="0" top="0"  height="super.width*0.4" bottom="40" backgroundColor="#C6C6C6"></ImageView>
+                <LayoutView id="cover" left="image.left" right="image.right" top="image.top" bottom="image.bottom">
+                    <GradientView id="gradientView" left="super.left" top="super.top" bottom="super.bottom" right="super.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                    <Label id="tag" right="super.right" top="super.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#000000 50%">标签</Label>
+                    <Label id="rightLabel" right="super.right-2.5" bottom="super.bottom-2.5" font="13" textColor="white">230集</Label>
+                </LayoutView>
+                <Label id="title" left="9.5" right="9.5" top="image.bottom+5" font="13" textColor="white" numberOfLines="2">介绍文案介绍文案介绍文案介绍文案介绍文案介绍文案介绍</Label>
+                <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="image.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+            </LayoutView>
+            <LayoutView id="layout_1" right="0" width="super.width*0.5-1.5" top="0" bottom="0">
+                <ImageView id="image" left="0" right="0" top="0"  height="super.width*0.4" backgroundColor="#C6C6C6"></ImageView>
+                <LayoutView id="cover" left="image.left" right="image.right" top="image.top" bottom="image.bottom">
+                    <GradientView id="gradientView" left="super.left" top="super.top" bottom="super.bottom" right="super.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                    <Label id="tag" right="super.right" top="super.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#000000 50%">标签</Label>
+                    <Label id="rightLabel" right="super.right-2.5" bottom="super.bottom-2.5" font="13" textColor="white">230集</Label>
+                </LayoutView>
+                <Label id="title" left="9.5" right="9.5" top="image.bottom+5" font="13" textColor="white" numberOfLines="2">介绍文案介绍文案介绍文案介绍文案介绍文案介绍文案介绍</Label>
+                <Button id="button" delaysHighlighting="yes" left="0" right="0" top="image.top" bottom="image.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+            </LayoutView>
+        </TableViewCell>
+    </TableView>
+
+</ViewController>

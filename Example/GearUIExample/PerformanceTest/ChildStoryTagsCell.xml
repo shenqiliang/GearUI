@@ -1,0 +1,10 @@
+<TableViewCell class="ChildStoryTagsCell" id="story_prefer_cell" backgroundColor="#2D323F 100%">
+    <Label left="22" centerY="super.top+30" font="17" textColor="white">故事偏好</Label>
+    <Label right="22" centerY="super.top+30" font="17" textColor="#7A7E89 100%">必选</Label>
+    <CollectionView id="story_prefer_selection" top="60" left="0" bottom="0" height="160" right="0" minimumLineSpacing="0" minimumInteritemSpacing="0" backgroundColor="clear" contentInset="{0,27,0,27}">
+        <CollectionViewCell id="cell_item" height="61" width="100" tap="1">
+            <ImageView top="15" left="5" bottom="15" right="5" image="#000000 10%" highlightedImage="#00C2DE 100%"  cornerRadius="15"/>
+            <Label id="name" centerY="super.centerY" centerX="super.centerX" font="17" textColor="white" highlightedTextColor="black">童话故事</Label>
+        </CollectionViewCell>
+    </CollectionView>
+</TableViewCell>

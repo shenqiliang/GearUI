@@ -1,0 +1,7 @@
+<ViewController title="Complex Demo">
+    <TableView>
+        <TableViewCell id="text_demo" tap="#gotoDemo1:" height="44">
+            <Label left="20" top="0" font="16" bottom="0">Text</Label>
+        </TableViewCell>
+    </TableView>
+</ViewController>

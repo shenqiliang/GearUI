@@ -1,0 +1,21 @@
+<TableViewCell class="StockDialogViewCell">
+    <LayoutView top="0" left="10" right="10" bottom="15" backgroundColor="#41485A 100%" cornerRadius="3" clipsToBounds="1">
+        <LayoutView id="title" left="0" right="0" height="36" top="0" backgroundColor="#3A4152 100%">
+            <ImageView left="12" top="8" width="20" height="20">ico_stock</ImageView>
+            <Button id="feedback" right="12" top="8" width="20" height="20" image="反馈" touchEdgeInsets="{-20, -20, -20, -20}"></Button>
+        </LayoutView>
+        <LayoutView id="chat" top="title.bottom" left="0" right="0">
+            <Label id="text" left="12" centerY="super.centerY" font="15" textColor="#FBFCFE 100%" numberOfLines="0" lineSpace="9" right="12">今天的腾讯股票是多少</Label>
+            <View id="sep" top="text.bottom+18" left="12" right="12" height="0.5" bottom="0" backgroundColor="#FFFFFF 10%"/>
+        </LayoutView>
+        <LayoutView id="body" top="chat.bottom" height="86" left="0" right="0">
+            <Label id="name" left="12" top="18.5" width="125.5" font="17" textColor="#FBFCFE 100%" >215.80</Label>
+            <Label id="code" left="12" top="49" width="125.5" font="13" textColor="#FBFCFE 100%" >0700.HK</Label>
+            <Label id="status" right="12" top="18.5" width="125.5" textAlignment="right" font="13" textColor="#FF475D 100%" >+2.00(1.03%)</Label>
+            <Label id="price" right="12" top="49" width="125.5" textAlignment="right" font="13" textColor="#FBFCFE 100%" >215.80</Label>
+        </LayoutView>
+        <LayoutView left="0" right="0" top="body.bottom" height="44" bottom="0">
+            <Button id="detail_button" right="12" centerY="super.centerY" width="62" height="24" image="Setting_btn_next" layoutType="2" titleColor="#7A7E89 100%" font="13">查看全部</Button>
+        </LayoutView>
+    </LayoutView>
+</TableViewCell>

@@ -1,0 +1,8 @@
+<ViewController title="音箱选联" backgroundColor="#2D323F 100%" closeMuiscBarWhenPush="1">
+    <TableView id="main_table" backgroundColor="#2D323F 100%" separatorColor="#4D515A 100%"  separatorInset="{0,22,0,22}">
+        <TableViewCell id="cell"  backgroundColor="#2D323F 100%" separatorInset="{0,22,0,22}">
+            <Label id="label_name" left="22" centerY="super.centerY" font="16" textColor="white">Text</Label>
+        </TableViewCell>
+    </TableView>
+
+</ViewController>

@@ -1,0 +1,10 @@
+<ViewController title="准备联网" backgroundColor="#2D323F 100%" extendedLayoutIncludesOpaqueBars="1" closeMuiscBarWhenPush="1" useSafeAreaLayout="1">
+    <LayoutView>
+        <VideoView id="#videoView" centerX="super.centerX" top="super.bottom*0.18" width="super.width" height="#videoView.width*0.575" backgroundColor="black" fileName="变黄灯视频.mp4"></VideoView>
+        <Button id="#playButton" centerX="#videoView.centerX" tap="#play" centerY="#videoView.centerY" hidden="1" image="btn_net_play_l"></Button>
+        <Label id="label_1" left="30" right="30" textColor="#FBFCFE 100%" top="#videoView.bottom+38" textAlignment="center" font="24">双击音箱 <icon baselineOffset="-2.5">ico_功能键</icon> 功能键</Label>
+        <Label left="30" right="30" textColor="#FBFCFE 100%" top="label_1.bottom+9" textAlignment="center" font="17">顶部会出现环绕的黄色灯带</Label>
+        <Button id="button_bind" tap="#startBindAction" bottom="safeArea.bottom-61" centerX="super.centerX" height="49" left="30" right="30" backgroundColor="" font="bold;17" highlightedTitleColor="#ffffff 50%" backgroundImage="btn_bg_blue_large" titleColor="white">看到黄色灯带，下一步</Button>
+        <Button id="tipsButton" tap="#helpAction" bottom="safeArea.bottom-24" centerX="super.centerX" height="20" font="13" touchEdgeInsets="{-10, -20, -30, -20}" imageEdgeInsets="{0, 5, 0, -5}" image="ico_btn_arrow" layoutType="2" highlightedTitleColor="#FBFCFE 50%" titleColor="#FBFCFE 100%">没有看到黄色灯带</Button>
+    </LayoutView>
+</ViewController>

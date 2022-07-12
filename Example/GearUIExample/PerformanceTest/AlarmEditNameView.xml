@@ -1,0 +1,12 @@
+<LayoutView class="AlarmEditNameView" left="0" top="0" right="0" bottom="0" backgroundColor="#000000 75%">
+    <LayoutView id="id_contentView" left="37.5" right="37.5" bottom="260" height="216" cornerRadius="3" backgroundColor="#393F4F 100%">
+        <Label id="id_title" centerX="super.centerX" top="40" font="17" textColor="white">修改名称</Label>
+        <TextField id="id_textField" left="22" height="22" right="22" bottom="id_inputLine.top-2" font="17" textColor="#FFFFFF 100%" backgroundColor="#393F4F 100%" textAlignment="center"></TextField>
+        <LayoutView id="id_inputLine" left="22" top="101.5" right="22" height="0.5" backgroundColor="#7A7E89 100%"></LayoutView>
+        <Label id="id_tips" centerX="super.centerX" top="114" font="13" textColor="#7A7E89 100%" hidden="true">最多支持20个字符</Label>
+        <LayoutView id="id_horizontalLine" left="0" top="166.5" right="0" height="0.5" backgroundColor="#FFFFFF 10%"></LayoutView>
+        <LayoutView id="id_verticalLine" centerX="super.centerX" top="167" height="49" width="0.5" backgroundColor="#FFFFFF 10%"></LayoutView>
+        <Button id="id_cancelButton" left="0" right="id_verticalLine.left" top="id_horizontalLine.bottom" bottom="super.bottom" font="17" titleColor="#FFFFFF 100%" delaysHighlighting="yes" backgroundImage="clear" highlightedBackgroundImage="#000000 10%" highlightedTitleColor="#FFFFFF 50%">取消</Button>
+        <Button id="id_doneButton" left="id_verticalLine.right" right="0" top="id_horizontalLine.bottom" bottom="super.bottom" font="17" titleColor="#00C2DE 100%" delaysHighlighting="yes" highlightedBackgroundImage="#000000 10%" highlightedTitleColor="#00C2DE 50%">确定</Button>
+    </LayoutView>
+</LayoutView>

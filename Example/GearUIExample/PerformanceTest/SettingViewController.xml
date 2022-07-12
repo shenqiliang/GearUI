@@ -1,0 +1,110 @@
+<ViewController title="个人中心">
+    
+    <TableView id="#tableView" style="grouped" backgroundColor="#282D39 100%" autoDeselectCell="1">
+        <TableViewSection>
+            <TableViewCell id="cell_id" height="102" action="#accountCellAction">
+                <ImageView id="#avatarView" left="22" centerY="super.centerY" width="70" height="70" cornerRadius="35">Services_icon_user</ImageView>
+                <Label id="#nickNameLabel" left="113" centerY="super.centerY" font="17" textColor="#7A7E89 100%" right="70">游客模式</Label>
+                <Label id="tipLabel" left="113" top="#nickNameLabel.bottom+5" textColor="#7A7E89 100%" font="13">完善资料，让音箱更懂你</Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" action="#netconfigCellAction">
+                <ImageView centerX="super.left+32" centerY="super.centerY">网络设置</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">家庭成员管理</Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+        </TableViewSection>
+        
+        <TableViewSection>
+            <TableViewCell id="cell_id" class="SpeakerManageTableViewCell" height="61" action="miapage://setting/manage">
+                <ImageView centerX="super.left+32" centerY="super.centerY">音箱管理</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">音箱管理</Label>
+                <Label id="#speakerNameLabel" right="41" top="12" font="13" height="18" textColor="#7A7E89 100%"></Label>
+                <Label id="#speakerStatusLabel" right="#batteryIconView.left-7|41" top="#speakerNameLabel.bottom+2|21" font="13" height="18" textColor="#7A7E89 100%"></Label>
+                <LayoutView top="#batteryIconView.top+2" left="#batteryIconView.left+2" bottom="#batteryIconView.bottom-2" right="#batteryIconView.right-3">
+                    <View id="#batteryIndicator" top="0" left="0" bottom="0" width="super.width*0" backgroundColor="#7A7E89 100%"/>
+                </LayoutView>
+                <ImageView id="#batteryIconView" disableLayout="true" right="41" centerY="#speakerStatusLabel.centerY">Center_icon_battery_empty</ImageView>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" action="#netconfigCellAction">
+                <ImageView centerX="super.left+32" centerY="super.centerY">网络设置</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">网络设置</Label>
+                <Label id="#wifiNameLabel" right="41" centerY="super.centerY" font="13" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" action="#muteKeySettingAction">
+                <ImageView centerX="super.left+32" centerY="super.centerY">静音键设置</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">静音键设置</Label>
+                <Label id="#muteSettingLabel" right="41" centerY="super.centerY" font="13" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" action="miapage://setting/donotdisturb">
+                <ImageView centerX="super.left+32" centerY="super.centerY">Setting_icon_excuse</ImageView>
+                <Label id="settingName" left="55" centerY="super.centerY" font="17" textColor="white">免打扰设置</Label>
+                <Label id="#dndSettingLabel" right="41" centerY="#dndTimeLabel.centerY-22|super.centerY" font="13" height="18" textColor="#7A7E89 100%"></Label>
+                <Label id="#dndTimeLabel" right="41" left=")settingName.right+10" adjustsFontSizeToFitWidth="1" centerY="super.bottom-19" font="13" height="18" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+        </TableViewSection>
+        
+        <TableViewSection footerViewNodeId="footer">
+            <TableViewCell id="cell_id" height="61" action="miapage://setting/manual">
+                <ImageView centerX="super.left+32" centerY="super.centerY">使用手册</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">使用手册</Label>
+                <Label right="41" centerY="super.centerY" font="13" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" action="miahttps://tingting.qq.com/h5/ting-detail.html?ADTAG=tapp">
+                <ImageView centerX="super.left+32" centerY="super.centerY">setting_shop</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">听听商城</Label>
+                <Label right="41" centerY="super.centerY" font="13" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" action="miapage://setting/onlinesupport">
+                <ImageView centerX="super.left+32" centerY="super.centerY">在线客服</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">在线客服</Label>
+                <Label right="41" centerY="super.centerY" font="13" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" action="miapage://setting/feedback">
+                <ImageView centerX="super.left+32" centerY="super.centerY">意见反馈</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">意见反馈</Label>
+                <Label right="41" centerY="super.centerY" font="13" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" tap="miapage://setting/about">
+                <ImageView centerX="super.left+32" centerY="super.centerY">关于腾讯听听</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">关于腾讯听听</Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" height="61" action="miapage://setting/upgrade">
+                <ImageView centerX="super.left+32" centerY="super.centerY">版本更新</ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">版本更新</Label>
+                <Label right="41" centerY="super.centerY" font="13" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="sendLogCell" disableLayout="true" height="61" action="miacmd://sendlogs">
+                <ImageView centerX="super.left+32" centerY="super.centerY"></ImageView>
+                <Label left="55" centerY="super.centerY" font="17" textColor="white">发送日志</Label>
+                <Label right="41" centerY="super.centerY" font="13" textColor="#7A7E89 100%"></Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <LayoutView id="footer" height="44" width="SCREEN_WIDTH">
+                <Script>
+                    <![CDATA[
+                        function callKeFu() {
+                        var url = NSURL.URLWithString("tel://4006-660-660")
+                        UIApplication.sharedApplication().openURL(url)
+                        }
+                    ]]>
+                </Script>
+                <Label left="22" right="22" centerX="super.centerX" adjustsFontSizeToFitWidth="1" centerY="super.centerY" font="14" textColor="#7A7E89 100%" tap="js:callKeFu()">客服电话：4006-660-660 （周一到周日 9:00 - 21:00）</Label>
+            </LayoutView>
+        </TableViewSection>
+        
+        
+    </TableView>
+    
+</ViewController>
+

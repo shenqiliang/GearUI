@@ -1,0 +1,24 @@
+<ViewController title="家庭日程提醒" backgroundColor="#2D323F 100%" showNavigationBarShadow="YES">
+    <LayoutView id="id_titleView" left="0" right="0" top="0" height="43">
+        <CollectionView id="#titleCollectionView" left="0" right="66" top="0" bottom="0" backgroundColor="#2D323F 100%" hidden="false">
+            <CollectionViewCell id="id_titleCell" width="40" height="43" backgroundColor="clear">
+                <Label id="id_titleLabel" left="0" top="0" right="0" bottom="0" font="15" textColor="#AAACB1 100%"></Label>
+            </CollectionViewCell>
+        </CollectionView>
+        <Button id="#settingButton" right="22" centerY="super.centerY" height="22" width="22" touchEdgeInsets="{-20, -20, -20, -20}" delaysHighlighting="yes" image="reminder_icon_person_add"></Button>
+    </LayoutView>
+
+    <CollectionView id="#collectionView" left="0" right="0" top="43" bottom="0" backgroundColor="#2D323F 100%">
+        <CollectionViewCell id="id_reminderCell" width="414" height="66" backgroundColor="clear">
+            <Label id="id_timeLabel" left="22" centerY="super.centerY+2" width="40" font="15" textColor="white">10:00</Label>
+            <Label id="id_periodLabel" left="22" top="id_timeLabel.bottom" width="40" font="13" textColor="white">上午</Label>
+            <LayoutView id="id_dotView" left="67.5" centerY="super.centerY" width="5" height="5" cornerRadius="2.5" backgroundColor="#6C6F78 100%"></LayoutView>
+            <LayoutView id="id_topVerticalLine" top="0" bottom="id_dotView.top" centerX="id_dotView.centerX" width="0.5" backgroundColor="#FFFFFF 10%"></LayoutView>
+            <LayoutView id="id_bottomVerticalLine" top="id_dotView.bottom" bottom="0" centerX="id_dotView.centerX" width="0.5" backgroundColor="#FFFFFF 10%"></LayoutView>
+            <LayoutView id="id_bottomLine" left="78" bottom="0" right="22" height="0.5" backgroundColor="#4D515A 100%"></LayoutView>
+            <Label id="id_contentLabel" left="83" centerY="super.centerY" right="68" font="17" textColor="white">公园逛逛</Label>
+            <ImageView id="id_icon" right="22" centerY="super.centerY" width="36" height="36" backgroundColor="yellow"></ImageView>
+        </CollectionViewCell>
+    </CollectionView>
+
+</ViewController>

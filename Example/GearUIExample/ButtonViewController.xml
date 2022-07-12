@@ -1,0 +1,12 @@
+<ViewController title="Button Demo">
+    <Button top="safeArea.top+20" contentEdgeInsets="{10,10,10,10}" backgroundImage="round(corner:5,fillColor:green)" centerX="super.centerX" font="13" titleColor="red" image="circle(radius:10,fillColor:red)">Normal Button</Button>
+
+    <Button top="safeArea.top+80" contentEdgeInsets="{10,10,10,10}" backgroundImage="round(corner:5,fillColor:green)" centerX="super.centerX" layoutType="titleLeft" font="13" titleColor="red" image="circle(radius:10,fillColor:red)">Title Left Button</Button>
+    <Button top="safeArea.top+200" contentEdgeInsets="{10,10,10,10}" backgroundImage="round(corner:5,fillColor:green)" centerX="super.centerX" layoutType="titleBottom" font="13" titleColor="red" image="circle(radius:10,fillColor:red)">Title Bottom Button</Button>
+    
+    <Button top="safeArea.top+140" contentEdgeInsets="{10,10,10,10}" backgroundImage="round(corner:5,fillColor:green)" centerX="super.centerX" layoutType="titleTop" font="13" titleColor="red" highlightedTitleColor="yellow" image="circle(radius:10,fillColor:red)">Title Top Button</Button>
+    
+
+    <Button left="10" top="safeArea.top+240" width="300" height="300" image="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif"></Button>
+
+</ViewController>

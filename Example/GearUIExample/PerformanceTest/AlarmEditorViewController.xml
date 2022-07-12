@@ -1,0 +1,37 @@
+<ViewController title="编辑闹钟" backgroundColor="#2D323F 100%" showNavigationBarShadow="YES">
+    <TableView id="id_tableView" separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorColor="clear" removeRedundantSeparator="true">
+        <TableViewCell id="id_cell0" height="262" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <DatePicker id="id_datePicker" left="0" right="0" centerX="super.centerX" height="280"></DatePicker>
+        </TableViewCell>
+        <TableViewCell id="id_cell1" height="61" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <Label id="id_title" left="22" centerY="super.centerY" font="17" textColor="white">重复</Label>
+            <ImageView id="id_nextIcon" right="22" centerY="super.centerY" width="16" height="16">alarm_icon_next</ImageView>
+            <Label id="id_repeat" right="39" centerY="super.centerY" font="13" textColor="#7A7E89 100%">只响一次</Label>
+            <LayoutView id="id_bottomLine" left="22" right="22" height="0.5" bottom="super.bottom" backgroundColor="#4D515A 100%">
+            </LayoutView>
+        </TableViewCell>
+        <TableViewCell id="id_cell2" height="61" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <Label id="id_title" left="22" centerY="super.centerY" font="17" textColor="white">铃声</Label>
+            <ImageView id="id_nextIcon" right="22" centerY="super.centerY" width="16" height="16">alarm_icon_next</ImageView>
+            <Label id="id_ring" left="id_title.right+15" textAlignment="right" right="39" centerY="super.centerY" font="13" textColor="#7A7E89 100%">经典(默认)</Label>
+            <LayoutView id="id_bottomLine" left="22" right="22" height="0.5" bottom="super.bottom" backgroundColor="#4D515A 100%">
+            </LayoutView>
+        </TableViewCell>
+        <TableViewCell id="id_cell3" height="61" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <Label id="id_title" left="22" centerY="super.centerY" font="17" textColor="white">稍后再响</Label>
+            <ImageView id="id_nextIcon" right="22" centerY="super.centerY" width="16" height="16">alarm_icon_next</ImageView>
+            <Label id="id_delay" right="39" centerY="super.centerY" font="13" textColor="#7A7E89 100%">不开启</Label>
+            <LayoutView id="id_bottomLine" left="22" right="22" height="0.5" bottom="super.bottom" backgroundColor="#4D515A 100%">
+            </LayoutView>
+        </TableViewCell>
+        <TableViewCell id="id_cell4" height="122" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <Label id="id_alarmVoice" left="22" top="22" font="17" textColor="white">闹钟音量</Label>
+            <ImageView id="id_voiceIcon" left="27" top="65" width="16" height="16">alarm_ico_voice</ImageView>
+            <Slider id="id_voiceSlider" left="53" trackHeight="1" centerY="id_voiceIcon.centerY" right="51"></Slider>
+            <Label id="id_voiceValue" left="id_voiceSlider.right+9" centerY="id_voiceIcon.centerY" font="17" textColor="white">9</Label>
+            <LayoutView id="id_recommendLine" width="1" height="8" centerY="id_voiceIcon.centerY" backgroundColor="#FFFFFF 100%">
+            </LayoutView>
+            <Label id="id_recommend" centerX="id_recommendLine.centerX" top="86" font="13" textColor="white">推荐</Label>
+        </TableViewCell>
+    </TableView>
+</ViewController>

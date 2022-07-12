@@ -1,0 +1,8 @@
+<ViewController title="Text Demo">
+    <Label left="20" lineSpace="4" top="safeArea.top+84" font="16" right="20" numberOfLines="0">
+        <line >This is mutiline <red color="red">attributed</red> text.<br/></line>
+        <line >The second line. <b tap="#click" highlightedColor="red" highlightedBackgroundColor="green">bold clickable text</b> and <i>italic text.</i><br/></line>
+        <line><font color="blue" font="22">The third line with font size <ll highlightedColor="green" lineSpace="44" >22.</ll></font><br/></line>
+        <line >The fourth auto wrap long long long long long long long long long long long line.<br/></line>
+    </Label>
+</ViewController>

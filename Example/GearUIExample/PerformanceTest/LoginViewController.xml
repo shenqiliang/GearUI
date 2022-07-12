@@ -1,0 +1,19 @@
+<ViewController hidesNavigationBarWhenPushed="1" backgroundColor="#12021E" closeMuiscBarWhenPush="1">
+    <LayoutView clipsToBounds="1">
+        <Animation keyPath="transform.translation.x" target="bg" autoRun="1" fromValue="0" toValue="-72.8%" duration="8"/>
+        <ImageView id="bg" left="0" top="0" width="super.width*1.728" height="bg.width*1.064" bottom="0">login_bg</ImageView>
+        <ImageView centerX="super.centerX" centerY="super.centerY-118">logo</ImageView>
+        <LayoutView id="operationView" left="0" top="0" bottom="0" right="0">
+            <Button id="button_qq" left="30" right="30" bottom="button_wechat.top-10|safeArea.bottom-73" height="49" imageEdgeInsets="{0, -5, 0, 5}" highlightedTitleColor="#ffffff 50%" image="qq" font="bold;17" backgroundImage="btn_qq">QQ登录</Button>
+            <Button id="button_wechat" left="30" right="30" bottom="safeArea.bottom-73" height="49" image="wechat" imageEdgeInsets="{0, -5, 0, 5}" highlightedTitleColor="#ffffff 50%" font="bold;17" backgroundImage="btn_微信">微信登录</Button>
+            <Button id="button_guest" right="30" centerY="#agreeButton.centerY" touchEdgeInsets="{-30, -20, -30, -20}" alpha="0.3" imageEdgeInsets="{0, 5, 0, -5}" image="ico_btn_arrow" layoutType="titleLeft" hidden="1" font="12">游客模式</Button>
+            <Button id="#agreeButton" left="30" bottom="safeArea.bottom-22" selected="1" tap="#toggleAgree" touchEdgeInsets="{-20, -20, -20, -20}" image="服务协议未勾选" selectedImage="服务协议勾选"></Button>
+            <Label id="tongyi" left="#agreeButton.right+10" centerY="#agreeButton.centerY" font="12" textColor="gray">同意</Label>
+            <Label id="service" left="tongyi.right" right="he.left-1" centerY="#agreeButton.centerY" font="12" tap="https://res.imtt.qq.com/mia_oper/mia_app/app_agreement.html" textColor="gray">《服务条款》</Label>
+            <Label id="he" centerY="#agreeButton.centerY" font="12" textColor="gray">和</Label>
+            <Label id="privacy" left="he.right+1" centerY="#agreeButton.centerY" font="12" highlightedTextColor="red" textColor="gray" tap="http://www.qq.com/privacy.htm">《隐私协议》</Label>
+        </LayoutView>
+        <ActivityIndicatorView id="#loadingIndicator" bottom="147" hidden="1" centerX="super.centerX" hidesWhenStopped="true"/>
+    </LayoutView>
+</ViewController>
+

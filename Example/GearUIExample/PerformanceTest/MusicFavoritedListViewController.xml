@@ -1,0 +1,4 @@
+<ViewController file="MusicFromHomeListViewController">
+    <Label id="id_empty_indicator" centerX="super.centerX" centerY="super.centerY-15" font="17" height="24" textColor="#7A7E89 100%" hidden="true">无收藏歌曲</Label>
+    <Label id="id_empty_tips" centerX="super.centerX" top="id_empty_indicator.bottom+6" font="13" height="19" textColor="#7A7E89 100%" hidden="true">听到喜欢的歌，对音箱说：“9420，收藏歌曲。”</Label>
+</ViewController>

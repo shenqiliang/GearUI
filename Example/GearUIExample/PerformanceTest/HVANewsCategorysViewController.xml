@@ -1,0 +1,11 @@
+<ViewController title="新闻">
+    <CollectionView id="#hotCollectionView" top="0" bottom="0" left="0" right="0" backgroundColor="clear">
+        <CollectionViewCell id="cell_hot_item" width="super.width-6*0.33333" height="width+42">
+            <LayoutView id="layout_0" top="super.top" width="super.width" height="super.height">
+                <ImageView id="item" left="0" top="0" width="super.width" height="item.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+                <GradientView left="item.left" top="item.top" bottom="item.bottom" right="item.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="name" left="item.left" top="item.bottom+8" font="13" right="item.right" textColor="white" textAlignment="center" >推荐歌单</Label>
+            </LayoutView>
+        </CollectionViewCell>
+    </CollectionView>
+</ViewController>

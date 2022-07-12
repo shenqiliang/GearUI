@@ -1,0 +1,11 @@
+<ViewController title="Title">
+    <Button centerY="super.top+60" tap="#startTest" left="0" width="super.width*0.25" font="18" highlightedTitleColor="gray">开始测试</Button>
+    <Button centerY="super.top+60" tap="#endTest" left="super.right*0.25" width="super.width*0.25"  font="18" highlightedTitleColor="gray">结束测试</Button>
+    <Button centerY="super.top+60" tap="#sendData" left="super.right*0.5" width="super.width*0.25"  font="18" highlightedTitleColor="gray">发送数据</Button>
+    <Button centerY="super.top+60" tap="#closeAction" left="super.right*0.75" width="super.width*0.25"  highlightedTitleColor="gray">关闭</Button>
+    <TableView id="#tableView" top="100" left="0" right="0" bottom="0">
+        <TableViewCell id="cell">
+        </TableViewCell>
+    </TableView>
+
+</ViewController>

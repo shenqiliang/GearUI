@@ -1,0 +1,60 @@
+<ViewController title="" backgroundColor="#2D323F 100%">
+    <TableView left="0" right="0" top="0" bottom="0" id="#tableView" backgroundColor="#2D323F 100%" separatorStyle="none" contentInset="{0,0,10,0}">
+        <TableViewCell id="banner_cell" class="DiscoverTableViewBannerCell" backgroundColor="#2D323F 100%" selectionStyle="none">
+            <BannerView id="banner" tap="1" pageControlId="page" top="0" left="0" right="0" bottom="2" height="banner.width*0.4" backgroundColor="gray"/>
+            <PageControl id="page" left="banner.left" right="banner.right" bottom="banner.bottom" height="20"/>
+        </TableViewCell>
+        
+        <TableViewCell id="features_cell" class="DiscoverTableViewFeaturesCell" backgroundColor="clear" selectionStyle="none">
+            <LayoutView id="layout_0" left="5" top="0" width="super.width*0.2-2" bottom="0" backgroundColor="clear">
+                <ImageView id="item" top="15" bottom="27.5" centerX="super.centerX" width="super.width*0.66" height="item.width" clipsToBounds="1" backgroundColor="clear" contentMode="fill" highlightedCoverColor="#000000 50%" hidden="1">Music_img_cover</ImageView>
+                <Label id="name" left="super.left" top="item.bottom+9" font="13" right="super.right" textColor="white" textAlignment="center" >音乐</Label>
+                <Button id="button" tap="miapage://profile/services" delaysHighlighting="yes" centerX="item.centerX" centerY="item.centerY" width="item.width" height="item.width" backgroundImage="clear" touchEdgeInsets="{-20, -20, -20, -20}" />
+            </LayoutView>
+            
+            <LayoutView id="layout_1" left="layout_0.right" top="0" width="super.width*0.2-2" height="layout_0.height">
+                <ImageView id="item" top="15" centerX="super.centerX" width="super.width*0.66" height="item.width" clipsToBounds="1" backgroundColor="clear" contentMode="fill" highlightedCoverColor="#000000 50%" hidden="1">Music_img_cover</ImageView>
+                <Label id="name" left="super.left" top="item.bottom+9" font="13" right="super.right" textColor="white" textAlignment="center" >儿童故事</Label>
+                <Button id="button" tap="miapage://profile/services" delaysHighlighting="yes" centerX="item.centerX" centerY="item.centerY" width="item.width" height="item.width" backgroundImage="clear" touchEdgeInsets="{-20, -20, -20, -20}" />
+            </LayoutView>
+            
+            <LayoutView id="layout_2" left="layout_1.right" top="0" width="super.width*0.2-2" height="layout_0.height">
+                <ImageView id="item" top="15" centerX="super.centerX" width="super.width*0.66" height="item.width" clipsToBounds="1" backgroundColor="clear" contentMode="fill" highlightedCoverColor="#000000 50%" hidden="1">Music_img_cover</ImageView>
+                <Label id="name" left="super.left" top="item.bottom+9" font="13" right="super.right" textColor="white" textAlignment="center" >有声书</Label>
+                <Button id="button" tap="miapage://profile/services" delaysHighlighting="yes" centerX="item.centerX" centerY="item.centerY" width="item.width" height="item.width" backgroundImage="clear" touchEdgeInsets="{-20, -20, -20, -20}" />
+            </LayoutView>
+            
+            <LayoutView id="layout_3" left="layout_2.right" top="0" width="super.width*0.2-2" height="layout_0.height">
+                <ImageView id="item" top="15" centerX="super.centerX" width="super.width*0.66" height="item.width" clipsToBounds="1" backgroundColor="clear" contentMode="fill" highlightedCoverColor="#000000 50%" hidden="1">Music_img_cover</ImageView>
+                <Label id="name" left="super.left" top="item.bottom+9" font="13" right="super.right" textColor="white" textAlignment="center" >生活助手</Label>
+                <Button id="button" tap="miapage://profile/services" delaysHighlighting="yes" centerX="item.centerX" centerY="item.centerY" width="item.width" height="item.width" backgroundImage="clear" touchEdgeInsets="{-20, -20, -20, -20}" />
+            </LayoutView>
+        
+            <LayoutView id="layout_4" left="layout_3.right" top="0" width="super.width*0.2-2" height="layout_0.height">
+                <ImageView id="item" top="15" centerX="super.centerX" width="super.width*0.66" height="item.width" clipsToBounds="1" backgroundColor="clear" contentMode="fill" highlightedCoverColor="#000000 50%" hidden="1">Music_img_cover</ImageView>
+                <Label id="name" left="super.left" top="item.bottom+9" font="13" right="super.right" textColor="white" textAlignment="center" >技能</Label>
+                <Button id="button" tap="miapage://profile/services" delaysHighlighting="yes" centerX="item.centerX" centerY="item.centerY" width="item.width" height="item.width" backgroundImage="clear" touchEdgeInsets="{-20, -20, -20, -20}" />
+            </LayoutView>
+
+        </TableViewCell>
+        
+        <TableViewCell id="section_header" class="DiscoverTableViewHotCell" backgroundColor="clear" selectedBackgroundColor="#393F4F" selectionStyle="none">
+            <Button id="section_header_title" tap="1" top="24.5" height="24" left="12" delaysHighlighting="yes" highlightedTitleColor="#FFFFFF 30%" titleColor="white" font="bold;17" touchEdgeInsets="{-20,-20,-20,-20}" backgroundColor="clear">音乐</Button>
+            <Label id="commandLabelID" left="section_header_title.right+8" bottom="section_header_title.bottom-2" font="13" textColor="#FFFFFF 60%" textAlignment="center" hidden="1" >“9420，播放音乐”</Label>
+            <Button id="moreButtonID" tap="1" bottom="section_header_title.bottom" height="26" right="super.right-23" delaysHighlighting="yes" highlightedTitleColor="#FFFFFF 30%" titleColor="white" font="13" touchEdgeInsets="{-26,-20,-26,-20}" imageEdgeInsets="{0, 5, 0, -5}" image="arrow_right" layoutType="2">更多</Button>
+            
+            <CollectionView id="hotCollectionView" top="section_header_title.bottom+12.5" bottom="0" left="0" right="0" backgroundColor="clear">
+                <CollectionViewCell id="cell_hot_item" width="super.width-6*0.33333" height="cell_hot_item.width+35.5" backgroundColor="clear">
+                    <LayoutView id="layout_0" top="0" left="0" bottom="0" right="0">
+                        <ImageView id="item" left="0" top="super.top" width="super.width" height="item.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+                        <GradientView left="item.left" top="item.top" bottom="item.bottom" right="item.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                        <Label id="name" left="item.left+12" top="item.bottom+5" font="13" right="item.right" textColor="white" textAlignment="left" >推荐歌单</Label>
+                        <!-- <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="item.bottom" backgroundColor="clear" highlightedBackgroundImage="#000000 50%"/>  -->
+                    </LayoutView>
+                </CollectionViewCell>
+            </CollectionView>
+       </TableViewCell>
+
+        
+    </TableView>
+</ViewController>

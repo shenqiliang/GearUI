@@ -1,0 +1,14 @@
+<UITableViewCell class="HVATableViewCellChatSendVoice">
+    <LayoutView id="id_containerView" top="15" left="40" bottom="5" right="25" backgroundColor="clear">
+        <ImageView id="id_animationView" top="0" right="0" width="79" height="43"></ImageView>
+        <ImageView id="id_bubbleArrow" top="15.5" right="0" width="6" height="12">chatInput_ bubble_icon_arrow</ImageView>
+        <LayoutView id="id_contentContainerView" tap="true" top="0" bottom="0" right="id_bubbleArrow.left" left="36" backgroundColor="#474E61 100%" cornerRadius="3">
+            <ImageView id="id_voiceIcon" width="14" height="20" right="super.right-15" centerY="super.centerY">chatInput_bubble_icon_voice_read_2</ImageView>
+            <Label id="id_duration" left="super.left+14" centerY="super.centerY" font="17" textColor="#7A7E89 100%" >1</Label>
+            <Label id="id_symbol" left="id_duration.right+1" centerY="super.centerY-3" font="17" textColor="#7A7E89 100%" >''</Label>
+        </LayoutView>
+        <LayoutView id="id_statusView" file="HVAChatBubbleStatusView" top="0" right="id_contentContainerView.left">
+        </LayoutView>
+    </LayoutView>
+</UITableViewCell>
+

@@ -1,0 +1,36 @@
+<LayoutView>
+    <TableView id="teamRankingTableView" separatorInset="{0,22,0,22}" left="0" right="0" top="41" bottom="0" backgroundColor="#2D323F 100%" separatorStyle="none"  removeRedundantSeparator="true">
+        
+        
+        
+        <TableViewCell id="teamRankingTableViewNameCell" backgroundColor="clear" selectionStyle="none" >
+            <Label id="qiudui" textColor="#7A7E89 100%" font="17"  height="24" top="0" left="43">球队</Label>
+            <Label id="chang" textColor="#7A7E89 100%" font="17" height="24" top="qiudui.top" right="203">场</Label>
+            <Label id="sheng" textColor="#7A7E89 100%" font="17" height="24" top="qiudui.top" right="174">胜</Label>
+            <Label id="ping" textColor="#7A7E89 100%" font="17"  height="24" top="qiudui.top" right="145">平</Label>
+            <Label id="fu" textColor="#7A7E89 100%" font="17"  height="24" top="qiudui.top" right="116">负</Label>
+            <Label id="jinshi" textColor="#7A7E89 100%" font="17"  height="24" top="qiudui.top" right="59">进/失</Label>
+            <Label id="jifen" textColor="#7A7E89 100%" font="17"  height="24" top="qiudui.top" right="15" bottom="17">积分</Label>
+        </TableViewCell>
+        
+        
+        
+        <TableViewCell id="teamRankingTableViewNameDetailCell" backgroundColor="clear" selectionStyle="none">
+            <LayoutView backgroundColor="clear">
+                <Label id="paimingLabel" textColor="#7A7E89 100%" font="13"  height="24" centerY="leftAvatarImageView.centerY" left="25">1</Label>
+                <ImageView id="leftAvatarImageView" left="46" top="8" height="36" width="36" contentMode="fit" backgroundColor="white" cornerRadius="18" ></ImageView>
+                <Label id="nameLabel" textColor="#7A7E89 100%" font="13" height="24" centerY="leftAvatarImageView.centerY" left="leftAvatarImageView.right+6">切尔西啊</Label>
+                <Label id="changLabel" textColor="#7A7E89 100%" font="13" textAlignment="center" width="72" height="24" centerY="leftAvatarImageView.centerY" right="175">88</Label>
+                <Label id="winsLabel" textColor="#7A7E89 100%" font="13" textAlignment="center" width="72" height="24" centerY="leftAvatarImageView.centerY" right="149">88</Label>
+                <Label id="pingLabel" textColor="#7A7E89 100%" font="13"  height="24" centerY="leftAvatarImageView.centerY" right="148">23</Label>
+                <Label id="fuLabel" textColor="#7A7E89 100%" font="13"  height="24" centerY="leftAvatarImageView.centerY" right="120">30</Label>
+                <Label id="jinshiLabel" textColor="#7A7E89 100%" font="13" width="44"  height="24" centerY="leftAvatarImageView.centerY" right="53" bottom="26">23</Label>
+                <Label id="jifenLabel" textColor="#7A7E89 100%" font="13"  height="24" centerY="leftAvatarImageView.centerY" right="25" bottom="26">23</Label>
+            </LayoutView>
+        </TableViewCell>
+        
+        
+        
+        
+    </TableView>
+</LayoutView>

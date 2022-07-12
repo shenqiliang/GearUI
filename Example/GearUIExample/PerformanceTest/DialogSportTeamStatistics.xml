@@ -1,0 +1,21 @@
+<LayoutView>
+    <TableView id="fuckingtableView" separatorInset="{0,22,0,22}" left="0" right="0" top="41" bottom="0" backgroundColor="#2D323F 100%" separatorStyle="none"  removeRedundantSeparator="true">
+        
+        <TableViewCell id="headerCell" backgroundColor="clear" selectionStyle="none" >
+            <Label id="time" left="30" top="10" font="13" right="30" textColor="#7A7E89 100%" textAlignment="center">07:00 NBA常规赛 </Label>
+            <Label id="bifenLabel" left="team_left_icon.right+10" right="team_right_icon.left-10" top="time.bottom+22" font="29" textAlignment="center" textColor="#7A7E89 100%">121 : 90</Label>
+            <Label id="bisaiStatus" left="team_left_icon.right+10" right="team_right_icon.left-10" top="time.bottom+62" font="13" textAlignment="center" textColor="#7A7E89 100%">已结束</Label>
+            <ImageView id="team_left_icon" left="30" top="time.bottom+13" width="52" height="52" backgroundColor="white" cornerRadius="26"></ImageView>
+            <Label id="leftNameLabel" centerX="team_left_icon.centerX" top="team_left_icon.bottom+16" font="17" textColor="#7A7E89 100%">黄蜂</Label>
+            <ImageView id="team_right_icon" right="30" top="time.bottom+13" width="52" height="52" backgroundColor="white" cornerRadius="26"></ImageView>
+            <Label id="rightNameLabel" centerX="team_right_icon.centerX" bottom="12" top="team_left_icon.bottom+16" font="17" textColor="white">公牛</Label>
+        </TableViewCell>
+        
+        <TableViewCell id="dataCell" backgroundColor="clear" selectionStyle="none" >
+            <Label id="data_left" centerX="super.left+56" top="12" font="17" bottom="12" textColor="#7A7E89 100%">53/69</Label>
+            <Label id="type" centerX="super.centerX" centerY="data_left.centerY" font="17" textColor="#7A7E89 100%">投篮</Label>
+            <Label id="data_right" centerX="super.right-56" centerY="data_left.centerY" font="17" textColor="#7A7E89 100%">34/60</Label>
+        </TableViewCell>
+        
+    </TableView>
+</LayoutView>

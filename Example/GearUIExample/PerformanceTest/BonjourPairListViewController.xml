@@ -1,0 +1,11 @@
+<ViewController title="音箱选取" backgroundColor="#2D323F 100%" showNavigationBarShadow="yes" closeMuiscBarWhenPush="1">
+    <TableView id="main_table" top="0" left="0" right="0" bottom="140" rowHeight="66" backgroundColor="#2D323F 100%" removeRedundantSeparator="true" separatorColor="#ffffff 10%">
+        <TableViewCell id="cell"  backgroundColor="#2D323F 100%" selectedBackgroundColor="#393F4F">
+            <ImageView left="22" top="17" width="35" height="35">Setting_speaker_icon_speaker</ImageView>
+            <Label id="name" left="69" top="14" height="19" textColor="white" font="17">Mia</Label>
+            <Label id="sn" left="69" top="41" height="13" textColor="#7A7E89 100%" font="13">SN 001234567</Label>
+            <ImageView centerY="super.centerY" right="23">Setting_btn_next</ImageView>
+        </TableViewCell>
+    </TableView>
+    <Button tap="#otherAction" bottom="70" centerX="super.centerX" font="29">其他音箱</Button>
+</ViewController>

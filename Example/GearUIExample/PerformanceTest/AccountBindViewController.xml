@@ -1,0 +1,19 @@
+<ViewController title="账号管理" showNavigationBarShadow="true" closeMuiscBarWhenPush="true">
+    <LayoutView top="0" left="0" bottom="0" right="0">
+        <TableView id="tableView" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" separatorInset="{0,22,0,22}" separatorColor="#ffffff 10%" removeRedundantSeparator="yes">
+            
+            <TableViewCell id="bindinfo_cell" height="60" backgroundColor="clear" selectionStyle="none">
+                <ImageView id="icon" left="39" centerY="super.centerY">Manage_user_icon_qq</ImageView>
+                <Label id="account" left="72" top="12.5" font="17" textColor="white">QQ</Label>
+                <Label id="name" left="72" bottom="10.25" font="13" textColor="#7A7E89 100%" >123456789</Label>
+                <Button id="cancel_button" right="22" centerY="super.centerY" font="13" titleColor="white" enabled="0">取消绑定</Button>
+            </TableViewCell>
+            
+            <TableViewCell id="bindrequest_cell" height="60" backgroundColor="clear" selectionStyle="none">
+                <ImageView id="icon" left="39" centerY="super.centerY">Manage_user_icon_wechat</ImageView>
+                <Label id="account" left="72" centerY="super.centerY" font="17" textColor="white">微信</Label>
+                <Button id="bind_button" right="22" centerY="super.centerY" font="13" titleColor="white" enabled="0">绑定</Button>
+            </TableViewCell>
+        </TableView>
+    </LayoutView>
+</ViewController>

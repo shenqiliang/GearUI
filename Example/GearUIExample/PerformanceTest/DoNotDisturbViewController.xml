@@ -1,0 +1,97 @@
+<ViewController title="免打扰设置" closeMuiscBarWhenPush="1">
+    <TableView id="#tableView" top="0" left="0" bottom="0" right="0" style="grouped" backgroundColor="#282D39 100%" rowHeight="61">
+        <TableViewSection footerViewNodeId="footer">
+            <TableViewCell id="cell_id" tap="#dndCellClick" selectionStyle="none">
+                <Label left="22" centerY="super.centerY" font="17" textColor="white">免打扰模式</Label>
+                <Label id="#settingValueLabel" right="41" centerY="super.centerY" font="17" textColor="#7A7E89 100%">定时开启</Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <LayoutView id="footer" left="0" right="0" height="30">
+                <Label left="22" right="22" top="8" font="13" textColor="#7A7E89 100%">开启后，音箱将不会有灯光和声音的提示</Label>
+            </LayoutView>
+        </TableViewSection>
+        
+        <TableViewSection id="time_section">
+            <TableViewCell id="cell_id" tap="#startCellClick" selectionStyle="none">
+                <Label left="22" centerY="super.centerY" font="17" textColor="white">定时开始时间</Label>
+                <Label right="41" id="#timeStartLabel" centerY="super.centerY" font="17" textColor="#7A7E89 100%">上午 10:00</Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+            <TableViewCell id="cell_id" tap="#endCellClick" selectionStyle="none">
+                <Label left="22" centerY="super.centerY" font="17" textColor="white">定时结束时间</Label>
+                <Label right="41" id="#timeEndLabel" centerY="super.centerY" font="17" textColor="#7A7E89 100%">下午 10:00</Label>
+                <ImageView right="24" centerY="super.centerY">Setting_btn_next</ImageView>
+            </TableViewCell>
+        </TableViewSection>
+        
+        <TableViewSection id="dnd_system" footerViewNodeId="footer">
+            <TableViewCell id="cell_id" selectionStyle="none">
+                <Label left="22" centerY="super.centerY" font="17" textColor="white">系统免提示</Label>
+                <Switch id="#systemSwitch" centerY="super.centerY" right="22" on="1"/>
+            </TableViewCell>
+            <LayoutView id="footer" left="0" right="0" height="30">
+                <Label left="22" right="22" top="8" font="13" textColor="#7A7E89 100%">开启后，开机、升级和低电量不再提示</Label>
+            </LayoutView>
+        </TableViewSection>
+        
+        <TableViewSection id="dnd_message" footerViewNodeId="footer">
+            <TableViewCell id="cell_id" selectionStyle="none">
+                <Label left="22" centerY="super.centerY" font="17" textColor="white">微信群留言免提示</Label>
+                <Switch id="#messageSwitch" centerY="super.centerY" right="22" on="1"/>
+            </TableViewCell>
+            <LayoutView id="footer" left="0" right="0" height="30">
+                <Label left="22" right="22" top="8" font="13" textColor="#7A7E89 100%">开启后，新留言和未读留言将不再提示</Label>
+            </LayoutView>
+        </TableViewSection>
+        
+    </TableView>
+    
+    <LayoutView id="#dndPickerView" height="222" left="0" bottom="-222" right="0" backgroundColor="#41485A 100%">
+        <View top="44" left="0" height="0.5" right="0" backgroundColor="#FFFFFF 10%"/>
+        <Button left="22" centerY="super.top+22" tap="#dndCancel" font="bold;13">取消</Button>
+        <Button right="22" centerY="super.top+22" tap="#dndDone" font="bold;13">完成</Button>
+        <PickerView id="#dndPicker" top="44" left="0" bottom="0" right="0" textColor="white" rowHeight="44">
+            <Component>
+                <op>始终开启</op>
+                <op>定时开启</op>
+                <op>关闭</op>
+            </Component>
+        </PickerView>
+    </LayoutView>
+    
+    <LayoutView id="#datePickerView" height="222" left="0" bottom="-222" right="0" backgroundColor="#41485A 100%">
+        <View top="44" left="0" height="0.5" right="0" backgroundColor="#FFFFFF 10%"/>
+        <Button left="22" centerY="super.top+22" tap="#dateCancel" font="bold;13">取消</Button>
+        <Button right="22" centerY="super.top+22" tap="#dateDone" font="bold;13">完成</Button>
+        <PickerView id="#datePicker" top="44" left="0" bottom="0" right="0" textColor="white" rowHeight="44">
+            <Component>
+                <op>上午</op>
+                <op>下午</op>
+            </Component>
+            <Component>
+                <op>01</op>
+                <op>02</op>
+                <op>03</op>
+                <op>04</op>
+                <op>05</op>
+                <op>06</op>
+                <op>07</op>
+                <op>08</op>
+                <op>09</op>
+                <op>10</op>
+                <op>11</op>
+                <op>12</op>
+            </Component>
+            <Component>
+                <op>00</op><op>01</op><op>02</op><op>03</op><op>04</op><op>05</op><op>06</op><op>07</op><op>08</op><op>09</op>
+                <op>10</op><op>11</op><op>12</op><op>13</op><op>14</op><op>15</op><op>16</op><op>17</op><op>18</op><op>19</op>
+                <op>20</op><op>21</op><op>22</op><op>23</op><op>24</op><op>25</op><op>26</op><op>27</op><op>28</op><op>29</op>
+                <op>30</op><op>31</op><op>32</op><op>33</op><op>34</op><op>35</op><op>36</op><op>37</op><op>38</op><op>39</op>
+                <op>40</op><op>41</op><op>42</op><op>43</op><op>44</op><op>45</op><op>46</op><op>47</op><op>48</op><op>49</op>
+                <op>50</op><op>51</op><op>52</op><op>53</op><op>54</op><op>55</op><op>56</op><op>57</op><op>58</op><op>59</op>
+            </Component>
+        </PickerView>
+    </LayoutView>
+
+</ViewController>
+

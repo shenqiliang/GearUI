@@ -1,0 +1,43 @@
+<ViewController title="推荐" backgroundColor="#2D323F 100%" >
+    <TableView left="0" right="0" top="0" bottom="0" id="main_table" backgroundColor="#2D323F 100%" separatorStyle="none" contentInset="{0,0,10,0}">
+        <TableViewCell id="banner_cell" backgroundColor="#2D323F 100%" selectionStyle="none">
+            <BannerView id="banner" pageControlId="page" top="12" imagePaths=";;;" left="11" right="11" bottom="9" height="banner.width*0.5625" backgroundColor="gray"/>
+            <PageControl id="page" left="banner.left" right="banner.right" bottom="banner.bottom" height="20"/>
+        </TableViewCell>
+        
+        <TableViewCell id="data_cell" backgroundColor="#2D323F 100%" selectionStyle="none">
+            <LayoutView id="layout_0" left="12" top="15" width="super.width*0.33333-16" height="layout_0.width+35" bottom="0">
+                <ImageView id="item" left="0" top="0" width="super.width" height="item.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+                <GradientView left="item.left" top="item.top" bottom="item.bottom" right="item.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="amount" left="item.left+2.5" bottom="item.bottom-2.5" font="9" textColor="white">12亿</Label>
+                <Label id="#name" left="item.left" top="item.bottom+8" font="13" right="item.right" textColor="white">睡美人</Label>
+                <Label id="episode_num" right="item.right-2.5" bottom="item.bottom-2.5" font="9" textColor="white">230集</Label>
+                <Label id="tag" right="item.right" top="item.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#00C2DE 100%">最新</Label>
+                <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="item.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+            </LayoutView>
+            <LayoutView id="layout_1" centerX="super.centerX" top="15" width="super.width*0.33333-16" height="layout_0.width+35">
+                <ImageView id="item" left="0" top="0" width="super.width" height="item.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+                <GradientView left="item.left" top="item.top" bottom="item.bottom" right="item.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="amount" left="item.left+2.5" bottom="item.bottom-2.5" font="9" textColor="white">12亿</Label>
+                <Label id="name" left="item.left" top="item.bottom+8" font="13" right="item.right" textColor="white">睡美人</Label>
+                <Label id="episode_num" right="item.right-2.5" bottom="item.bottom-2.5" font="9" textColor="white">230集</Label>
+                <Label id="tag" right="item.right" top="item.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#00C2DE 100%">最新</Label>
+                <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="item.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+            </LayoutView>
+            <LayoutView id="layout_2" right="12" top="15" width="super.width*0.33333-16" height="layout_0.width+35">
+                <ImageView id="item" left="0" top="0" width="super.width" height="item.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+                <GradientView left="item.left" top="item.top" bottom="item.bottom" right="item.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+                <Label id="amount" left="item.left+2.5" bottom="item.bottom-2.5" font="9" textColor="white">12亿</Label>
+                <Label id="name" left="item.left" top="item.bottom+8" font="13" right="item.right" textColor="white">睡美人</Label>
+                <Label id="episode_num" right="item.right-2.5" bottom="item.bottom-2.5" font="9" textColor="white">230集</Label>
+                <Label id="tag" right="item.right" top="item.top+8" font="13" height="18" width="36" textColor="white" textAlignment="center" backgroundColor="#00C2DE 100%">最新</Label>
+                <Button id="button" delaysHighlighting="yes" left="0" right="0" top="0" bottom="item.bottom" backgroundImage="clear" highlightedBackgroundImage="#000000 50%"/>
+            </LayoutView>
+        </TableViewCell>
+        
+    </TableView>
+    
+    <Label id="alert_label" hidden="1" tap="1" left="0" right="0" top="0" height="36" textAlignment="center" textColor="white" font="bold;13" backgroundColor="#393F4F 100%">添加儿童信息可获取精准推荐，<a color="#20c2dc">点击添加</a></Label>
+    
+</ViewController>
+

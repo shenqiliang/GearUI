@@ -1,0 +1,24 @@
+<ViewController title="音箱联网" navigationBarTintColor="clear" extendedLayoutIncludesOpaqueBars="1" backgroundColor="white" closeMuiscBarWhenPush="1">
+    <ImageView left="0" top="0" right="0" bottom="0">netpair_bg</ImageView>
+    <LayoutView left="0" right="0" top="safeArea.top" bottom="safeArea.bottom">
+        <ImageView id="speaker" centerX="super.centerX" centerY="super.centerY+11">netpair_音箱联网</ImageView>
+        <ImageView bottom="speaker.top-67" centerX="super.centerX">音箱联网_wifi</ImageView>
+        <Animation target="dot3" autoRun="1" duration="1.8" repeatCount="1000" >
+            <Animation keyPath="opacity" fromValue="0.2" toValue="1" duration="0.2" beginTime="0"/>
+            <Animation keyPath="opacity" fromValue="1" toValue="0.2" duration="0.2" beginTime="0.4"/>
+        </Animation>
+        <Animation target="dot2" autoRun="1" duration="1.8" repeatCount="1000" >
+            <Animation keyPath="opacity" fromValue="0.2" toValue="1" duration="0.2" beginTime="0.6"/>
+            <Animation keyPath="opacity" fromValue="1" toValue="0.2" duration="0.2" beginTime="1.0"/>
+        </Animation>
+        <Animation target="dot1" autoRun="1" duration="1.8" repeatCount="1000" >
+            <Animation keyPath="opacity" fromValue="0.2" toValue="1" duration="0.2" beginTime="1.2"/>
+            <Animation keyPath="opacity" fromValue="1" toValue="0.2" duration="0.2" beginTime="1.6"/>
+        </Animation>
+        
+        <ImageView id="dot1" bottom="speaker.top-43" alpha="0.2" centerX="super.centerX">音箱联网_高亮点</ImageView>
+        <ImageView id="dot2" bottom="speaker.top-32" alpha="0.2" centerX="super.centerX">音箱联网_高亮点</ImageView>
+        <ImageView id="dot3" bottom="speaker.top-21" alpha="0.2" centerX="super.centerX">音箱联网_高亮点</ImageView>
+        <Button id="#connectButton" tap="#connectAction" bottom="safeArea.bottom-61" centerX="super.centerX" height="49" left="30" right="30" backgroundColor="" font="bold;17" highlightedTitleColor="#ffffff 50%" backgroundImage="btn_bg_blue_large" titleColor="white">开始联网</Button>
+    </LayoutView>
+</ViewController>

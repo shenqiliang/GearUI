@@ -1,0 +1,15 @@
+<ViewController title="" backgroundColor="#2D323F 100%" showNavigationBarShadow="YES">
+    <TableView id="id_tableView" separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#282D39 100%" separatorColor="clear" removeRedundantSeparator="true">
+        <TableViewCell id="id_title" height="50" backgroundColor="#2D323F 100%" selectedBackgroundColor="#393F4F">
+            <Label id="id_titleLabel" left="22" centerY="super.centerY" font="17" textColor="white"></Label>
+            <LayoutView id="id_bottomLine" left="22" right="22" height="0.5" bottom="super.bottom" backgroundColor="#4D515A 100%"></LayoutView>
+        </TableViewCell>
+        <TableViewCell id="id_music" height="61" backgroundColor="#2D323F 100%" selectedBackgroundColor="#393F4F">
+            <Button id="id_playButton" left="22" centerY="super.centerY" width="22" height="22" image="alarm_icon_try_2_play" touchEdgeInsets="{-20, -20, -20, -20}" delaysHighlighting="yes"></Button>
+            <Label id="id_title" left="id_playButton.right+10" top="12" right="22" font="17" textColor="#FBFCFE 100%">晴天</Label>
+            <Label id="id_content" left="id_playButton.right+10" bottom="9" right="22" font="13" textColor="#7A7E89 100%">周杰伦·双节棍</Label>
+            <LayoutView id="id_bottomLine" left="22" right="22" height="0.5" bottom="super.bottom" backgroundColor="#4D515A 100%"></LayoutView>
+            <ActivityIndicatorView id="id_loadingIndicator" centerX="id_playButton.centerX" centerY="id_playButton.centerY" hidesWhenStopped="true"/>
+        </TableViewCell>
+    </TableView>
+</ViewController>

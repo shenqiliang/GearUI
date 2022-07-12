@@ -1,0 +1,46 @@
+<LayoutView>
+    <TableView id="mvpNbaTableView" separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorStyle="none"  removeRedundantSeparator="true">
+        <TableViewCell id="mvpNbaTableViewNameCell" backgroundColor="clear" selectionStyle="none" >
+            <ImageView id="leftAvatarImageView" left="30" top="41" height="52" width="52" contentMode="fit" backgroundColor="white" cornerRadius="26" ></ImageView>
+            <Label id="nameLabel" textColor="white" font="17" height="24" left="leftAvatarImageView.right+15" centerY="leftAvatarImageView.centerY" bottom="42">勒布朗 詹姆斯</Label>
+        </TableViewCell>
+        
+        <TableViewCell id="mvpNbaTableViewNameDetailCell1" height="41" backgroundColor="clear" selectionStyle="none">
+            <Label id="shoufa" textColor="#7A7E89 100%" font="17" height="17" left="30" top="0">首发</Label>
+            <Label id="shoufaResutl" textColor="#7A7E89 100%" font="17" height="17" left="shoufa.right+9.5" top="shoufa.top">是</Label>
+            <Label id="shijian" textColor="#7A7E89 100%" font="17" height="17" left="shoufa.right+85" top="shoufa.top">时间</Label>
+            <Label id="sanfenzhong" textColor="#7A7E89 100%" font="17" height="17" left="shoufa.right+127.5" top="shoufa.top">3分钟</Label>
+            <Label id="defenLabel" textColor="#7A7E89 100%" font="17" height="17" left="shoufa.right+202" top="shoufa.top">得分</Label>
+            <Label id="defen" textColor="#7A7E89 100%" font="17" height="17" left="shoufa.right+245" top="shoufa.top" bottom="24">24</Label>
+        </TableViewCell>
+        
+        <TableViewCell id="mvpNbaTableViewNameDetailCell2" height="41" backgroundColor="clear" selectionStyle="none">
+            <Label id="toulan" textColor="#7A7E89 100%" font="17" height="17" left="30" top="0">投篮</Label>
+            <Label id="toulanResult" textColor="#7A7E89 100%" font="17" height="17" left="toulan.right+9.5" top="toulan.top">14/24</Label>
+            <Label id="sanfenqiu" textColor="#7A7E89 100%" font="17" height="17" left="toulan.right+85" top="toulan.top">三分</Label>
+            <Label id="sanfenqiuResult" textColor="#7A7E89 100%" font="17" height="17" left="toulan.right+127.5" top="toulan.top">14/24</Label>
+            <Label id="faqiu" textColor="#7A7E89 100%" font="17" height="17" left="toulan.right+202" top="toulan.top">罚球</Label>
+            <Label id="faqiuResult" textColor="#7A7E89 100%" font="17" height="17" left="toulan.right+245" top="toulan.top" bottom="24">14/24</Label>
+        </TableViewCell>
+        
+        <TableViewCell id="mvpNbaTableViewNameDetailCell3" height="41" backgroundColor="clear" selectionStyle="none">
+            <Label id="lanban" textColor="#7A7E89 100%" font="17" height="17" left="30" top="0">篮板</Label>
+            <Label id="lanbanResult" textColor="#7A7E89 100%" font="17" height="17" left="lanban.right+9.5" top="lanban.top">4</Label>
+            <Label id="qiangduan" textColor="#7A7E89 100%" font="17" height="17" left="lanban.right+85" top="lanban.top">抢断</Label>
+            <Label id="qiangduanResult" textColor="#7A7E89 100%" font="17" height="17" left="lanban.right+127.5" top="lanban.top">3</Label>
+            <Label id="fangui" textColor="#7A7E89 100%" font="17" height="17" left="lanban.right+202" top="lanban.top">犯规</Label>
+            <Label id="fanguiResult" textColor="#7A7E89 100%" font="17" height="17" left="lanban.right+245" top="lanban.top" bottom="24">24</Label>
+        </TableViewCell>
+        
+        <TableViewCell id="mvpNbaTableViewNameDetailCell4" height="41" backgroundColor="clear" selectionStyle="none">
+            <Label id="zhugong" textColor="#7A7E89 100%" font="17" height="17" left="30" top="0">助攻</Label>
+            <Label id="zhugongRerult" textColor="#7A7E89 100%" font="17" height="17" left="zhugong.right+9.5" top="zhugong.top">9</Label>
+            <Label id="shiwu" textColor="#7A7E89 100%" font="17" height="17" left="zhugong.right+85" top="zhugong.top">失误</Label>
+            <Label id="shiwuResult" textColor="#7A7E89 100%" font="17" height="17" left="zhugong.right+127.5" top="zhugong.top">37</Label>
+            <Label id="gaimao" textColor="#7A7E89 100%" font="17" height="17" left="zhugong.right+202" top="zhugong.top">盖帽</Label>
+            <Label id="gaimaoResult" textColor="#7A7E89 100%" font="17" height="17" left="zhugong.right+245" top="zhugong.top" bottom="24">24</Label>
+        </TableViewCell>
+    
+    </TableView>
+    
+</LayoutView>

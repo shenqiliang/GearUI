@@ -1,0 +1,82 @@
+<ViewController title="" backgroundColor="#2D323F 100%">
+    <TableView id="#tableView" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" separatorStyle="none" allowsSelection="0">
+       <!--音乐-->
+       <TableViewCell id="music" file="MusicDialogViewCell" backgroundColor="#2D323F 100%" selectedBackgroundColor="clear">
+       </TableViewCell>
+
+       <!--Chat-->
+       <TableViewCell id="chat" file="ChatDialogViewCell" backgroundColor="#2D323F 100%" selectedBackgroundColor="clear">
+       </TableViewCell>
+
+       <!-- alarm   -->
+       <TableViewCell id="alarm" file="AlarmDialogViewCell" backgroundColor="#2D323F" selectedBackgroundColor="clear">
+       </TableViewCell>
+       
+       <!--reminder-->
+       <TableViewCell id="reminder" file="ReminderDialogViewCell" backgroundColor="#2D323F" selectedBackgroundColor="clear">
+       </TableViewCell>
+       
+       <!--notes-->
+       <TableViewCell id="notes" file="NotesDialogViewCell" backgroundColor="#2D323F" selectedBackgroundColor="clear">
+       </TableViewCell>
+       
+       <!--weather-->
+       <TableViewCell id="weather" file="WeatherDialogViewCell" backgroundColor="#2D323F" selectedBackgroundColor="clear">
+       </TableViewCell>
+       
+       <!--weatherofday-->
+       <TableViewCell id="weatherofday" file="WeatherOfDayDialogViewCell" backgroundColor="#2D323F" selectedBackgroundColor="clear">
+       </TableViewCell>
+       
+       <!--stock-->
+       <TableViewCell id="stock" file="StockDialogViewCell" backgroundColor="#2D323F" selectedBackgroundColor="clear">
+       </TableViewCell>
+       
+       <!--market-->
+       <TableViewCell id="market" file="StockMarketDialogViewCell" backgroundColor="#2D323F" selectedBackgroundColor="clear">
+       </TableViewCell>
+       
+       <!--countdown-->
+       <TableViewCell id="countdown" file="CountdownDialogViewCell" backgroundColor="#2D323F" selectedBackgroundColor="clear">
+       </TableViewCell>
+       
+       <!--News-->
+       <TableViewCell id="news" file="NewsDialogViewCell" backgroundColor="#2D323F 100%" selectedBackgroundColor="clear">
+       </TableViewCell>
+
+       <!--time-->
+       <TableViewCell id="time" file="TimeDialogViewCell" backgroundColor="#2D323F 100%" selectedBackgroundColor="clear">
+       </TableViewCell>
+
+        <!--empty result-->
+       <TableViewCell id="empty_result" file="EmptyResultDialogViewCell" backgroundColor="#2D323F 100%" selectedBackgroundColor="clear">
+       </TableViewCell>
+    </TableView>
+    <LayoutView id="nodata_view" top="0" left="0" alpha="0" bottom="0" right="0" backgroundColor="#2D323F 100%">
+        <Label id="title" left="10" right="10" textAlignment="center" centerY="super.centerY-209" font="24" textColor="white">你可以试试这么问我：</Label>
+        <TableView id="example_table" top="title.bottom+35" height="400" left="0" right="0"  backgroundColor="clear" separatorStyle="none" rowHeight="49" scrollEnabled="no" userInteractionEnabled="no">
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" textColor="white" font="17">9420，来点音乐</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" textColor="white" font="17">9420，今天天气怎么样</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" textColor="white" font="17">9420，腾讯股价是多少</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" textColor="white" font="17">9420，帮我找下手机</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" textColor="white" font="17">9420，今天的农历日期</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" textColor="white" font="17">9420，打开蓝牙</Label>
+            </TableViewCell>
+            <TableViewCell backgroundColor="clear">
+                <Label centerX="super.centerX" top="0" textColor="white" font="17">9420，音量调到4</Label>
+            </TableViewCell>
+        </TableView>
+    </LayoutView>
+    <ImageView id="#tipImageView" hidden="1" top="11" left="10" width="228" height="37.5">guide_对话引导</ImageView>
+</ViewController>

@@ -1,0 +1,14 @@
+<ViewController title="Title" backgroundColor="#2D323F 98%" >
+    <LayoutView top="0" left="0" bottom="0" right="0">
+        <Label id="title_label" centerX="super.centerX" top="221" font="24" textColor="white">添加新唤醒词</Label>
+        <View id="line" centerX="super.centerX+40" top="title_label.bottom+56" height="0.5" width="175" backgroundColor="#7A7E89 100%"/>
+        <TextField id="text_word" font="24" left="line.left" bottom="title_label.bottom+56" textAlignment="left" height="44" width="315" textColor="white" />
+        <Label id="#tipLabel" left="line.left" top="title_label.bottom+71" font="13" textAlignment="left"  textColor="white">请输入1-5个汉字</Label>
+        
+        <Label right="line.left-8" bottom="line.bottom-8" font="24" textColor="white">你好</Label>
+    </LayoutView>
+    <LayoutView id="button_view" bottom="264" width="super.width" height="60" left="0">
+        <Button id="btn_left" left="48" bottom="20" height="30" titleColor="#00C2DE 100%" font="bold;24" touchEdgeInsets="{-20, -20, -20, -20}">取消</Button>
+        <Button id="confirm" right="48" bottom="20" height="30" titleColor="#00C2DE 100%" font="bold;24" touchEdgeInsets="{-20, -20, -20, -20}">确定</Button>
+    </LayoutView>
+</ViewController>

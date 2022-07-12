@@ -1,0 +1,11 @@
+<LayoutView backgroundColor="#393F4F 100%">
+    <Label left="22" top="36" font="medium;17" textColor="white">如何切换WiFi</Label>
+    <Label id="label1" left="22" right="22" top="83" font="15" lineSpace="4.5" textColor="white" numberOfLines="0">1. 在手机设置-WiFi中，选择你想给音箱配置的WiFi网络，并连接上；</Label>
+    <ImageView centerX="super.centerX" top="label1.bottom+14" width="275" height="150">切换WiFi_步骤1</ImageView>
+    <Label id="label2" left="22" right="22" top="label1.bottom+190" bottom="264" font="15" lineSpace="4.5" textColor="white" numberOfLines="0">2. 手机连接成功后，返回APP，会自动切换你选择的WiFi。</Label>
+    <ImageView centerX="super.centerX" top="label2.bottom+12" width="275" height="165">切换WiFi_步骤2</ImageView>
+    <View height="0.5" bottom="61" left="0" right="0" backgroundColor="#ffffff 10%"/>
+    <Button tap="#dismiss"  bottom="0" left="0" right="0" height="61" font="bold;17" titleColor="white" highlightedTitleColor="#ffffff 50%">关闭</Button>
+    <View top="super.bottom" left="0" right="0" height="50" backgroundColor="#393F4F 100%"/>
+</LayoutView>
+

@@ -1,0 +1,6 @@
+<ViewController title="音箱收藏" backgroundColor="#2D323F 100%">
+    <LayoutView backgroundColor="#2D323F 100%">
+        <TableView id="id_media_list" file="MediaItemTable">
+        </TableView>
+    </LayoutView>
+</ViewController>

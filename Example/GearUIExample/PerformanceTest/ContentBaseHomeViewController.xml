@@ -1,0 +1,17 @@
+<ViewController title="有声书" >
+    <TableView left="0" right="0" top="0" bottom="0" id="main_table" backgroundColor="#2D323F 100%" separatorStyle="none" contentInset="{0,0,10,0}" allowsSelection="false">
+        <TableViewCell id="banner_cell" file="AudioBookBannerCell" backgroundColor="#2D323F 100%" selectionStyle="none">
+        </TableViewCell>
+        <TableViewCell id="tags_cell" file="AudioBookTagsCell" backgroundColor="#2D323F" separatorStyle="none">
+        </TableViewCell>
+        <TableViewCell id="recommend_section_cell" file="AudioBookRecommendCell" backgroundColor="#2D323F" separatorStyle="none">
+        </TableViewCell>
+        <TableViewCell id="recommend1_section_cell" file="AudioBookRecommend2Cell" backgroundColor="#2D323F" separatorStyle="none">
+        </TableViewCell>
+        <TableViewCell id="news_category_cell" file="NewsCategoryCell" backgroundColor="#2D323F" separatorStyle="none">
+        </TableViewCell>
+    </TableView>
+    <Label id="alert_label" hidden="1" tap="1" left="0" right="0" top="0" height="36" textAlignment="center" textColor="white" font="bold;13" backgroundColor="#393F4F 100%">添加儿童信息可获取精准推荐，<a color="#20c2dc">点击添加</a></Label>
+    <Label id="prompt_label" hidden="1" tap="1" left="0" right="0" top="0" height="36" textAlignment="center" textColor="white" font="bold;13" backgroundColor="#393F4F 100%">根据你家宝宝的喜好推荐这些故事</Label>
+    <Label id="perfect_label" hidden="1" tap="1" left="0" right="0" top="0" height="36" textAlignment="center" textColor="white" font="bold;13" backgroundColor="#393F4F 100%">完善宝宝信息，为你的宝贝量身定制故事，<a color="#20c2dc">去完善</a></Label>
+</ViewController>

@@ -1,0 +1,26 @@
+<ViewController title="常见问题" extendedLayoutIncludesOpaqueBars="1" closeMuiscBarWhenPush="1">
+    <TableView separatorStyle="none">
+        <TableViewCell>
+            <Label id="first" left="30" top="21" font="17" textColor="white" right="30">1. WiFi密码输入错误</Label>
+            <Label id="second" left="30" top="first.bottom+11" font="13" textColor="#FFFFFF 50%" lineSpace="8" bottom="17" numberOfLines="0" right="30">请确认正确的WiFi密码后，重新尝试使用</Label>
+        </TableViewCell>
+        <TableViewCell>
+            <Label id="first" left="30" top="21" font="17" textColor="white" right="30">2. 音箱和路由器距离太远</Label>
+            <Label id="second" left="30" top="first.bottom+11" font="13" textColor="#FFFFFF 50%" lineSpace="8" bottom="17" numberOfLines="0" right="30">请让音箱尽量靠近路由器，中间不要有墙体阻隔，保持良好的网络信号</Label>
+        </TableViewCell>
+        <TableViewCell>
+            <Label id="first" left="30" top="21" font="17" textColor="white" right="30">3. 手机连接的是5G WiFi</Label>
+            <Label id="second" left="30" top="first.bottom+11" font="13" textColor="#FFFFFF 50%" lineSpace="8" bottom="17" numberOfLines="0" right="30">设备不支持5G WiFi网络，若路由器工作在5GHz 频段，建议同时开启2.4GHz频段。在设备联网阶段，手机需要接入2.4G频段的网路</Label>
+        </TableViewCell>
+        <TableViewCell>
+            <Label id="first" left="30" top="21" font="17" textColor="white" right="30">4. 手机连接的WiFi路由器配置影响了音箱</Label>
+            <Label id="second" left="30" top="first.bottom+11" font="13" textColor="#FFFFFF 50%" lineSpace="8" bottom="17" numberOfLines="0" right="30">路由器开启以下功能会导致音箱无法联网：<br/>  •    AP隔离功能<br/>  •    mac地址过滤<br/>  •    过滤/禁止广播包
+            </Label>
+        </TableViewCell>
+        <TableViewCell>
+            <Label id="first" left="30" top="21" font="17" textColor="white" right="30">5. WiFi名称含有中文</Label>
+            <Label id="second" left="30" top="first.bottom+11" font="13" textColor="#FFFFFF 50%" lineSpace="8" bottom="17" numberOfLines="0" right="30">含有中文的WiFi名称在识别时可能出错，导致不能联网，请修改WiFi名称</Label>
+        </TableViewCell>
+    </TableView>
+
+</ViewController>

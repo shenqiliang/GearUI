@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E4348F620294BF300F30630 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EEDC1C31F0F982A0060226E /* Info.plist */; };
+		4E5AD38B1FE22C60006615F2 /* GUDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5AD38A1FE22C60006615F2 /* GUDeviceManager.m */; };
+		4E5AD38F1FE23268006615F2 /* MobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5AD38E1FE23268006615F2 /* MobileDevice.framework */; };
+		4E5AD3921FE2540A006615F2 /* GUDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5AD3911FE2540A006615F2 /* GUDevice.m */; };
+		4E5B763A1F1DC899001681BD /* NBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B76391F1DC899001681BD /* NBPeripheral.m */; };
+		4E78F5DA1F261F3C00AA6105 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E78F5D91F261F3C00AA6105 /* GCDAsyncSocket.m */; };
+		4E78F5DD1F261F5D00AA6105 /* NBTCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E78F5DC1F261F5D00AA6105 /* NBTCPClient.m */; };
+		4E78F5EE1F26F18600AA6105 /* tcprelay.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E78F5E91F26F18600AA6105 /* tcprelay.py */; };
+		4E78F5EF1F26F18600AA6105 /* usbmux.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E78F5EA1F26F18600AA6105 /* usbmux.py */; };
+		4ECE8FA21F14E76100A300CE /* tcp.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4ECE8FA11F14E49100A300CE /* tcp.sh */; };
+		4EEDC1BB1F0F982A0060226E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDC1BA1F0F982A0060226E /* AppDelegate.swift */; };
+		4EEDC1BD1F0F982A0060226E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDC1BC1F0F982A0060226E /* ViewController.swift */; };
+		4EEDC1BF1F0F982A0060226E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEDC1BE1F0F982A0060226E /* Assets.xcassets */; };
+		4EEDC1C21F0F982A0060226E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEDC1C01F0F982A0060226E /* Main.storyboard */; };
+		4EEDC1CA1F0F9B0E0060226E /* FileScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDC1C91F0F9B0E0060226E /* FileScanner.swift */; };
+		4EEDC1CC1F0F9B120060226E /* DirectoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDC1CB1F0F9B120060226E /* DirectoryMonitor.swift */; };
+		4EF8EF801FE5166800A05C79 /* FileWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8EF7E1FE5166700A05C79 /* FileWatcher.swift */; };
+		4EF8EF811FE5166800A05C79 /* FileWatcherEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8EF7F1FE5166700A05C79 /* FileWatcherEvent.swift */; };
+		4EF8EF831FE516E500A05C79 /* DebugServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8EF821FE516E500A05C79 /* DebugServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E5B76601F218E97001681BD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E5AD3861FE22C28006615F2 /* mobiledevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mobiledevice.h; sourceTree = "<group>"; };
+		4E5AD3891FE22C60006615F2 /* GUDeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUDeviceManager.h; sourceTree = "<group>"; };
+		4E5AD38A1FE22C60006615F2 /* GUDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUDeviceManager.m; sourceTree = "<group>"; };
+		4E5AD38E1FE23268006615F2 /* MobileDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileDevice.framework; path = GearUIDebugPlugin/MobileDevice.framework; sourceTree = "<group>"; };
+		4E5AD3901FE2540A006615F2 /* GUDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUDevice.h; sourceTree = "<group>"; };
+		4E5AD3911FE2540A006615F2 /* GUDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUDevice.m; sourceTree = "<group>"; };
+		4E5B76381F1DC898001681BD /* GearUIDebugServer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GearUIDebugServer-Bridging-Header.h"; sourceTree = "<group>"; };
+		4E5B76391F1DC899001681BD /* NBPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPeripheral.m; sourceTree = "<group>"; };
+		4E5B763B1F1DC89F001681BD /* NBPeripheral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBPeripheral.h; sourceTree = "<group>"; };
+		4E5B76501F218E97001681BD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E78F5D81F261F3C00AA6105 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		4E78F5D91F261F3C00AA6105 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		4E78F5DB1F261F5D00AA6105 /* NBTCPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTCPClient.h; sourceTree = "<group>"; };
+		4E78F5DC1F261F5D00AA6105 /* NBTCPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBTCPClient.m; sourceTree = "<group>"; };
+		4E78F5E91F26F18600AA6105 /* tcprelay.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = tcprelay.py; sourceTree = "<group>"; };
+		4E78F5EA1F26F18600AA6105 /* usbmux.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = usbmux.py; sourceTree = "<group>"; };
+		4E78F5EB1F26F18600AA6105 /* usbmux.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = usbmux.pyc; sourceTree = "<group>"; };
+		4ECE8FA11F14E49100A300CE /* tcp.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = tcp.sh; sourceTree = "<group>"; };
+		4EEDC1B71F0F982A0060226E /* GearUIDebugServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GearUIDebugServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEDC1BA1F0F982A0060226E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EEDC1BC1F0F982A0060226E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EEDC1BE1F0F982A0060226E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EEDC1C11F0F982A0060226E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EEDC1C31F0F982A0060226E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEDC1C91F0F9B0E0060226E /* FileScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileScanner.swift; sourceTree = "<group>"; };
+		4EEDC1CB1F0F9B120060226E /* DirectoryMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryMonitor.swift; sourceTree = "<group>"; };
+		4EF8EF7E1FE5166700A05C79 /* FileWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWatcher.swift; sourceTree = "<group>"; };
+		4EF8EF7F1FE5166700A05C79 /* FileWatcherEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWatcherEvent.swift; sourceTree = "<group>"; };
+		4EF8EF821FE516E500A05C79 /* DebugServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugServer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EEDC1B41F0F982A0060226E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5AD38F1FE23268006615F2 /* MobileDevice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5B764F1F218E97001681BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AD38E1FE23268006615F2 /* MobileDevice.framework */,
+				4E5B76501F218E97001681BD /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E78F5E61F26F18600AA6105 /* usbmux.py */ = {
+			isa = PBXGroup;
+			children = (
+				4E78F5E91F26F18600AA6105 /* tcprelay.py */,
+				4E78F5EA1F26F18600AA6105 /* usbmux.py */,
+				4E78F5EB1F26F18600AA6105 /* usbmux.pyc */,
+			);
+			path = usbmux.py;
+			sourceTree = "<group>";
+		};
+		4EEDC1AE1F0F982A0060226E = {
+			isa = PBXGroup;
+			children = (
+				4EF8EF7D1FE5163700A05C79 /* FileWatcher */,
+				4EEDC1B91F0F982A0060226E /* GearUIDebugServer */,
+				4E5B764F1F218E97001681BD /* Frameworks */,
+				4EEDC1B81F0F982A0060226E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EEDC1B81F0F982A0060226E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EEDC1B71F0F982A0060226E /* GearUIDebugServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EEDC1B91F0F982A0060226E /* GearUIDebugServer */ = {
+			isa = PBXGroup;
+			children = (
+				4E5AD3861FE22C28006615F2 /* mobiledevice.h */,
+				4E78F5E61F26F18600AA6105 /* usbmux.py */,
+				4E78F5D81F261F3C00AA6105 /* GCDAsyncSocket.h */,
+				4E78F5D91F261F3C00AA6105 /* GCDAsyncSocket.m */,
+				4E5B763B1F1DC89F001681BD /* NBPeripheral.h */,
+				4E5B76391F1DC899001681BD /* NBPeripheral.m */,
+				4E78F5DB1F261F5D00AA6105 /* NBTCPClient.h */,
+				4E78F5DC1F261F5D00AA6105 /* NBTCPClient.m */,
+				4EEDC1CB1F0F9B120060226E /* DirectoryMonitor.swift */,
+				4EEDC1C91F0F9B0E0060226E /* FileScanner.swift */,
+				4EEDC1BA1F0F982A0060226E /* AppDelegate.swift */,
+				4EEDC1BC1F0F982A0060226E /* ViewController.swift */,
+				4EEDC1BE1F0F982A0060226E /* Assets.xcassets */,
+				4EEDC1C01F0F982A0060226E /* Main.storyboard */,
+				4EEDC1C31F0F982A0060226E /* Info.plist */,
+				4ECE8FA11F14E49100A300CE /* tcp.sh */,
+				4E5B76381F1DC898001681BD /* GearUIDebugServer-Bridging-Header.h */,
+				4EF8EF821FE516E500A05C79 /* DebugServer.swift */,
+				4E5AD3891FE22C60006615F2 /* GUDeviceManager.h */,
+				4E5AD38A1FE22C60006615F2 /* GUDeviceManager.m */,
+				4E5AD3901FE2540A006615F2 /* GUDevice.h */,
+				4E5AD3911FE2540A006615F2 /* GUDevice.m */,
+			);
+			path = GearUIDebugServer;
+			sourceTree = "<group>";
+		};
+		4EF8EF7D1FE5163700A05C79 /* FileWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				4EF8EF7E1FE5166700A05C79 /* FileWatcher.swift */,
+				4EF8EF7F1FE5166700A05C79 /* FileWatcherEvent.swift */,
+			);
+			path = FileWatcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EEDC1B61F0F982A0060226E /* GearUIDebugServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEDC1C61F0F982A0060226E /* Build configuration list for PBXNativeTarget "GearUIDebugServer" */;
+			buildPhases = (
+				4EEDC1B31F0F982A0060226E /* Sources */,
+				4EEDC1B41F0F982A0060226E /* Frameworks */,
+				4EEDC1B51F0F982A0060226E /* Resources */,
+				4E5B76601F218E97001681BD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GearUIDebugServer;
+			productName = GearUIDebugServer;
+			productReference = 4EEDC1B71F0F982A0060226E /* GearUIDebugServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EEDC1AF1F0F982A0060226E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tencent;
+				TargetAttributes = {
+					4EEDC1B61F0F982A0060226E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 26DT8J8H8F;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4EEDC1B21F0F982A0060226E /* Build configuration list for PBXProject "GearUIDebugServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 4EEDC1AE1F0F982A0060226E;
+			productRefGroup = 4EEDC1B81F0F982A0060226E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EEDC1B61F0F982A0060226E /* GearUIDebugServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EEDC1B51F0F982A0060226E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E78F5EE1F26F18600AA6105 /* tcprelay.py in Resources */,
+				4E78F5EF1F26F18600AA6105 /* usbmux.py in Resources */,
+				4E4348F620294BF300F30630 /* Info.plist in Resources */,
+				4EEDC1BF1F0F982A0060226E /* Assets.xcassets in Resources */,
+				4EEDC1C21F0F982A0060226E /* Main.storyboard in Resources */,
+				4ECE8FA21F14E76100A300CE /* tcp.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EEDC1B31F0F982A0060226E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E78F5DA1F261F3C00AA6105 /* GCDAsyncSocket.m in Sources */,
+				4E5AD3921FE2540A006615F2 /* GUDevice.m in Sources */,
+				4E5B763A1F1DC899001681BD /* NBPeripheral.m in Sources */,
+				4EF8EF801FE5166800A05C79 /* FileWatcher.swift in Sources */,
+				4EEDC1BD1F0F982A0060226E /* ViewController.swift in Sources */,
+				4EF8EF831FE516E500A05C79 /* DebugServer.swift in Sources */,
+				4EF8EF811FE5166800A05C79 /* FileWatcherEvent.swift in Sources */,
+				4E5AD38B1FE22C60006615F2 /* GUDeviceManager.m in Sources */,
+				4E78F5DD1F261F5D00AA6105 /* NBTCPClient.m in Sources */,
+				4EEDC1BB1F0F982A0060226E /* AppDelegate.swift in Sources */,
+				4EEDC1CC1F0F9B120060226E /* DirectoryMonitor.swift in Sources */,
+				4EEDC1CA1F0F9B0E0060226E /* FileScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EEDC1C01F0F982A0060226E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEDC1C11F0F982A0060226E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EEDC1C41F0F982A0060226E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EEDC1C51F0F982A0060226E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4EEDC1C71F0F982A0060226E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = x86_64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26DT8J8H8F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GearUIDebugServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "-FMobileDevice";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.GearUIDebugServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GearUIDebugServer/GearUIDebugServer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4EEDC1C81F0F982A0060226E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = x86_64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UZV4QA98S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GearUIDebugServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "-FMobileDevice";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.GearUIDebugServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GearUIDebugServer/GearUIDebugServer-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EEDC1B21F0F982A0060226E /* Build configuration list for PBXProject "GearUIDebugServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEDC1C41F0F982A0060226E /* Debug */,
+				4EEDC1C51F0F982A0060226E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEDC1C61F0F982A0060226E /* Build configuration list for PBXNativeTarget "GearUIDebugServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEDC1C71F0F982A0060226E /* Debug */,
+				4EEDC1C81F0F982A0060226E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EEDC1AF1F0F982A0060226E /* Project object */;
+}

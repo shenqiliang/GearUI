@@ -1,0 +1,9 @@
+<ViewController title="Animation Demo">
+    <Animation autoRun="yes" target="a" keyPath="position.x" duration="0.3" fromValue="10" toValue="200"/>
+    <LayoutView id="a" left="10" top="200" width="100" height="100" backgroundColor="lightGray"/>
+    <Animation id="disappear_animation" target="a" duration="0.3">
+        <Animation target="a" keyPath="opacity" duration="0.3" fromValue="1" toValue="0"/>
+        <Animation target="a" keyPath="position.y" duration="0.3" fromValue="200" toValue="500"/>
+    </Animation>
+    <Button tap="#runAnimation" bottom="72" centerX="super.centerX" titleColor="red" font="21">运行动画</Button>
+</ViewController>

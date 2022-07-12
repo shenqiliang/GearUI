@@ -1,0 +1,10 @@
+<LayoutView backgroundColor="#393F4F 100%">
+    <Label left="22" top="36" font="medium;17" textColor="white">哪些网络暂不支持？</Label>
+    <Label id="label1" left="22" right="22" top="83" font="15" lineSpace="4.5" textColor="white" numberOfLines="0">1. 暂不支持5G WiFi（通常WiFi名最后有“_5G”字样），请在手机WiFi设置中选择连接2.4G WiFi；</Label>
+    <ImageView centerX="super.centerX" top="label1.bottom+16" width="274" height="179">网络不支持</ImageView>
+    <Label id="label2" left="22" right="22" top="label1.bottom+223" bottom="97" font="15" lineSpace="4.5" textColor="white" numberOfLines="0">2. 暂不支持企业、酒店或商场需要认证WiFi（即连接后需要输入用户名密码或手机号验证的）。</Label>
+    <View height="0.5" bottom="61" left="0" right="0" backgroundColor="#ffffff 10%"/>
+    <Button tap="#dismiss"  bottom="0" left="0" right="0" height="61" font="bold;17" titleColor="white" highlightedTitleColor="#ffffff 50%">关闭</Button>
+    <View top="super.bottom" left="0" right="0" height="50" backgroundColor="#393F4F 100%"/>
+</LayoutView>
+

@@ -1,0 +1,10 @@
+<TableView id="id_media_list" separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorColor="darkGray" removeRedundantSeparator="true">
+    <TableViewCell id="id_media_item" height="65" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+        <ImageView id="cover" left="22" centerY="super.centerY" width="43" height="43"></ImageView>
+        <ImageView id="indicator" left="cover.right+10" disableLayout="true" centerY="title.centerY" height="14" width="14" contentMode="fit" animationDuration="1.16">PlayingMotion_%05d</ImageView>
+        <Label id="title" textColor="white" font="17" height="24" top="11" left="indicator.right+6|cover.right+10" right="fav_icon.left-10|22"></Label>
+        <Label id="detail" textColor="white" font="13" height="19" top="37" left="cover.right+10" right="fav_icon.left-10|22"></Label>
+        <ImageView id="fav_icon" right="25" tap="1" centerY="super.centerY" height="17" width="19" touchEdgeInsets="{-20,-20,-20,-20}">Manage_music_btn_unlike</ImageView>
+    </TableViewCell>
+</TableView>
+

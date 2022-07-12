@@ -1,0 +1,4 @@
+<LayoutView>
+    <ImageView centerX="super.centerX" centerY="super.centerY" width="75" height="75">wifi.gif</ImageView>
+    <CircularProgressView id="progressView" left="0" right="0" top="0" bottom="0" lineWidth="2" circleColor="#4d515a" fillColor="#00C2DE 100%"/>
+</LayoutView>

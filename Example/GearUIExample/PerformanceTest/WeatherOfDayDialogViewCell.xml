@@ -1,0 +1,26 @@
+<TableViewCell class="WeatherOfDayDialogViewCell">
+    <LayoutView top="0" left="10" right="10" bottom="15" backgroundColor="#41485A 100%" cornerRadius="3" clipsToBounds="1">
+        <LayoutView id="title" left="0" right="0" height="36" top="0" backgroundColor="#3A4152 100%">
+            <ImageView left="12" top="8" width="20" height="20">ico_weather</ImageView>
+            <Button id="feedback" right="12" top="8" width="20" height="20" image="反馈" touchEdgeInsets="{-20, -20, -20, -20}"></Button>
+        </LayoutView>
+        <LayoutView id="chat" top="title.bottom" left="0" right="0">
+            <Label id="text" left="12" centerY="super.centerY" font="15" textColor="#FBFCFE 100%" numberOfLines="0" lineSpace="9" right="12">今天的天气</Label>
+            <View id="sep" top="text.bottom+18" left="12" right="12" height="0.5" bottom="0" backgroundColor="#FFFFFF 10%"/>
+        </LayoutView>
+        
+        <LayoutView id="body" top="chat.bottom" height="108" left="0" right="0">
+            <ImageView id="weather_image" left="5" top="12" width="84" height="84">icon_cloudy_l</ImageView>
+            <LayoutView top="25" right="12" width="7.5" height="7.5" borderColor="#FBFCFE 100%" cornerRadius="3.75" borderWidth="1.5"></LayoutView>
+            <Label id="city" top="22.5" left="97.5" font="17" textColor="#FBFCFE 100%" >深圳市</Label>
+            <Label id="weather" top="48.5" left="97.5" font="13" textColor="#7A7E89 100%" >多云</Label>
+            <Label id="temperature" top="19" right="21.5" font="36" textAlignment="right" textColor="#FBFCFE 100%" >25</Label>
+            <Label id="pm25" top="69" left="97.5" right="temperature.left+10" font="13" textColor="#7A7E89 100%" >空气质量: 优 | PM2.5: 23</Label>
+            <Label id="desc" top="69" right="12" font="13" textColor="#FBFCFE 100%" >28°/24°</Label>
+        </LayoutView>
+        
+        <LayoutView left="0" right="0" top="body.bottom" height="44" bottom="0">
+            <Button id="detail_button" right="12" centerY="super.centerY" width="36" height="24" image="Setting_btn_next" layoutType="2" titleColor="#7A7E89 100%" font="13" touchEdgeInsets="{-20, -40, -20, 0}">详情</Button>
+        </LayoutView>
+    </LayoutView>
+</TableViewCell>

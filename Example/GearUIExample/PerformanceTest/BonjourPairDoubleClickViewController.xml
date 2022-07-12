@@ -1,0 +1,6 @@
+<ViewController title="音箱准备连接" backgroundColor="#2D323F 100%" closeMuiscBarWhenPush="1">
+    <ImageView id="image_animation" centerX="super.centerX" top="super.centerY-175" width="210" height="180">Net_gif_doubleclick.gif</ImageView>
+    <Label id="label_1" left="30" right="30" textColor="white" top="image_animation.bottom+38" textAlignment="center" font="17">双击音箱功能键，</Label>
+    <Label left="30" right="30" textColor="white" top="label_1.bottom+4" textAlignment="center" font="17">出现黄色灯带环绕</Label>
+</ViewController>
+

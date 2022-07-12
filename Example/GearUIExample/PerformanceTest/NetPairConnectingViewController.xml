@@ -1,0 +1,12 @@
+<ViewController title="连接网络" extendedLayoutIncludesOpaqueBars="1" closeMuiscBarWhenPush="1" useSafeAreaLayout="1">
+    <LayoutView>
+        <LayoutView id="loding_layout" centerX="super.centerX" top="super.bottom*0.49-186" width="150" height="150">
+            <ImageView centerX="super.centerX" centerY="super.centerY" width="75" height="75">wifi.gif</ImageView>
+            <CircularProgressView id="#progressView" left="0" right="0" top="0" bottom="0" lineWidth="2" circleColor="#4d515a" fillColor="#00C2DE 100%"/>
+        </LayoutView>
+        <Label left="10" right="10" top="loding_layout.bottom+39" textColor="white" textAlignment="center" lineSpace="8" numberOfLines="0" font="22">
+            <line font="24">正在连接</line><br/>
+            <line font="17">需要10-30秒，请稍候...</line>
+        </Label>
+    </LayoutView>
+</ViewController>

@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E9BA4CE25CCE32100A19A3C /* GUXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EE025CBFD9000D3B716 /* GUXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4D125CCE33100A19A3C /* GULayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F1725CBFD9000D3B716 /* GULayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4D325CCE33D00A19A3C /* GUViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F1625CBFD9000D3B716 /* GUViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4D525CCE34700A19A3C /* GUTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EFE25CBFD9000D3B716 /* GUTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4D725CCE37C00A19A3C /* GUNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F4125CBFD9100D3B716 /* GUNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4D925CCE38900A19A3C /* GULabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F1125CBFD9000D3B716 /* GULabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4DB25CCE38E00A19A3C /* GUImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EFF25CBFD9000D3B716 /* GUImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4DD25CCE39200A19A3C /* GUImageLoadDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F0925CBFD9000D3B716 /* GUImageLoadDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4DF25CCE3AA00A19A3C /* GUConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EFC25CBFD9000D3B716 /* GUConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4E125CCE3BD00A19A3C /* GUCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EF925CBFD9000D3B716 /* GUCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4E325CCE3F200A19A3C /* GUVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F2B25CBFD9100D3B716 /* GUVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4E525CCE41200A19A3C /* GUSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F1C25CBFD9000D3B716 /* GUSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4E725CCE41600A19A3C /* GUTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F2125CBFD9000D3B716 /* GUTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4E925CCE42000A19A3C /* GUSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F3925CBFD9100D3B716 /* GUSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4EB25CCE42400A19A3C /* GUWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F3A25CBFD9100D3B716 /* GUWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4ED25CCE42900A19A3C /* GUTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F4325CBFD9100D3B716 /* GUTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4EF25CCE43B00A19A3C /* GUTabControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EE925CBFD9000D3B716 /* GUTabControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4F125CCE43E00A19A3C /* GUPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EEF25CBFD9000D3B716 /* GUPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4F325CCE44100A19A3C /* GUGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EF525CBFD9000D3B716 /* GUGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4F525CCE44300A19A3C /* GUPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EF725CBFD9000D3B716 /* GUPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4F725CCE44900A19A3C /* GUScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F0025CBFD9000D3B716 /* GUScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA4FC25CCE47A00A19A3C /* GUCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18ED425CBFD9000D3B716 /* GUCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA50725CCE72300A19A3C /* GUButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F1325CBFD9000D3B716 /* GUButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA50925CCE73000A19A3C /* GUBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F0B25CBFD9000D3B716 /* GUBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA50B25CCE74200A19A3C /* GUURLHandleDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F0225CBFD9000D3B716 /* GUURLHandleDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA50D25CCE76500A19A3C /* GUCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EE825CBFD9000D3B716 /* GUCircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA51125CCEA9100A19A3C /* GUSlideBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F2225CBFD9000D3B716 /* GUSlideBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA51325CCEA9300A19A3C /* GUSlideBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F3225CBFD9100D3B716 /* GUSlideBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA51525CCEAA400A19A3C /* GUActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F2425CBFD9000D3B716 /* GUActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA51725CCEAAD00A19A3C /* GUDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F1225CBFD9000D3B716 /* GUDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA51D25CCEAF000A19A3C /* GUNodeBinCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18EFD25CBFD9000D3B716 /* GUNodeBinCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA51F25CCEAFC00A19A3C /* UIView+GUAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F3725CBFD9100D3B716 /* UIView+GUAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9BA52125CCEB0900A19A3C /* GUWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F0E25CBFD9000D3B716 /* GUWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA18F4425CBFDAA00D3B716 /* GUSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F0425CBFD9000D3B716 /* GUSwitch.m */; };
+		4EA18F4525CBFDAA00D3B716 /* GUCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F1A25CBFD9000D3B716 /* GUCircularProgressView.m */; };
+		4EA18F4625CBFDAA00D3B716 /* GUNodeBinCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F3F25CBFD9100D3B716 /* GUNodeBinCoder.m */; };
+		4EA18F4725CBFDAA00D3B716 /* GUScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F3C25CBFD9100D3B716 /* GUScrollView.m */; };
+		4EA18F4825CBFDAA00D3B716 /* NSObject+GUPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EE125CBFD9000D3B716 /* NSObject+GUPrivate.m */; };
+		4EA18F4925CBFDAA00D3B716 /* GUConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F4225CBFD9100D3B716 /* GUConfigure.m */; };
+		4EA18F4A25CBFDAA00D3B716 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EF025CBFD9000D3B716 /* UIView+Additions.m */; };
+		4EA18F4B25CBFDAA00D3B716 /* NBTCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18ECF25CBFD9000D3B716 /* NBTCPServer.m */; };
+		4EA18F4C25CBFDAA00D3B716 /* GUTabControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F1925CBFD9000D3B716 /* GUTabControl.m */; };
+		4EA18F4D25CBFDAA00D3B716 /* GULabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18ED625CBFD9000D3B716 /* GULabel.m */; };
+		4EA18F4E25CBFDAA00D3B716 /* GUTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F1825CBFD9000D3B716 /* GUTextLayout.m */; };
+		4EA18F4F25CBFDAA00D3B716 /* GUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EE325CBFD9000D3B716 /* GUTextField.m */; };
+		4EA18F5025CBFDAA00D3B716 /* GUXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F2525CBFD9000D3B716 /* GUXMLParser.m */; };
+		4EA18F5125CBFDAA00D3B716 /* GUPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F2925CBFD9000D3B716 /* GUPageControl.m */; };
+		4EA18F5225CBFDAA00D3B716 /* GUWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F0325CBFD9000D3B716 /* GUWebView.m */; };
+		4EA18F5325CBFDAA00D3B716 /* GUTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F3825CBFD9100D3B716 /* GUTableViewCell.m */; };
+		4EA18F5425CBFDAA00D3B716 /* GUDebugSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F2725CBFD9000D3B716 /* GUDebugSession.m */; };
+		4EA18F5525CBFDAA00D3B716 /* GUTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F4025CBFD9100D3B716 /* GUTableView.m */; };
+		4EA18F5625CBFDAA00D3B716 /* GUSlideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EEC25CBFD9000D3B716 /* GUSlideBarItem.m */; };
+		4EA18F5725CBFDAA00D3B716 /* GUTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F1F25CBFD9000D3B716 /* GUTableViewSection.m */; };
+		4EA18F5825CBFDAA00D3B716 /* GUVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EF625CBFD9000D3B716 /* GUVideoView.m */; };
+		4EA18F5925CBFDAA00D3B716 /* UIView+GUAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F0825CBFD9000D3B716 /* UIView+GUAttribute.m */; };
+		4EA18F5A25CBFDAA00D3B716 /* NSString+GUValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EDA25CBFD9000D3B716 /* NSString+GUValue.m */; };
+		4EA18F5B25CBFDAA00D3B716 /* GUSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EE225CBFD9000D3B716 /* GUSlideBar.m */; };
+		4EA18F5C25CBFDAA00D3B716 /* GUSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EE725CBFD9000D3B716 /* GUSlider.m */; };
+		4EA18F5D25CBFDAA00D3B716 /* GUButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18ED725CBFD9000D3B716 /* GUButton.m */; };
+		4EA18F5E25CBFDAA00D3B716 /* UIView+GULayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EF225CBFD9000D3B716 /* UIView+GULayout.m */; };
+		4EA18F5F25CBFDAA00D3B716 /* GUTextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F0625CBFD9000D3B716 /* GUTextNode.m */; };
+		4EA18F6025CBFDAA00D3B716 /* GUAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F0D25CBFD9000D3B716 /* GUAnimation.m */; };
+		4EA18F6125CBFDAA00D3B716 /* GUActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EDF25CBFD9000D3B716 /* GUActivityIndicatorView.m */; };
+		4EA18F6225CBFDAA00D3B716 /* GUPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F3125CBFD9100D3B716 /* GUPickerView.m */; };
+		4EA18F6325CBFDAA00D3B716 /* GULayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EE625CBFD9000D3B716 /* GULayoutConstraint.m */; };
+		4EA18F6425CBFDAA00D3B716 /* GUVisualEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F3025CBFD9100D3B716 /* GUVisualEffectView.m */; };
+		4EA18F6525CBFDAA00D3B716 /* GUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18ECC25CBFD9000D3B716 /* GUViewController.m */; };
+		4EA18F6625CBFDAA00D3B716 /* GUNodeProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F0A25CBFD9000D3B716 /* GUNodeProtocol.m */; };
+		4EA18F6725CBFDAA00D3B716 /* GUBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EDB25CBFD9000D3B716 /* GUBannerView.m */; };
+		4EA18F6825CBFDAA00D3B716 /* GUGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F2A25CBFD9100D3B716 /* GUGradientView.m */; };
+		4EA18F6925CBFDAA00D3B716 /* GULayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18ECD25CBFD9000D3B716 /* GULayoutView.m */; };
+		4EA18F6A25CBFDAA00D3B716 /* UIResponder+GearUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EF125CBFD9000D3B716 /* UIResponder+GearUI.m */; };
+		4EA18F6B25CBFDAA00D3B716 /* GULog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EF425CBFD9000D3B716 /* GULog.m */; };
+		4EA18F6C25CBFDAA00D3B716 /* GUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F3E25CBFD9100D3B716 /* GUImageView.m */; };
+		4EA18F6D25CBFDAA00D3B716 /* GUNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EFB25CBFD9000D3B716 /* GUNode.m */; };
+		4EA18F6E25CBFDAA00D3B716 /* GUCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F2825CBFD9000D3B716 /* GUCollectionView.m */; };
+		4EA18F6F25CBFDAA00D3B716 /* NBCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F3325CBFD9100D3B716 /* NBCentral.m */; };
+		4EA18F7025CBFDAA00D3B716 /* GUWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18ED825CBFD9000D3B716 /* GUWeakProxy.m */; };
+		4EA18F7125CBFDAA00D3B716 /* GUNodeViewProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EE425CBFD9000D3B716 /* GUNodeViewProtocol.m */; };
+		4EA18F7225CBFDAA00D3B716 /* GUDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18ED525CBFD9000D3B716 /* GUDatePicker.m */; };
+		4EA18F7325CBFDAA00D3B716 /* GUCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F1025CBFD9000D3B716 /* GUCollectionViewCell.m */; };
+		4EA18F7425CBFDAA00D3B716 /* GUJavaScriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F1525CBFD9000D3B716 /* GUJavaScriptManager.m */; };
+		4EA18F7525CBFDAA00D3B716 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EDE25CBFD9000D3B716 /* GCDAsyncSocket.m */; };
+		4EA18F7625CBFDAA00D3B716 /* GUDebugClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F3525CBFD9100D3B716 /* GUDebugClient.m */; };
+		4EA18F7725CBFDAA00D3B716 /* UIView+GUPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F0725CBFD9000D3B716 /* UIView+GUPrivate.m */; };
+		4EA18F7825CBFDAA00D3B716 /* GUTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18EFA25CBFD9000D3B716 /* GUTextView.m */; };
+		4EA18F7925CBFDAA00D3B716 /* GUJSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA18F0F25CBFD9000D3B716 /* GUJSValue.m */; };
+		4EA18F9825CC00A100D3B716 /* GearUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA18F0125CBFD9000D3B716 /* GearUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ECF4DB82669007500830D81 /* GUJSObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECF4DB62669007500830D81 /* GUJSObjectProtocol.h */; };
+		4ECF4DB92669007500830D81 /* GUJSViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECF4DB72669007500830D81 /* GUJSViewProtocol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E9BA50225CCE5F700A19A3C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4EA18EBD25CBFD1D00D3B716 /* GearUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GearUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA18EC125CBFD1D00D3B716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA18ECC25CBFD9000D3B716 /* GUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUViewController.m; sourceTree = "<group>"; };
+		4EA18ECD25CBFD9000D3B716 /* GULayoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GULayoutView.m; sourceTree = "<group>"; };
+		4EA18ECE25CBFD9000D3B716 /* GUTextLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUTextLayout.h; sourceTree = "<group>"; };
+		4EA18ECF25CBFD9000D3B716 /* NBTCPServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBTCPServer.m; sourceTree = "<group>"; };
+		4EA18ED025CBFD9000D3B716 /* GUJavaScriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUJavaScriptManager.h; sourceTree = "<group>"; };
+		4EA18ED125CBFD9000D3B716 /* GUDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUDefines.h; sourceTree = "<group>"; };
+		4EA18ED225CBFD9000D3B716 /* GearUIPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GearUIPrefixHeader.pch; sourceTree = "<group>"; };
+		4EA18ED325CBFD9000D3B716 /* GUJSValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUJSValue.h; sourceTree = "<group>"; };
+		4EA18ED425CBFD9000D3B716 /* GUCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUCollectionViewCell.h; sourceTree = "<group>"; };
+		4EA18ED525CBFD9000D3B716 /* GUDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUDatePicker.m; sourceTree = "<group>"; };
+		4EA18ED625CBFD9000D3B716 /* GULabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GULabel.m; sourceTree = "<group>"; };
+		4EA18ED725CBFD9000D3B716 /* GUButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUButton.m; sourceTree = "<group>"; };
+		4EA18ED825CBFD9000D3B716 /* GUWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUWeakProxy.m; sourceTree = "<group>"; };
+		4EA18ED925CBFD9000D3B716 /* GUAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUAnimation.h; sourceTree = "<group>"; };
+		4EA18EDA25CBFD9000D3B716 /* NSString+GUValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GUValue.m"; sourceTree = "<group>"; };
+		4EA18EDB25CBFD9000D3B716 /* GUBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUBannerView.m; sourceTree = "<group>"; };
+		4EA18EDC25CBFD9000D3B716 /* GUDebugSession_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUDebugSession_Private.h; sourceTree = "<group>"; };
+		4EA18EDD25CBFD9000D3B716 /* GUNodeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUNodeProtocol.h; sourceTree = "<group>"; };
+		4EA18EDE25CBFD9000D3B716 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		4EA18EDF25CBFD9000D3B716 /* GUActivityIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUActivityIndicatorView.m; sourceTree = "<group>"; };
+		4EA18EE025CBFD9000D3B716 /* GUXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUXMLParser.h; sourceTree = "<group>"; };
+		4EA18EE125CBFD9000D3B716 /* NSObject+GUPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GUPrivate.m"; sourceTree = "<group>"; };
+		4EA18EE225CBFD9000D3B716 /* GUSlideBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUSlideBar.m; sourceTree = "<group>"; };
+		4EA18EE325CBFD9000D3B716 /* GUTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUTextField.m; sourceTree = "<group>"; };
+		4EA18EE425CBFD9000D3B716 /* GUNodeViewProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUNodeViewProtocol.m; sourceTree = "<group>"; };
+		4EA18EE525CBFD9000D3B716 /* GUTableViewSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUTableViewSection.h; sourceTree = "<group>"; };
+		4EA18EE625CBFD9000D3B716 /* GULayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GULayoutConstraint.m; sourceTree = "<group>"; };
+		4EA18EE725CBFD9000D3B716 /* GUSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUSlider.m; sourceTree = "<group>"; };
+		4EA18EE825CBFD9000D3B716 /* GUCircularProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUCircularProgressView.h; sourceTree = "<group>"; };
+		4EA18EE925CBFD9000D3B716 /* GUTabControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUTabControl.h; sourceTree = "<group>"; };
+		4EA18EEA25CBFD9000D3B716 /* GUDebugClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUDebugClient.h; sourceTree = "<group>"; };
+		4EA18EEB25CBFD9000D3B716 /* NBCentral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBCentral.h; sourceTree = "<group>"; };
+		4EA18EEC25CBFD9000D3B716 /* GUSlideBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUSlideBarItem.m; sourceTree = "<group>"; };
+		4EA18EEE25CBFD9000D3B716 /* GUVisualEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUVisualEffectView.h; sourceTree = "<group>"; };
+		4EA18EEF25CBFD9000D3B716 /* GUPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUPickerView.h; sourceTree = "<group>"; };
+		4EA18EF025CBFD9000D3B716 /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		4EA18EF125CBFD9000D3B716 /* UIResponder+GearUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+GearUI.m"; sourceTree = "<group>"; };
+		4EA18EF225CBFD9000D3B716 /* UIView+GULayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GULayout.m"; sourceTree = "<group>"; };
+		4EA18EF425CBFD9000D3B716 /* GULog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GULog.m; sourceTree = "<group>"; };
+		4EA18EF525CBFD9000D3B716 /* GUGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUGradientView.h; sourceTree = "<group>"; };
+		4EA18EF625CBFD9000D3B716 /* GUVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUVideoView.m; sourceTree = "<group>"; };
+		4EA18EF725CBFD9000D3B716 /* GUPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUPageControl.h; sourceTree = "<group>"; };
+		4EA18EF825CBFD9000D3B716 /* GUDebugSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUDebugSession.h; sourceTree = "<group>"; };
+		4EA18EF925CBFD9000D3B716 /* GUCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUCollectionView.h; sourceTree = "<group>"; };
+		4EA18EFA25CBFD9000D3B716 /* GUTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUTextView.m; sourceTree = "<group>"; };
+		4EA18EFB25CBFD9000D3B716 /* GUNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUNode.m; sourceTree = "<group>"; };
+		4EA18EFC25CBFD9000D3B716 /* GUConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUConfigure.h; sourceTree = "<group>"; };
+		4EA18EFD25CBFD9000D3B716 /* GUNodeBinCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUNodeBinCoder.h; sourceTree = "<group>"; };
+		4EA18EFE25CBFD9000D3B716 /* GUTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUTableView.h; sourceTree = "<group>"; };
+		4EA18EFF25CBFD9000D3B716 /* GUImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUImageView.h; sourceTree = "<group>"; };
+		4EA18F0025CBFD9000D3B716 /* GUScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUScrollView.h; sourceTree = "<group>"; };
+		4EA18F0125CBFD9000D3B716 /* GearUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GearUI.h; sourceTree = "<group>"; };
+		4EA18F0225CBFD9000D3B716 /* GUURLHandleDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUURLHandleDelegate.h; sourceTree = "<group>"; };
+		4EA18F0325CBFD9000D3B716 /* GUWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUWebView.m; sourceTree = "<group>"; };
+		4EA18F0425CBFD9000D3B716 /* GUSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUSwitch.m; sourceTree = "<group>"; };
+		4EA18F0525CBFD9000D3B716 /* GUTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUTableViewCell.h; sourceTree = "<group>"; };
+		4EA18F0625CBFD9000D3B716 /* GUTextNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUTextNode.m; sourceTree = "<group>"; };
+		4EA18F0725CBFD9000D3B716 /* UIView+GUPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GUPrivate.m"; sourceTree = "<group>"; };
+		4EA18F0825CBFD9000D3B716 /* UIView+GUAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GUAttribute.m"; sourceTree = "<group>"; };
+		4EA18F0925CBFD9000D3B716 /* GUImageLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUImageLoadDelegate.h; sourceTree = "<group>"; };
+		4EA18F0A25CBFD9000D3B716 /* GUNodeProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUNodeProtocol.m; sourceTree = "<group>"; };
+		4EA18F0B25CBFD9000D3B716 /* GUBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUBannerView.h; sourceTree = "<group>"; };
+		4EA18F0C25CBFD9000D3B716 /* NSString+GUValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GUValue.h"; sourceTree = "<group>"; };
+		4EA18F0D25CBFD9000D3B716 /* GUAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUAnimation.m; sourceTree = "<group>"; };
+		4EA18F0E25CBFD9000D3B716 /* GUWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUWeakProxy.h; sourceTree = "<group>"; };
+		4EA18F0F25CBFD9000D3B716 /* GUJSValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUJSValue.m; sourceTree = "<group>"; };
+		4EA18F1025CBFD9000D3B716 /* GUCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUCollectionViewCell.m; sourceTree = "<group>"; };
+		4EA18F1125CBFD9000D3B716 /* GULabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GULabel.h; sourceTree = "<group>"; };
+		4EA18F1225CBFD9000D3B716 /* GUDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUDatePicker.h; sourceTree = "<group>"; };
+		4EA18F1325CBFD9000D3B716 /* GUButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUButton.h; sourceTree = "<group>"; };
+		4EA18F1425CBFD9000D3B716 /* NBTCPServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBTCPServer.h; sourceTree = "<group>"; };
+		4EA18F1525CBFD9000D3B716 /* GUJavaScriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUJavaScriptManager.m; sourceTree = "<group>"; };
+		4EA18F1625CBFD9000D3B716 /* GUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUViewController.h; sourceTree = "<group>"; };
+		4EA18F1725CBFD9000D3B716 /* GULayoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GULayoutView.h; sourceTree = "<group>"; };
+		4EA18F1825CBFD9000D3B716 /* GUTextLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUTextLayout.m; sourceTree = "<group>"; };
+		4EA18F1925CBFD9000D3B716 /* GUTabControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUTabControl.m; sourceTree = "<group>"; };
+		4EA18F1A25CBFD9000D3B716 /* GUCircularProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUCircularProgressView.m; sourceTree = "<group>"; };
+		4EA18F1B25CBFD9000D3B716 /* GUNodeViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUNodeViewDelegate.h; sourceTree = "<group>"; };
+		4EA18F1C25CBFD9000D3B716 /* GUSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUSlider.h; sourceTree = "<group>"; };
+		4EA18F1D25CBFD9000D3B716 /* GULayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GULayoutConstraint.h; sourceTree = "<group>"; };
+		4EA18F1E25CBFD9000D3B716 /* GUAnimation+GUPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GUAnimation+GUPrivate.h"; sourceTree = "<group>"; };
+		4EA18F1F25CBFD9000D3B716 /* GUTableViewSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUTableViewSection.m; sourceTree = "<group>"; };
+		4EA18F2025CBFD9000D3B716 /* GUNodeViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUNodeViewProtocol.h; sourceTree = "<group>"; };
+		4EA18F2125CBFD9000D3B716 /* GUTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUTextField.h; sourceTree = "<group>"; };
+		4EA18F2225CBFD9000D3B716 /* GUSlideBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUSlideBar.h; sourceTree = "<group>"; };
+		4EA18F2325CBFD9000D3B716 /* NSObject+GUPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GUPrivate.h"; sourceTree = "<group>"; };
+		4EA18F2425CBFD9000D3B716 /* GUActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUActivityIndicatorView.h; sourceTree = "<group>"; };
+		4EA18F2525CBFD9000D3B716 /* GUXMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUXMLParser.m; sourceTree = "<group>"; };
+		4EA18F2625CBFD9000D3B716 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		4EA18F2725CBFD9000D3B716 /* GUDebugSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUDebugSession.m; sourceTree = "<group>"; };
+		4EA18F2825CBFD9000D3B716 /* GUCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUCollectionView.m; sourceTree = "<group>"; };
+		4EA18F2925CBFD9000D3B716 /* GUPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUPageControl.m; sourceTree = "<group>"; };
+		4EA18F2A25CBFD9100D3B716 /* GUGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUGradientView.m; sourceTree = "<group>"; };
+		4EA18F2B25CBFD9100D3B716 /* GUVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUVideoView.h; sourceTree = "<group>"; };
+		4EA18F2C25CBFD9100D3B716 /* GULog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GULog.h; sourceTree = "<group>"; };
+		4EA18F2D25CBFD9100D3B716 /* UIView+GULayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GULayout.h"; sourceTree = "<group>"; };
+		4EA18F2E25CBFD9100D3B716 /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		4EA18F2F25CBFD9100D3B716 /* UIResponder+GearUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+GearUI.h"; sourceTree = "<group>"; };
+		4EA18F3025CBFD9100D3B716 /* GUVisualEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUVisualEffectView.m; sourceTree = "<group>"; };
+		4EA18F3125CBFD9100D3B716 /* GUPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUPickerView.m; sourceTree = "<group>"; };
+		4EA18F3225CBFD9100D3B716 /* GUSlideBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUSlideBarItem.h; sourceTree = "<group>"; };
+		4EA18F3325CBFD9100D3B716 /* NBCentral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBCentral.m; sourceTree = "<group>"; };
+		4EA18F3425CBFD9100D3B716 /* GULayoutView+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GULayoutView+Private.h"; sourceTree = "<group>"; };
+		4EA18F3525CBFD9100D3B716 /* GUDebugClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUDebugClient.m; sourceTree = "<group>"; };
+		4EA18F3625CBFD9100D3B716 /* UIView+GUPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GUPrivate.h"; sourceTree = "<group>"; };
+		4EA18F3725CBFD9100D3B716 /* UIView+GUAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GUAttribute.h"; sourceTree = "<group>"; };
+		4EA18F3825CBFD9100D3B716 /* GUTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUTableViewCell.m; sourceTree = "<group>"; };
+		4EA18F3925CBFD9100D3B716 /* GUSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUSwitch.h; sourceTree = "<group>"; };
+		4EA18F3A25CBFD9100D3B716 /* GUWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUWebView.h; sourceTree = "<group>"; };
+		4EA18F3B25CBFD9100D3B716 /* GUTextNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUTextNode.h; sourceTree = "<group>"; };
+		4EA18F3C25CBFD9100D3B716 /* GUScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUScrollView.m; sourceTree = "<group>"; };
+		4EA18F3D25CBFD9100D3B716 /* GUConfigure+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GUConfigure+Private.h"; sourceTree = "<group>"; };
+		4EA18F3E25CBFD9100D3B716 /* GUImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUImageView.m; sourceTree = "<group>"; };
+		4EA18F3F25CBFD9100D3B716 /* GUNodeBinCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUNodeBinCoder.m; sourceTree = "<group>"; };
+		4EA18F4025CBFD9100D3B716 /* GUTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUTableView.m; sourceTree = "<group>"; };
+		4EA18F4125CBFD9100D3B716 /* GUNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUNode.h; sourceTree = "<group>"; };
+		4EA18F4225CBFD9100D3B716 /* GUConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUConfigure.m; sourceTree = "<group>"; };
+		4EA18F4325CBFD9100D3B716 /* GUTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUTextView.h; sourceTree = "<group>"; };
+		4ECF4DB62669007500830D81 /* GUJSObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUJSObjectProtocol.h; sourceTree = "<group>"; };
+		4ECF4DB72669007500830D81 /* GUJSViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUJSViewProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EA18EBA25CBFD1D00D3B716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E9BA54825CD322C00A19A3C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BA54925CD323700A19A3C /* GearUI */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4E9BA54925CD323700A19A3C /* GearUI */ = {
+			isa = PBXGroup;
+			children = (
+				4ECF4DB62669007500830D81 /* GUJSObjectProtocol.h */,
+				4ECF4DB72669007500830D81 /* GUJSViewProtocol.h */,
+				4EA18F0125CBFD9000D3B716 /* GearUI.h */,
+				4EA18F2425CBFD9000D3B716 /* GUActivityIndicatorView.h */,
+				4EA18ED925CBFD9000D3B716 /* GUAnimation.h */,
+				4EA18F0B25CBFD9000D3B716 /* GUBannerView.h */,
+				4EA18F1325CBFD9000D3B716 /* GUButton.h */,
+				4EA18EE825CBFD9000D3B716 /* GUCircularProgressView.h */,
+				4EA18EF925CBFD9000D3B716 /* GUCollectionView.h */,
+				4EA18ED425CBFD9000D3B716 /* GUCollectionViewCell.h */,
+				4EA18EFC25CBFD9000D3B716 /* GUConfigure.h */,
+				4EA18F1225CBFD9000D3B716 /* GUDatePicker.h */,
+				4EA18EF525CBFD9000D3B716 /* GUGradientView.h */,
+				4EA18EFF25CBFD9000D3B716 /* GUImageView.h */,
+				4EA18F0925CBFD9000D3B716 /* GUImageLoadDelegate.h */,
+				4EA18ED025CBFD9000D3B716 /* GUJavaScriptManager.h */,
+				4EA18F1125CBFD9000D3B716 /* GULabel.h */,
+				4EA18F1725CBFD9000D3B716 /* GULayoutView.h */,
+				4EA18F4125CBFD9100D3B716 /* GUNode.h */,
+				4EA18EFD25CBFD9000D3B716 /* GUNodeBinCoder.h */,
+				4EA18EDD25CBFD9000D3B716 /* GUNodeProtocol.h */,
+				4EA18F1B25CBFD9000D3B716 /* GUNodeViewDelegate.h */,
+				4EA18F2025CBFD9000D3B716 /* GUNodeViewProtocol.h */,
+				4EA18EF725CBFD9000D3B716 /* GUPageControl.h */,
+				4EA18EEF25CBFD9000D3B716 /* GUPickerView.h */,
+				4EA18F0025CBFD9000D3B716 /* GUScrollView.h */,
+				4EA18F2225CBFD9000D3B716 /* GUSlideBar.h */,
+				4EA18F3225CBFD9100D3B716 /* GUSlideBarItem.h */,
+				4EA18F1C25CBFD9000D3B716 /* GUSlider.h */,
+				4EA18F3925CBFD9100D3B716 /* GUSwitch.h */,
+				4EA18EE925CBFD9000D3B716 /* GUTabControl.h */,
+				4EA18EFE25CBFD9000D3B716 /* GUTableView.h */,
+				4EA18F0525CBFD9000D3B716 /* GUTableViewCell.h */,
+				4EA18EE525CBFD9000D3B716 /* GUTableViewSection.h */,
+				4EA18F2125CBFD9000D3B716 /* GUTextField.h */,
+				4EA18ECE25CBFD9000D3B716 /* GUTextLayout.h */,
+				4EA18F3B25CBFD9100D3B716 /* GUTextNode.h */,
+				4EA18F4325CBFD9100D3B716 /* GUTextView.h */,
+				4EA18F0225CBFD9000D3B716 /* GUURLHandleDelegate.h */,
+				4EA18F2B25CBFD9100D3B716 /* GUVideoView.h */,
+				4EA18F1625CBFD9000D3B716 /* GUViewController.h */,
+				4EA18EEE25CBFD9000D3B716 /* GUVisualEffectView.h */,
+				4EA18F3A25CBFD9100D3B716 /* GUWebView.h */,
+				4EA18EE025CBFD9000D3B716 /* GUXMLParser.h */,
+				4EA18F3725CBFD9100D3B716 /* UIView+GUAttribute.h */,
+				4EA18F0E25CBFD9000D3B716 /* GUWeakProxy.h */,
+			);
+			path = GearUI;
+			sourceTree = "<group>";
+		};
+		4EA18EB325CBFD1D00D3B716 = {
+			isa = PBXGroup;
+			children = (
+				4EA18ECB25CBFD9000D3B716 /* GearUI */,
+				4EA18EC125CBFD1D00D3B716 /* Info.plist */,
+				4EA18EBE25CBFD1D00D3B716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EA18EBE25CBFD1D00D3B716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EA18EBD25CBFD1D00D3B716 /* GearUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EA18ECB25CBFD9000D3B716 /* GearUI */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BA54825CD322C00A19A3C /* include */,
+				4EA18F2625CBFD9000D3B716 /* GCDAsyncSocket.h */,
+				4EA18EDE25CBFD9000D3B716 /* GCDAsyncSocket.m */,
+				4EA18ED225CBFD9000D3B716 /* GearUIPrefixHeader.pch */,
+				4EA18EDF25CBFD9000D3B716 /* GUActivityIndicatorView.m */,
+				4EA18F0D25CBFD9000D3B716 /* GUAnimation.m */,
+				4EA18F1E25CBFD9000D3B716 /* GUAnimation+GUPrivate.h */,
+				4EA18EDB25CBFD9000D3B716 /* GUBannerView.m */,
+				4EA18ED725CBFD9000D3B716 /* GUButton.m */,
+				4EA18F1A25CBFD9000D3B716 /* GUCircularProgressView.m */,
+				4EA18F2825CBFD9000D3B716 /* GUCollectionView.m */,
+				4EA18F1025CBFD9000D3B716 /* GUCollectionViewCell.m */,
+				4EA18F4225CBFD9100D3B716 /* GUConfigure.m */,
+				4EA18F3D25CBFD9100D3B716 /* GUConfigure+Private.h */,
+				4EA18ED525CBFD9000D3B716 /* GUDatePicker.m */,
+				4EA18EEA25CBFD9000D3B716 /* GUDebugClient.h */,
+				4EA18F3525CBFD9100D3B716 /* GUDebugClient.m */,
+				4EA18EDC25CBFD9000D3B716 /* GUDebugSession_Private.h */,
+				4EA18EF825CBFD9000D3B716 /* GUDebugSession.h */,
+				4EA18F2725CBFD9000D3B716 /* GUDebugSession.m */,
+				4EA18ED125CBFD9000D3B716 /* GUDefines.h */,
+				4EA18F2A25CBFD9100D3B716 /* GUGradientView.m */,
+				4EA18F3E25CBFD9100D3B716 /* GUImageView.m */,
+				4EA18F1525CBFD9000D3B716 /* GUJavaScriptManager.m */,
+				4EA18ED325CBFD9000D3B716 /* GUJSValue.h */,
+				4EA18F0F25CBFD9000D3B716 /* GUJSValue.m */,
+				4EA18ED625CBFD9000D3B716 /* GULabel.m */,
+				4EA18F1D25CBFD9000D3B716 /* GULayoutConstraint.h */,
+				4EA18EE625CBFD9000D3B716 /* GULayoutConstraint.m */,
+				4EA18ECD25CBFD9000D3B716 /* GULayoutView.m */,
+				4EA18F3425CBFD9100D3B716 /* GULayoutView+Private.h */,
+				4EA18F2C25CBFD9100D3B716 /* GULog.h */,
+				4EA18EF425CBFD9000D3B716 /* GULog.m */,
+				4EA18EFB25CBFD9000D3B716 /* GUNode.m */,
+				4EA18F3F25CBFD9100D3B716 /* GUNodeBinCoder.m */,
+				4EA18F0A25CBFD9000D3B716 /* GUNodeProtocol.m */,
+				4EA18EE425CBFD9000D3B716 /* GUNodeViewProtocol.m */,
+				4EA18F2925CBFD9000D3B716 /* GUPageControl.m */,
+				4EA18F3125CBFD9100D3B716 /* GUPickerView.m */,
+				4EA18F3C25CBFD9100D3B716 /* GUScrollView.m */,
+				4EA18EE225CBFD9000D3B716 /* GUSlideBar.m */,
+				4EA18EEC25CBFD9000D3B716 /* GUSlideBarItem.m */,
+				4EA18EE725CBFD9000D3B716 /* GUSlider.m */,
+				4EA18F0425CBFD9000D3B716 /* GUSwitch.m */,
+				4EA18F1925CBFD9000D3B716 /* GUTabControl.m */,
+				4EA18F4025CBFD9100D3B716 /* GUTableView.m */,
+				4EA18F3825CBFD9100D3B716 /* GUTableViewCell.m */,
+				4EA18F1F25CBFD9000D3B716 /* GUTableViewSection.m */,
+				4EA18EE325CBFD9000D3B716 /* GUTextField.m */,
+				4EA18F1825CBFD9000D3B716 /* GUTextLayout.m */,
+				4EA18F0625CBFD9000D3B716 /* GUTextNode.m */,
+				4EA18EFA25CBFD9000D3B716 /* GUTextView.m */,
+				4EA18EF625CBFD9000D3B716 /* GUVideoView.m */,
+				4EA18ECC25CBFD9000D3B716 /* GUViewController.m */,
+				4EA18F3025CBFD9100D3B716 /* GUVisualEffectView.m */,
+				4EA18ED825CBFD9000D3B716 /* GUWeakProxy.m */,
+				4EA18F0325CBFD9000D3B716 /* GUWebView.m */,
+				4EA18F2525CBFD9000D3B716 /* GUXMLParser.m */,
+				4EA18EEB25CBFD9000D3B716 /* NBCentral.h */,
+				4EA18F3325CBFD9100D3B716 /* NBCentral.m */,
+				4EA18F1425CBFD9000D3B716 /* NBTCPServer.h */,
+				4EA18ECF25CBFD9000D3B716 /* NBTCPServer.m */,
+				4EA18F2325CBFD9000D3B716 /* NSObject+GUPrivate.h */,
+				4EA18EE125CBFD9000D3B716 /* NSObject+GUPrivate.m */,
+				4EA18F0C25CBFD9000D3B716 /* NSString+GUValue.h */,
+				4EA18EDA25CBFD9000D3B716 /* NSString+GUValue.m */,
+				4E9BA50225CCE5F700A19A3C /* PrefixHeader.pch */,
+				4EA18F2F25CBFD9100D3B716 /* UIResponder+GearUI.h */,
+				4EA18EF125CBFD9000D3B716 /* UIResponder+GearUI.m */,
+				4EA18F2E25CBFD9100D3B716 /* UIView+Additions.h */,
+				4EA18EF025CBFD9000D3B716 /* UIView+Additions.m */,
+				4EA18F0825CBFD9000D3B716 /* UIView+GUAttribute.m */,
+				4EA18F2D25CBFD9100D3B716 /* UIView+GULayout.h */,
+				4EA18EF225CBFD9000D3B716 /* UIView+GULayout.m */,
+				4EA18F3625CBFD9100D3B716 /* UIView+GUPrivate.h */,
+				4EA18F0725CBFD9000D3B716 /* UIView+GUPrivate.m */,
+			);
+			name = GearUI;
+			path = Sources/GearUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EA18EB825CBFD1D00D3B716 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA18F9825CC00A100D3B716 /* GearUI.h in Headers */,
+				4E9BA4CE25CCE32100A19A3C /* GUXMLParser.h in Headers */,
+				4E9BA4D325CCE33D00A19A3C /* GUViewController.h in Headers */,
+				4E9BA4D925CCE38900A19A3C /* GULabel.h in Headers */,
+				4E9BA4F125CCE43E00A19A3C /* GUPickerView.h in Headers */,
+				4E9BA4D525CCE34700A19A3C /* GUTableView.h in Headers */,
+				4E9BA51D25CCEAF000A19A3C /* GUNodeBinCoder.h in Headers */,
+				4E9BA50725CCE72300A19A3C /* GUButton.h in Headers */,
+				4E9BA4DF25CCE3AA00A19A3C /* GUConfigure.h in Headers */,
+				4E9BA51525CCEAA400A19A3C /* GUActivityIndicatorView.h in Headers */,
+				4E9BA4DD25CCE39200A19A3C /* GUImageLoadDelegate.h in Headers */,
+				4E9BA52125CCEB0900A19A3C /* GUWeakProxy.h in Headers */,
+				4E9BA51F25CCEAFC00A19A3C /* UIView+GUAttribute.h in Headers */,
+				4E9BA51125CCEA9100A19A3C /* GUSlideBar.h in Headers */,
+				4E9BA51325CCEA9300A19A3C /* GUSlideBarItem.h in Headers */,
+				4E9BA4E125CCE3BD00A19A3C /* GUCollectionView.h in Headers */,
+				4E9BA4EF25CCE43B00A19A3C /* GUTabControl.h in Headers */,
+				4E9BA50925CCE73000A19A3C /* GUBannerView.h in Headers */,
+				4E9BA4DB25CCE38E00A19A3C /* GUImageView.h in Headers */,
+				4E9BA4E725CCE41600A19A3C /* GUTextField.h in Headers */,
+				4ECF4DB82669007500830D81 /* GUJSObjectProtocol.h in Headers */,
+				4E9BA4E525CCE41200A19A3C /* GUSlider.h in Headers */,
+				4E9BA51725CCEAAD00A19A3C /* GUDatePicker.h in Headers */,
+				4E9BA50B25CCE74200A19A3C /* GUURLHandleDelegate.h in Headers */,
+				4E9BA50D25CCE76500A19A3C /* GUCircularProgressView.h in Headers */,
+				4E9BA4EB25CCE42400A19A3C /* GUWebView.h in Headers */,
+				4E9BA4F525CCE44300A19A3C /* GUPageControl.h in Headers */,
+				4E9BA4FC25CCE47A00A19A3C /* GUCollectionViewCell.h in Headers */,
+				4E9BA4D725CCE37C00A19A3C /* GUNode.h in Headers */,
+				4E9BA4F325CCE44100A19A3C /* GUGradientView.h in Headers */,
+				4ECF4DB92669007500830D81 /* GUJSViewProtocol.h in Headers */,
+				4E9BA4E325CCE3F200A19A3C /* GUVideoView.h in Headers */,
+				4E9BA4F725CCE44900A19A3C /* GUScrollView.h in Headers */,
+				4E9BA4ED25CCE42900A19A3C /* GUTextView.h in Headers */,
+				4E9BA4E925CCE42000A19A3C /* GUSwitch.h in Headers */,
+				4E9BA4D125CCE33100A19A3C /* GULayoutView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EA18EBC25CBFD1D00D3B716 /* GearUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA18EC525CBFD1D00D3B716 /* Build configuration list for PBXNativeTarget "GearUI" */;
+			buildPhases = (
+				4EA18EB825CBFD1D00D3B716 /* Headers */,
+				4EA18EB925CBFD1D00D3B716 /* Sources */,
+				4EA18EBA25CBFD1D00D3B716 /* Frameworks */,
+				4EA18EBB25CBFD1D00D3B716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GearUI;
+			productName = GearUI;
+			productReference = 4EA18EBD25CBFD1D00D3B716 /* GearUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EA18EB425CBFD1D00D3B716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4EA18EBC25CBFD1D00D3B716 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4EA18EB725CBFD1D00D3B716 /* Build configuration list for PBXProject "GearUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EA18EB325CBFD1D00D3B716;
+			productRefGroup = 4EA18EBE25CBFD1D00D3B716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EA18EBC25CBFD1D00D3B716 /* GearUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EA18EBB25CBFD1D00D3B716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EA18EB925CBFD1D00D3B716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA18F6525CBFDAA00D3B716 /* GUViewController.m in Sources */,
+				4EA18F6625CBFDAA00D3B716 /* GUNodeProtocol.m in Sources */,
+				4EA18F6825CBFDAA00D3B716 /* GUGradientView.m in Sources */,
+				4EA18F6F25CBFDAA00D3B716 /* NBCentral.m in Sources */,
+				4EA18F7325CBFDAA00D3B716 /* GUCollectionViewCell.m in Sources */,
+				4EA18F7425CBFDAA00D3B716 /* GUJavaScriptManager.m in Sources */,
+				4EA18F7525CBFDAA00D3B716 /* GCDAsyncSocket.m in Sources */,
+				4EA18F5E25CBFDAA00D3B716 /* UIView+GULayout.m in Sources */,
+				4EA18F5125CBFDAA00D3B716 /* GUPageControl.m in Sources */,
+				4EA18F5D25CBFDAA00D3B716 /* GUButton.m in Sources */,
+				4EA18F5B25CBFDAA00D3B716 /* GUSlideBar.m in Sources */,
+				4EA18F5625CBFDAA00D3B716 /* GUSlideBarItem.m in Sources */,
+				4EA18F5425CBFDAA00D3B716 /* GUDebugSession.m in Sources */,
+				4EA18F4D25CBFDAA00D3B716 /* GULabel.m in Sources */,
+				4EA18F4925CBFDAA00D3B716 /* GUConfigure.m in Sources */,
+				4EA18F7025CBFDAA00D3B716 /* GUWeakProxy.m in Sources */,
+				4EA18F6725CBFDAA00D3B716 /* GUBannerView.m in Sources */,
+				4EA18F5025CBFDAA00D3B716 /* GUXMLParser.m in Sources */,
+				4EA18F6D25CBFDAA00D3B716 /* GUNode.m in Sources */,
+				4EA18F4C25CBFDAA00D3B716 /* GUTabControl.m in Sources */,
+				4EA18F6E25CBFDAA00D3B716 /* GUCollectionView.m in Sources */,
+				4EA18F7125CBFDAA00D3B716 /* GUNodeViewProtocol.m in Sources */,
+				4EA18F6925CBFDAA00D3B716 /* GULayoutView.m in Sources */,
+				4EA18F5F25CBFDAA00D3B716 /* GUTextNode.m in Sources */,
+				4EA18F5225CBFDAA00D3B716 /* GUWebView.m in Sources */,
+				4EA18F5C25CBFDAA00D3B716 /* GUSlider.m in Sources */,
+				4EA18F4E25CBFDAA00D3B716 /* GUTextLayout.m in Sources */,
+				4EA18F6325CBFDAA00D3B716 /* GULayoutConstraint.m in Sources */,
+				4EA18F4525CBFDAA00D3B716 /* GUCircularProgressView.m in Sources */,
+				4EA18F4F25CBFDAA00D3B716 /* GUTextField.m in Sources */,
+				4EA18F4425CBFDAA00D3B716 /* GUSwitch.m in Sources */,
+				4EA18F4825CBFDAA00D3B716 /* NSObject+GUPrivate.m in Sources */,
+				4EA18F6B25CBFDAA00D3B716 /* GULog.m in Sources */,
+				4EA18F6025CBFDAA00D3B716 /* GUAnimation.m in Sources */,
+				4EA18F5325CBFDAA00D3B716 /* GUTableViewCell.m in Sources */,
+				4EA18F7825CBFDAA00D3B716 /* GUTextView.m in Sources */,
+				4EA18F7225CBFDAA00D3B716 /* GUDatePicker.m in Sources */,
+				4EA18F4625CBFDAA00D3B716 /* GUNodeBinCoder.m in Sources */,
+				4EA18F4A25CBFDAA00D3B716 /* UIView+Additions.m in Sources */,
+				4EA18F4B25CBFDAA00D3B716 /* NBTCPServer.m in Sources */,
+				4EA18F7925CBFDAA00D3B716 /* GUJSValue.m in Sources */,
+				4EA18F6425CBFDAA00D3B716 /* GUVisualEffectView.m in Sources */,
+				4EA18F7725CBFDAA00D3B716 /* UIView+GUPrivate.m in Sources */,
+				4EA18F4725CBFDAA00D3B716 /* GUScrollView.m in Sources */,
+				4EA18F5525CBFDAA00D3B716 /* GUTableView.m in Sources */,
+				4EA18F6225CBFDAA00D3B716 /* GUPickerView.m in Sources */,
+				4EA18F6125CBFDAA00D3B716 /* GUActivityIndicatorView.m in Sources */,
+				4EA18F7625CBFDAA00D3B716 /* GUDebugClient.m in Sources */,
+				4EA18F5A25CBFDAA00D3B716 /* NSString+GUValue.m in Sources */,
+				4EA18F5725CBFDAA00D3B716 /* GUTableViewSection.m in Sources */,
+				4EA18F5825CBFDAA00D3B716 /* GUVideoView.m in Sources */,
+				4EA18F5925CBFDAA00D3B716 /* UIView+GUAttribute.m in Sources */,
+				4EA18F6A25CBFDAA00D3B716 /* UIResponder+GearUI.m in Sources */,
+				4EA18F6C25CBFDAA00D3B716 /* GUImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EA18EC325CBFD1D00D3B716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EA18EC425CBFD1D00D3B716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EA18EC625CBFD1D00D3B716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/GearUI/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Sources/GearUI\"";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.GearUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EA18EC725CBFD1D00D3B716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/GearUI/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Sources/GearUI\"";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.GearUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EA18EB725CBFD1D00D3B716 /* Build configuration list for PBXProject "GearUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA18EC325CBFD1D00D3B716 /* Debug */,
+				4EA18EC425CBFD1D00D3B716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA18EC525CBFD1D00D3B716 /* Build configuration list for PBXNativeTarget "GearUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA18EC625CBFD1D00D3B716 /* Debug */,
+				4EA18EC725CBFD1D00D3B716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EA18EB425CBFD1D00D3B716 /* Project object */;
+}

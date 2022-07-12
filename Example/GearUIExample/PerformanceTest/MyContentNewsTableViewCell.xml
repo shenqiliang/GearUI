@@ -1,0 +1,8 @@
+<TableViewCell class="MyContentNewsTableViewCell" height="106">
+    <Label id="id_title" left="22" top="14" right="85" numberOfLines="2" lineSpace="3" font="17" textColor="white"></Label>
+    <ImageView id="id_playIndicator" width="15" height="16" top="18" right="25" animationDuration="1.16">PlayingMotion_%05d</ImageView>
+    <ActivityIndicatorView id="id_loadIndicator" width="15" height="15" centerX="id_playIndicator.centerX" centerY="id_playIndicator.centerY" backgroundColor="#575B65 100%" hidden="true" hidesWhenStopped="true"></ActivityIndicatorView>
+    <Button id="id_moreButton" bottom="7" centerX="id_playIndicator.centerX" width="32" height="32" font="17" image="News_icon_all"></Button>
+    <Label id="id_timeLabel" left="22" bottom="13" textColor="#7A7E89 100%" font="13"></Label>
+    <Label id="id_typeLabel" left="id_timeLabel.right+11" bottom="13" textColor="#7A7E89 100%" font="13"></Label>
+</TableViewCell>

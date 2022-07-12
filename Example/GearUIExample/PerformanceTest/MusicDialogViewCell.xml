@@ -1,0 +1,18 @@
+<TableViewCell id="music" class="MusicDialogViewCell">
+    <LayoutView top="0" left="10" right="10" bottom="15"  cornerRadius="3" clipsToBounds="1">
+        <LayoutView id="title" left="0" right="0" height="36" top="0" backgroundColor="#3A4152 100%">
+            <ImageView id="mediatype_image" left="12" top="8" width="20" height="20">ico_music</ImageView>
+            <Button id="feedback" right="12" top="8" width="20" height="20" image="反馈" touchEdgeInsets="{-20, -20, -20, -20}"></Button>
+        </LayoutView>
+        <LayoutView id="body" top="title.bottom" left="0" right="0" bottom="0">
+            <ImageView left="0" top="0" bottom="0" right="0" image="#41485A 100%" highlightedImage="#41485A 50%"/>
+            <Label id="text" left="12" top="8" font="15" textColor="white" numberOfLines="0" lineSpace="9" right="12">放一首慢节奏的歌</Label>
+            <View id="sep" left="12" right="12" top="text.bottom+10" height="0.5" backgroundColor="#FFFFFF 10%"/>
+            <ImageView id="cover" contentMode="fill" clipsToBounds="1" left="12" top="sep.bottom+14" bottom="23" width="111" height="111" backgroundColor="black"></ImageView>
+            <Label id="name" left="cover.right+27" right="46" top="sep.bottom+47" font="bold;17" textColor="#FBFCFE 100%">平凡之路</Label>
+            <Label id="author" left="cover.right+27" right="46" top="name.bottom+7" font="13" textColor="#FBFCFE 100%">朴树    猎户星座</Label>
+            <Button id="play_button" centerY="cover.centerY" right="12" width="32" height="32" backgroundImage="btn_play" ></Button>
+            <ActivityIndicatorView id="indicator_loading" centerY="cover.centerY" right="20.5" width="15" height="15" hidesWhenStopped="true"> </ActivityIndicatorView>
+        </LayoutView>
+    </LayoutView>
+</TableViewCell>

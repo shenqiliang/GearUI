@@ -1,0 +1,18 @@
+
+<TableViewCell class="AudioBookRecommendCell">
+    
+    <Label id="category" left="17" top="0" font="17" textColor="white" >推荐</Label>
+    <Button id="more_button" right="16.5" centerY="category.centerY" font="13" titleColor="white" image="Music_icon_chosen_more" layoutType="2">更多 </Button>
+
+    <CollectionView id="container" left="0" right="0" top="category.bottom" bottom="0" height="375.5" backgroundColor="clear">
+        
+        <CollectionViewCell id="recommend_cell" backgroundColor="clear">
+            <ImageView id="image" left="0" top="0" width="super.width" height="image.width" clipsToBounds="1" backgroundColor="gray" contentMode="fill" highlightedCoverColor="#000000 50%" >Music_img_cover</ImageView>
+            <GradientView left="image.left" top="image.top" bottom="image.bottom" right="image.right" startPoint="{0.5, 0}" endPoint="{0.5, 1}" colors="#000000 0%, #000000 40%" locations="0, 1"/>
+            <Label id="title" left="image.left+9.5" right="image.right-9.5" top="image.bottom+5" textAlignment="left" font="13" numberOfLines="2" textColor="white">睡美人</Label>
+            <Label id="episode" right="image.right-8.5" bottom="image.bottom-2.5" font="13" textColor="white">230集</Label>
+        </CollectionViewCell>
+        
+    </CollectionView>
+
+</TableViewCell>

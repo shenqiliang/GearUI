@@ -1,0 +1,9 @@
+<LayoutView backgroundColor="#393F4F 100%">
+    <Label left="22" top="36" font="medium;17" textColor="white">没有看到黄色灯带？</Label>
+    <ImageView centerX="super.centerX" top="84" width="230" height="200">netpair_double_click_图示</ImageView>
+    <Label left="22" right="22" top="304" font="15" bottom="97" lineSpace="4.5" numberOfLines="0" textColor="white">1. 确认音箱处于开机状态。前方指示灯亮着，则表示音箱已开机；如果没亮，请插上电源并按下音箱背后的开机键；<line font="6"><br/><br/></line>2. 请快速双击功能键，点按间隔不要太长；<line font="6"><br/><br/></line>3. 出现黄色灯带表示进入联网状态，请不要继续双击功能键。</Label>
+    <View height="0.5" bottom="61" left="0" right="0" backgroundColor="#ffffff 10%"/>
+    <Button tap="#dismiss"  bottom="0" left="0" right="0" height="61" font="bold;17" titleColor="white" highlightedTitleColor="#ffffff 50%">关闭</Button>
+    <View top="super.bottom" left="0" right="0" height="50" backgroundColor="#393F4F 100%"/>
+</LayoutView>
+

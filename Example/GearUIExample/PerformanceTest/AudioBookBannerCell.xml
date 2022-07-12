@@ -1,0 +1,4 @@
+<TableViewCell class="AudioBookBannerCell">
+    <BannerView id="banner" tap="#bannerTaped:" pageControlId="page" top="0" left="0" right="0" bottom="1" height="banner.width*0.4" backgroundColor="gray"/>
+    <PageControl id="page" left="banner.left" right="banner.right" bottom="banner.bottom" height="20"/>
+</TableViewCell>

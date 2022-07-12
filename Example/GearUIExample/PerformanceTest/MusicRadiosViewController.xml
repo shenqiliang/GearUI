@@ -1,0 +1,6 @@
+<ViewController title="精选好歌" backgroundColor="#2D323F 100%" showNavigationBarShadow="false">
+    <SlideBar id="id_slideBar" left="0" top="0" height="40" right="0" backgroundColor="clear"></SlideBar>
+    <LayoutView id="id_containerView" left="0" top="40" bottom="0" right="0" backgroundColor="clear">
+    </LayoutView>
+</ViewController>
+

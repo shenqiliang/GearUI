@@ -1,0 +1,18 @@
+<ViewController title="服务绑定" showNavigationBarShadow="true">
+    <LayoutView left="0" right="0" top="0" bottom="0">
+        <TableView id="tableView"  top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" separatorInset="{0,22,0,22}" separatorColor="#ffffff 10%" removeRedundantSeparator="yes">
+            <TableViewCell id="grant_server_cell" height="60" backgroundColor="clear" selectionStyle="none">
+                <ImageView id="icon" left="22" centerY="super.centerY" width="39" height="39">Setting_icon_qq</ImageView>
+                <Label id="name" left="78" centerY="super.centerY" width="61" font="17" textColor="white">QQ音乐</Label>
+                <Button id="grant_button" right="21" centerY="super.centerY" height="40" font="13" titleColor="white">绑定</Button>
+            </TableViewCell>
+            <TableViewCell id="cancel_grant_server_cell" height="60" backgroundColor="clear" selectionStyle="none">
+                <ImageView id="icon" left="22" centerY="super.centerY" width="39" height="39">Setting_icon_qq</ImageView>
+                <Label id="name" left="78" top="8" width="61" font="17" textColor="white">QQ音乐</Label>
+                <Button id="cancel_grant_button" right="21" centerY="super.centerY" height="40" width="60" font="13" titleColor="white" >取消绑定</Button>
+                <Label id="openid" left="78" bottom="8" right="cancel_grant_button.left+5" font="13" textColor="#7A7E89 100%">1234567890</Label>
+            </TableViewCell>
+        </TableView>
+    </LayoutView>
+</ViewController>
+

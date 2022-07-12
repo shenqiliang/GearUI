@@ -1,0 +1,7 @@
+<LayoutView id="id_voiceTipsView" tap="1" class="MyContentVoiceTipsView" left="0" top="0" bottom="0" right="0" backgroundColor="clear">
+    <LayoutView id="id_voiceTipsContainer" left="13" top="13" height="155" right="13" cornerRadius="3" backgroundColor="clear">
+        <Label id="id_titleLabel" left="17" top="18" font="13" textColor="#FFFFFF 100%">语音指令</Label>
+        <Button id="id_moreButton" right="17" top="17" height="20" width="37" layoutType="titleLeft" highlightedTitleColor="#ffffff 50%" titleColor="#FFFFFF 100%" image="ico_btn_arrow" font="13">更多</Button>
+        <Label id="id_contentLabel" numberOfLines="0" left="17" top="55" lineSpace="8" textColor="#FFFFFF 100%" textAlignment="left" font="17">“9420，收藏这首歌”&#x000A;“9420，播放收藏的歌”&#x000A;“9420，这首歌是谁唱的”</Label>
+    </LayoutView>
+</LayoutView>

@@ -1,0 +1,23 @@
+<ViewController title="推荐歌曲" backgroundColor="#2D323F 100%" showNavigationBarShadow ="YES">
+    <TableView id="id_media_list" separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorColor="darkGray" removeRedundantSeparator="true">
+        <LayoutView id="id_tableViewHeader" height="146" backgroundColor="clear">
+            <ImageView id="id_contentIcon" left="22" top="14" width="118" height="118"></ImageView>
+            <Label id="id_content" left="id_contentIcon.right+20.5" width="180" centerY="super.centerY" font="17" textColor="#FFFFFF 100%"></Label>
+        </LayoutView>
+        <LayoutView id="id_sectionHeader" height="50" backgroundColor="#333847 100%">
+            <Button id="id_playIndicator" left="20.5" centerY="super.centerY" width="22" height="22" image="Music_list_icon_play" highlightedImage="Music_list_icon_play_highlight" touchEdgeInsets="{-8, -20, -8, -90}" delaysHighlighting="yes"></Button>
+            <Label id="id_playTitle" left="id_playIndicator.right+11" width="180" centerY="super.centerY" font="17" textColor="#FFFFFF 100%">随机播放</Label>
+        </LayoutView>
+        <TableViewCell id="id_Music" height="65" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <LayoutView backgroundColor="clear">
+                <Label id="title" textColor="white" font="17" height="24" top="11" left="22"></Label>
+                <ImageView id="firstTag" width="17.5" height="9.5" left="title.right+5" top="20.5" hidden="true"></ImageView>
+                <ImageView id="secondTag" width="17.5" height="9.5" left="firstTag.right+4" top="20.5" hidden="true"></ImageView>
+                <Label id="detail" textColor="white" font="13" height="19" bottom="8" left="22" right="48"></Label>
+                <ImageView id="indicator_playing" width="15" height="16" right="27.5" centerY="super.centerY" hidden="true" animationDuration="1.16">PlayingMotion_%05d</ImageView>
+                <ActivityIndicatorView id="indicator_loading" width="15" height="15" right="27.5" centerY="super.centerY"
+                    backgroundColor="#575B65 100%" hidden="true" hidesWhenStopped="true"></ActivityIndicatorView>
+            </LayoutView>
+        </TableViewCell>
+    </TableView>
+</ViewController>

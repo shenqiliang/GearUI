@@ -1,0 +1,21 @@
+<LayoutView class="MusicPrefernceSingerView">
+    
+    <CollectionView id="preference_singers" top="0" left="0" bottom="0" right="0" backgroundColor="clear">
+        
+        <CollectionViewCell id="singer_cell" width="100" height="96" tap="1">
+            <ImageView id="avatar" centerX="super.centerX" top="0" width="55" height="55" cornerRadius="27.5"></ImageView>
+            <Label id="name" centerX="super.centerX" left="0" right="0" bottom="9" textAlignment="center" height="24" font="17" textColor="white" >薛之谦</Label>
+        </CollectionViewCell>
+        
+        <CollectionViewCell id="selection_singer_cell" width="100" height="96" tap="1">
+            <ImageView id="avatar" centerX="super.centerX" top="0" width="55" height="55" cornerRadius="27.5"></ImageView>
+            <LayoutView centerX="super.centerX" top="0" width="55" height="55" backgroundColor="#FFFFFF 50%" cornerRadius="27.5"></LayoutView>
+            <ImageView right="avatar.right-3" bottom="avatar.bottom-2" width="13" height="13" cornerRadius="6.5">music_btn_selected</ImageView>
+            <Label id="name" centerX="super.centerX" left="0" right="0" bottom="9" textAlignment="center" height="24" font="17" textColor="white" >薛之谦</Label>
+        </CollectionViewCell>
+        
+        <CollectionViewCell id="align_cell" width="80" height="96"></CollectionViewCell>
+
+    </CollectionView>
+    
+</LayoutView>

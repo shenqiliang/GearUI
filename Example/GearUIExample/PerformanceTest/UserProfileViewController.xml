@@ -1,0 +1,26 @@
+<ViewController title="我的账号" backgroundColor="#2D323F 100%" showNavigationBarShadow="true">
+    <LayoutView  top="0" left="0" bottom="0" right="0">
+        <TableView id="tableView" top="0" left="0" bottom="0" right="0" backgroundColor="#2D323F 100%" separatorInset="{0,22,0,22}" separatorColor="#ffffff 10%" removeRedundantSeparator="yes">
+            <TableViewCell id="head_cell" height="106" backgroundColor="clear" selectionStyle="none">
+                <Label left="21" centerY="super.centerY" font="17" textColor="white" >头像</Label>
+                <ImageView id="avatar" right="21.5" centerY="super.centerY" width="52" height="52" clipsToBounds="1"  cornerRadius="26"></ImageView>
+                <Button id="avatar_button" right="21.5" centerY="super.centerY" width="52" height="52" clipsToBounds="1"  cornerRadius="26"></Button>
+            </TableViewCell>
+            
+            <TableViewCell id="userinfo_cell" height="63" backgroundColor="clear" selectionStyle="none">
+                <Label id="key" left="21.5" centerY="super.centerY" font="17" textColor="white">昵称</Label>
+                <TextField id="value" right="21" width="150" centerY="super.centerY" textAlignment="right" textColor="#7A7E89 100%"  placeholder="昵称不能为空" placeholderColor="#7A7E89 100%"/>
+            </TableViewCell>
+            
+            <TableViewCell id="permission_cell" height="61" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+                <Label id="permission_name" left="21.5" centerY="super.centerY" font="17" textColor="white">账号管理</Label>
+                <ImageView right="19" centerY="super.centerY" width="6" height="11">Setting_btn_next</ImageView>
+            </TableViewCell>
+            
+            <TableViewCell id="logout_cell"  height="100" backgroundColor="clear" selectionStyle="none" separatorInset="{0, 1000, 0, 0}">
+                <Button id="logout_button" bottom="29.5" centerX="super.centerX" font="17" titleColor="white">退出登录</Button>
+            </TableViewCell>
+
+        </TableView>
+    </LayoutView>
+</ViewController>

@@ -1,0 +1,29 @@
+<ViewController title="音乐偏好" showNavigationBarShadow="true">
+    <ScrollView id="preference_view" top="0" left="0" bottom="0" right="0" showsHorizontalScrollIndicator="false" fixContentWidth="yes">
+        
+        <!--tags-->
+        <LayoutView id="music_tags_view" top="0" left="0" right="0" height="0">
+            <LayoutView id="tags_view" file="MusicPreferenceTagView" top="0" left="0" right="0"/>
+            <LayoutView id="empty_tag_view" top="0" left="0" bottom="0" right="0" hidden="1">
+                <Label left="22" top="18.5" font="medium;17" textColor="white" >喜欢的风格</Label>
+                <Label centerX="super.centerX" centerY="super.centerY" width="262" numberOfLines="0" textAlignment="center" font="17" textColor="#7A7E89 100%">未添加你的音乐风格<br/>点击右上角“编辑”立即添加</Label>
+            </LayoutView>
+        </LayoutView>
+        
+        <LayoutView id="line" top="music_tags_view.bottom" left="22" right="22" height="0.5" backgroundColor="#FFFFFF 10%"></LayoutView>
+        
+        <!--singers-->
+        <LayoutView id="music_singers_view" top="line.bottom" left="0" right="0" bottom="0" height="0">
+            <Label left="22" top="20" font="medium;17" textColor="white" >喜欢的歌手</Label>
+            <LayoutView id="singers_view" file="MusicPrefernceSingerView" top="63" left="0" bottom="0" right="0"/>
+            <LayoutView id="empty_singers_view" top="0" left="0" bottom="0" right="0" hidden="1">
+                <Label centerX="super.centerX" top="77" width="262" numberOfLines="0" textAlignment="center" font="17" textColor="#7A7E89 100%">未添加你喜欢的歌手<br/>点击右上角“编辑”立即添加</Label>
+            </LayoutView>
+        </LayoutView>
+    </ScrollView>
+    
+    <LayoutView id="empty_view" top="0" left="0" bottom="0" right="0" hidden="1">
+        <Label centerX="super.centerX" top="195" font="17" width="262" textAlignment="center" textColor="#7A7E89 100%">未添加你的音乐偏好</Label>
+        <Button bottom="70" centerX="super.centerX" font="bold;29" titleColor="#00C2DE 100%" tap="#editAction">立即添加</Button>
+    </LayoutView>
+</ViewController>

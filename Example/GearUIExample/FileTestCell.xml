@@ -1,0 +1,4 @@
+<TableViewCell tap="js:add(2, 3)" height="44">
+    <Label left="20" top="0" font="16" bottom="0">Complex Demos1 (File Test Cell)</Label>
+</TableViewCell>
+

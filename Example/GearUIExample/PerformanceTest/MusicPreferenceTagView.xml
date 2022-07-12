@@ -1,0 +1,11 @@
+
+<LayoutView class="MusicPreferenceTagView">
+    <Label left="22" top="20" font="medium;17" textColor="white" >喜欢的风格</Label>
+    <CollectionView id="preference_tags" top="53.5" left="0" bottom="0" right="0" minimumLineSpacing="0" minimumInteritemSpacing="0" contentInset="{0,17.5,0,17.5}" backgroundColor="clear">
+        <CollectionViewCell id="tag_cell" width="100" height="49">
+            <ImageView top="9.5" left="5.5" bottom="9.5" right="5.5" image="#000000 10%" highlightedImage="#00C2DE 100%"  cornerRadius="15"/>
+            <Label id="name" centerY="super.centerY" centerX="super.centerX" font="17" textColor="white" highlightedTextColor="black">童话故事</Label>
+        </CollectionViewCell>
+        <CollectionViewCell id="align_cell" width="100" height="49"></CollectionViewCell>
+    </CollectionView>
+</LayoutView>

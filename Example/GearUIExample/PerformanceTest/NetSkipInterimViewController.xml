@@ -1,0 +1,9 @@
+<ViewController hidesNavigationBarWhenPushed="1" backgroundColor="white" closeMuiscBarWhenPush="1" useSafeAreaLayout="1">
+    <LayoutView>
+        <ImageView left="0" top="0" right="0" bottom="0">Net_bind_bg</ImageView>
+        <Button id="button_bind" bottom="70" centerX="super.centerX" font="bold;29" highlightedTitleColor="#00C2DE 50%" titleColor="#00C2DE 100%">绑定音箱</Button>
+        <Button id="button_buy" bottom="31" height="24" centerX="super.centerX" font="13" titleColor="#FBFCFE 100%" highlightedTitleColor="#FBFCFE 50%">前往购买</Button>
+        <ImageView centerY="button_buy.centerY" left="button_buy.right+6">Net_Path_3</ImageView>
+        <Button id="button_more" top="35" right="30" image="icon_all_services_more" touchEdgeInsets="{-20, -20, -20, -20}"></Button>
+    </LayoutView>
+</ViewController>

@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://git.code.oa.com/TencentSpecs/TencentSpecs.git'
+use_frameworks!
+
+platform :ios, '9.3'
+
+target 'GearUIExample' do
+  pod 'GearUI', :path => '../'
+  pod 'SDWebImage'
+  pod 'SDWebImageWebPCoder'
+end
+
+

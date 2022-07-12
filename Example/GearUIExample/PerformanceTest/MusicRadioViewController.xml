@@ -1,0 +1,12 @@
+<ViewController title="精选好歌" backgroundColor="#2D323F 100%" showNavigationBarShadow="false">
+    <LayoutView>
+        <CollectionView id="radio_collectionView" top="0" left="0" bottom="0" right="0" backgroundColor="clear">
+            <CollectionViewCell id="cell_item" width="118" height="157">
+                <LayoutView>
+                    <Button id="cell_icon" highlightedBackgroundImage="#000000 50%" delaysHighlighting="yes" centerX="super.centerX" top="5" width="super.width" height="super.width" backgroundColor="#4d515a"></Button>
+                    <Label id="cell_label" left="0" height="18" width="super.width" top="cell_icon.bottom+11" font="13" textColor="#FFFFFF 100%" textAlignment="center">个性电台</Label>
+                </LayoutView>
+            </CollectionViewCell>
+        </CollectionView>
+    </LayoutView>
+</ViewController>

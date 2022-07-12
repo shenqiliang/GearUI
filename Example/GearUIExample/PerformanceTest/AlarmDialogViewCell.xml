@@ -1,0 +1,39 @@
+<TableViewCell class="AlarmDialogViewCell">
+    <LayoutView top="0" left="10" right="10" bottom="15" backgroundColor="#41485A 100%" cornerRadius="3" clipsToBounds="1">
+        
+        <LayoutView id="title" left="0" right="0" height="36" top="0" backgroundColor="#3A4152 100%">
+            <ImageView left="12" top="8" width="20" height="20">ico_time</ImageView>
+            <Button id="feedback" right="12" top="8" width="20" height="20" image="反馈" touchEdgeInsets="{-20, -20, -20, -20}"></Button>
+        </LayoutView>
+        
+        <LayoutView id="chat" top="title.bottom" left="0" right="0">
+            <Label id="text" left="12" top="18" font="15" textColor="#FBFCFE 100%" numberOfLines="0" lineSpace="9" right="12">我有几个闹钟</Label>
+            <View id="sep" left="12" right="12" top="text.bottom+18" bottom="0" height="0.5" backgroundColor="#FFFFFF 10%"/>
+        </LayoutView>
+        
+        <Label id="count" left="12" top="chat.bottom+18" font="17" right="12" numberOfLines="0" textColor="#FBFCFE 100%" disableLayout="true">你有3个闹钟</Label>
+        
+        <LayoutView id="alarm1" top="count.bottom+6|chat.bottom+6" height="108" left="0" right="0">
+            <Label id="id_periodLabel" left="12" top="46" font="17" textColor="#FFFFFF 100%">下午</Label>
+            <Label id="time_label" left="id_periodLabel.right+6" top="17" font="50" textColor="#FFFFFF 100%">3:00</Label>
+            <Label id="des_label" left="14.5" top="77" font="13" textColor="#7A7E89 100%">下午，一次</Label>
+        </LayoutView>
+        
+        <LayoutView id="alarm2" top="alarm1.bottom" height="108" left="0" right="0" disableLayout="true">
+            <Label id="id_periodLabel" left="12" top="46" font="17" textColor="#FFFFFF 100%">下午</Label>
+            <Label id="time_label" left="id_periodLabel.right+6" top="17" font="50" textColor="#FFFFFF 100%">3:00</Label>
+            <Label id="des_label" left="14.5" top="77" font="13" textColor="#7A7E89 100%">下午，一次</Label>
+        </LayoutView>
+        
+        <LayoutView id="alarm3" top="alarm2.bottom" height="108" left="0" right="0" disableLayout="true">
+            <Label id="id_periodLabel" left="12" top="46" font="17" textColor="#FFFFFF 100%">下午</Label>
+            <Label id="time_label" left="id_periodLabel.right+6" top="17" font="50" textColor="#FFFFFF 100%">3:00</Label>
+            <Label id="des_label" left="14.5" top="77" font="13" textColor="#7A7E89 100%">下午，一次</Label>
+        </LayoutView>
+        
+        <LayoutView left="0" right="0" top="alarm3.bottom|alarm2.bottom|alarm1.bottom" height="44" bottom="0">
+            <Button id="detail_button" right="12" centerY="super.centerY" width="62" height="24" image="Setting_btn_next" layoutType="2" titleColor="#7A7E89 100%" font="13">查看全部</Button>
+        </LayoutView>
+
+    </LayoutView>
+</TableViewCell>

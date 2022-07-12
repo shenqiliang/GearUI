@@ -1,0 +1,10 @@
+<LayoutView class="MediaTypeSelectorMaskView" left="0" top="0" bottom="0" right="0" backgroundColor="#000000 75%">
+    <CollectionView id="id_collectionView" left="0" top="0" height="150" right="0" backgroundColor="#2D323F 100%">
+        <CollectionViewCell id="id_cell" width="76" height="30" cornerRadius="2" backgroundColor="#393F4F 100%">
+            <Label id="id_title" centerX="super.centerX" centerY="super.centerY" textColor="#FFFFFF" font="15"></Label>
+        </CollectionViewCell>
+    </CollectionView>
+    <LayoutView id="id_maskView" left="0" top="id_collectionView.bottom" bottom="0" right="0" backgroundColor="clear" tap="1">
+    </LayoutView>
+</LayoutView>
+

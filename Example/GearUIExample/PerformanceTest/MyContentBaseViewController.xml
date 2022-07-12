@@ -1,0 +1,6 @@
+<ViewController title="">
+    <TableView id="id_tableView"  separatorInset="{0,22,0,22}" left="0" right="0" top="0" bottom="0" backgroundColor="#2D323F 100%" separatorColor="darkGray" removeRedundantSeparator="true">
+        <TableViewCell id="id_contentCell" height="82" file="MyContentNormalTableViewCell">
+        </TableViewCell>
+    </TableView>
+</ViewController>

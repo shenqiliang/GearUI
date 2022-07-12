@@ -1,0 +1,21 @@
+<LayoutView>
+    <TableView id="mvpNbaTableView" separatorInset="{0,22,0,22}" left="0" right="0" top="44" bottom="0" backgroundColor="#2D323F 100%" separatorStyle="none"  removeRedundantSeparator="true">
+        <TableViewCell id="mvpNbaTableViewNameCell" backgroundColor="clear" selectionStyle="none" >
+            <Label id="firstTeamNameLabel" textColor="#7A7E89 100%" font="17"  height="24" top="11" left="38">骑士</Label>
+            <Label id="secondTeamNameLabel" textColor="#7A7E89 100%" font="17" height="24" top="11" bottom="22" right="38">勇士</Label>
+        </TableViewCell>
+
+        <TableViewCell id="mvpNbaTableViewNameDetailCell" height="122" backgroundColor="clear" selectionStyle="none">
+            <LayoutView backgroundColor="clear">
+                <ImageView id="leftAvatarImageView" left="30" top="8" height="52" width="52" contentMode="fit" backgroundColor="white" cornerRadius="26" ></ImageView>
+                <Label id="leftNameLabel" textColor="white" font="17" height="24" top="leftAvatarImageView.bottom+12" centerX="leftAvatarImageView.centerX">欧文</Label>
+                <Label id="typeLabel" textColor="#FFFFFF 30%" font="17" height="24" centerY="leftAvatarImageView.centerY" centerX="centerX">得分</Label>
+                <Label id="leftValueLabel" textColor="#FFFFFF 30%" font="24" height="24" top="typeLabel.top" right="typeLabel.left-15">23</Label>
+                
+                <Label id="rightValueLabel" textColor="#FFFFFF 30%" font="24" height="24" top="typeLabel.top" left="typeLabel.right+15">22</Label>
+                <ImageView id="rightAvatarImageView" right="30" top="8" height="52" width="52" contentMode="fit" backgroundColor="white" cornerRadius="26" ></ImageView>
+                <Label id="rightNameLabel" textColor="#FFFFFF 30%" font="17" height="24" top="rightAvatarImageView.bottom+12" centerX="rightAvatarImageView.centerX">库里</Label>
+            </LayoutView>
+        </TableViewCell>
+    </TableView>
+</LayoutView>

@@ -1,0 +1,8 @@
+<ViewController title="网络连接" backgroundColor="#2D323F 100%" closeMuiscBarWhenPush="1" useSafeAreaLayout="1">
+    <LayoutView>
+        <ImageView id="image_fail" centerX="super.centerX" centerY="super.centerY-113" width="150" height="150">Net_img_error</ImageView>
+        <Label id="label" centerX="super.centerX"  top="image_fail.bottom+38" textColor="white" height="24" font="17">未开启蓝牙功能</Label>
+        <Button id="button_ap" tap="#openSetting" bottom="70" highlightedTitleColor="#00C2DE 50%" centerX="super.centerX" font="bold;29" titleColor="#00C2DE 100%">开启蓝牙</Button>
+    </LayoutView>
+</ViewController>
+

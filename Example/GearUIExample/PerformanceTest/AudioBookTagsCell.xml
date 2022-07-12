@@ -1,0 +1,12 @@
+
+<TableViewCell class="AudioBookTagsCell">
+
+    <CollectionView id="tags_collection_view"  left="0" right="0" top="0" bottom="0" height="117" backgroundColor="clear">
+        <CollectionViewCell id="tag_collection_cell" width="78.5" height="29">
+            <ImageView top="0" left="0" bottom="0" right="0" cornerRadius="14.5" borderColor="#7A7E89 100%" borderWidth="1"/>
+            <Label id="name" centerY="super.centerY" centerX="super.centerX" font="13" textColor="white">童话故事</Label>
+        </CollectionViewCell>
+    </CollectionView>
+    
+</TableViewCell>
+

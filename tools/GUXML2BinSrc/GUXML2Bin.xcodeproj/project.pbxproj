@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDAB20FC222CDA61008B3239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB20FA222CDA61008B3239 /* main.m */; };
+		FDAB20FD222CDA61008B3239 /* GUNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB20FB222CDA61008B3239 /* GUNode.m */; };
+		FDAB2100222CDB13008B3239 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAB20FF222CDB13008B3239 /* libxml2.tbd */; };
+		FDAB2113222CDC6E008B3239 /* GUXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB210D222CDC6E008B3239 /* GUXMLParser.m */; };
+		FDAB2116222CDC6E008B3239 /* GUNodeBinCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB2110222CDC6E008B3239 /* GUNodeBinCoder.m */; };
+		FDAB2117222CDC6E008B3239 /* GULog.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB2111222CDC6E008B3239 /* GULog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDAB20ED222CDA44008B3239 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDAB20EF222CDA44008B3239 /* GUXML2Bin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GUXML2Bin; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAB20F9222CDA61008B3239 /* GUNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUNode.h; sourceTree = "<group>"; };
+		FDAB20FA222CDA61008B3239 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDAB20FB222CDA61008B3239 /* GUNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUNode.m; sourceTree = "<group>"; };
+		FDAB20FF222CDB13008B3239 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		FDAB210C222CDC6E008B3239 /* GUXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GUXMLParser.h; path = ../../Sources/GearUI/include/GearUI/GUXMLParser.h; sourceTree = "<group>"; };
+		FDAB210D222CDC6E008B3239 /* GUXMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GUXMLParser.m; path = ../../Sources/GearUI/GUXMLParser.m; sourceTree = "<group>"; };
+		FDAB210E222CDC6E008B3239 /* GUNodeBinCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GUNodeBinCoder.h; path = ../../Sources/GearUI/include/GearUI/GUNodeBinCoder.h; sourceTree = "<group>"; };
+		FDAB210F222CDC6E008B3239 /* GULog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GULog.h; path = ../../Sources/GearUI/GULog.h; sourceTree = "<group>"; };
+		FDAB2110222CDC6E008B3239 /* GUNodeBinCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GUNodeBinCoder.m; path = ../../Sources/GearUI/GUNodeBinCoder.m; sourceTree = "<group>"; };
+		FDAB2111222CDC6E008B3239 /* GULog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GULog.m; path = GUXML2Bin/GULog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAB20EC222CDA44008B3239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAB2100222CDB13008B3239 /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDAB20E6222CDA44008B3239 = {
+			isa = PBXGroup;
+			children = (
+				FDAB210F222CDC6E008B3239 /* GULog.h */,
+				FDAB2111222CDC6E008B3239 /* GULog.m */,
+				FDAB210E222CDC6E008B3239 /* GUNodeBinCoder.h */,
+				FDAB2110222CDC6E008B3239 /* GUNodeBinCoder.m */,
+				FDAB210C222CDC6E008B3239 /* GUXMLParser.h */,
+				FDAB210D222CDC6E008B3239 /* GUXMLParser.m */,
+				FDAB20F1222CDA44008B3239 /* GUXML2Bin */,
+				FDAB20F0222CDA44008B3239 /* Products */,
+				FDAB20FE222CDB13008B3239 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAB20F0222CDA44008B3239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB20EF222CDA44008B3239 /* GUXML2Bin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAB20F1222CDA44008B3239 /* GUXML2Bin */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB20FA222CDA61008B3239 /* main.m */,
+				FDAB20F9222CDA61008B3239 /* GUNode.h */,
+				FDAB20FB222CDA61008B3239 /* GUNode.m */,
+			);
+			path = GUXML2Bin;
+			sourceTree = "<group>";
+		};
+		FDAB20FE222CDB13008B3239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB20FF222CDB13008B3239 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDAB20EE222CDA44008B3239 /* GUXML2Bin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAB20F6222CDA44008B3239 /* Build configuration list for PBXNativeTarget "GUXML2Bin" */;
+			buildPhases = (
+				FDAB20EB222CDA44008B3239 /* Sources */,
+				FDAB20EC222CDA44008B3239 /* Frameworks */,
+				FDAB20ED222CDA44008B3239 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUXML2Bin;
+			productName = GUXML2Bin;
+			productReference = FDAB20EF222CDA44008B3239 /* GUXML2Bin */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAB20E7222CDA44008B3239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "lin he";
+				TargetAttributes = {
+					FDAB20EE222CDA44008B3239 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FDAB20EA222CDA44008B3239 /* Build configuration list for PBXProject "GUXML2Bin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDAB20E6222CDA44008B3239;
+			productRefGroup = FDAB20F0222CDA44008B3239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAB20EE222CDA44008B3239 /* GUXML2Bin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAB20EB222CDA44008B3239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAB20FC222CDA61008B3239 /* main.m in Sources */,
+				FDAB20FD222CDA61008B3239 /* GUNode.m in Sources */,
+				FDAB2113222CDC6E008B3239 /* GUXMLParser.m in Sources */,
+				FDAB2116222CDC6E008B3239 /* GUNodeBinCoder.m in Sources */,
+				FDAB2117222CDC6E008B3239 /* GULog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDAB20F4222CDA44008B3239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDAB20F5222CDA44008B3239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDAB20F7222CDA44008B3239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = ../../gearui/Classes;
+			};
+			name = Debug;
+		};
+		FDAB20F8222CDA44008B3239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = ../../gearui/Classes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAB20EA222CDA44008B3239 /* Build configuration list for PBXProject "GUXML2Bin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAB20F4222CDA44008B3239 /* Debug */,
+				FDAB20F5222CDA44008B3239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAB20F6222CDA44008B3239 /* Build configuration list for PBXNativeTarget "GUXML2Bin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAB20F7222CDA44008B3239 /* Debug */,
+				FDAB20F8222CDA44008B3239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDAB20E7222CDA44008B3239 /* Project object */;
+}

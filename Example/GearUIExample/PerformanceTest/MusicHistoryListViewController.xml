@@ -1,0 +1,4 @@
+<ViewController file="MusicFromHomeListViewController">
+    <Label id="id_empty_indicator" centerX="super.centerX" centerY="super.centerY-15" font="17" height="24" textColor="#7A7E89 100%" hidden="true" >还没播放过音乐</Label>
+    <Label id="id_empty_tips" centerX="super.centerX" top="id_empty_indicator.bottom+9" font="13" height="19" textColor="#7A7E89 100%" hidden="true">说说看：“9420，来点音乐。”</Label>
+</ViewController>

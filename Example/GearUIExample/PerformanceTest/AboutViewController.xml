@@ -1,0 +1,9 @@
+<ViewController title="关于" backgroundColor="#2D323F 100%">
+    <ImageView id="icon" centerX="super.centerX" top="181" width="76" height="76">Setting_aboud_icon_logo</ImageView>
+    <Label id="version" centerX="super.centerX" top="icon.bottom+13" textColor="white" font="17">腾讯听听 2.0</Label>
+    <Label id="service" right="he.left-1" bottom="75" font="13" tap="https://res.imtt.qq.com/mia_oper/mia_app/app_agreement.html" textColor="#00C2DE 100%">《服务条款》</Label>
+    <Label id="he" centerX="super.centerX" bottom="75" font="13" textColor="white">和</Label>
+    <Label id="privacy" left="he.right+1" bottom="75" font="13" highlightedTextColor="red" textColor="#00C2DE 100%" tap="http://www.qq.com/privacy.htm">《隐私协议》</Label>
+    <Label centerX="super.centerX" bottom="30" font="13" textColor="#7A7E89 100%">Copyright&#169;2016-2018 Tencent. All Rights Reserved.</Label>
+    <Label centerX="super.centerX" bottom="49" font="13" textColor="#7A7E89 100%">腾讯公司 版权所有</Label>
+</ViewController>

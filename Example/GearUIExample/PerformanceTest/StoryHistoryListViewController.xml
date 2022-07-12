@@ -1,0 +1,6 @@
+<ViewController title="最近播放"  backgroundColor="#2D323F">
+    <LayoutView>
+        <TableView file="MediaItemTable">
+        </TableView>
+    </LayoutView>
+</ViewController>

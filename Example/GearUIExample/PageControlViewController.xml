@@ -1,0 +1,4 @@
+<ViewController title="PageContol" useSafeAreaLayout="1">
+    <BannerView id="banner" autoScroll="1" pageControlId="page" top="12" imagePaths="red;green;blue;black;gray" left="11" right="11" bottom="9" height="banner.width*0.5625" backgroundColor="gray"/>
+    <PageControl id="page" left="banner.left" right="banner.right" dotSize="7" dotSpacing="12" bottom="banner.bottom" height="30"/>
+</ViewController>

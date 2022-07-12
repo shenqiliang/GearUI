@@ -1,0 +1,13 @@
+<LayoutView class="AlarmDelaySelectorView" left="0" top="0" right="0" bottom="0" backgroundColor="#000000 50%">
+    <LayoutView id="id_contentView" left="0" right="0" bottom="0" height="222.5" backgroundColor="#41485A 100%">
+        <LayoutView id="id_actionView" left="0" right="0" top="0" height="44" backgroundColor="clear">
+            <Button id="id_cancelButton" left="22" centerY="super.centerY" font="13" titleColor="white" delaysHighlighting="yes" highlightedTitleColor="#FFFFFF 50%">取消</Button>
+            <Button id="id_doneButton" right="22" centerY="super.centerY" font="13" titleColor="white" delaysHighlighting="yes" highlightedTitleColor="#FFFFFF 50%">完成</Button>
+            <LayoutView id="id_bottomLine" left="0" right="0" bottom="0" height="0.5" backgroundColor="#FFFFFF 10%">
+            </LayoutView>
+        </LayoutView>
+        <PickerView id="id_pickerView" left="0" right="0" top="44" bottom="0" backgroundColor="clear"></PickerView>
+    </LayoutView>
+    <LayoutView id="id_emptyView" tap="true" left="0" right="0" bottom="id_contentView.top" top="0" backgroundColor="clear">
+    </LayoutView>
+</LayoutView>

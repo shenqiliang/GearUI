@@ -1,0 +1,22 @@
+<ViewController title="微信群留言">
+    <ScrollView id="id_scrollView" top="0" left="0" width="super.width" height="super.height-140" backgroundColor="#2D323F 100%">
+        <Label id="id_title" left="20" right="20" numberOfLines="0" top="30" font="17" textColor="#FFFFFF 100%" textAlignment="center">通过微信公众号，对音箱旁边的家人留言。</Label>
+        <LayoutView id="id_fistCell" height="100" top="id_title.bottom+25" left="30" right="30" backgroundColor="clear">
+            <Label id="id_index" left="0" top="-5" width="25" height="34" font="bold;24" textColor="white">1</Label>
+            <ImageView id="id_icon" top="0" right="0" width="100" height="100">AnsweringMachine_guideView_first_icon</ImageView>
+            <Label id="id_content" left="0" top="id_index.bottom+10" right="id_icon.left-23" numberOfLines="0"  font="15" textColor="white">点击页面底部的按钮，跳转到微信，进入“腾讯听听”微信公众号；</Label>
+        </LayoutView>
+        <LayoutView id="id_secondCell" height="100" top="id_fistCell.bottom+45" left="30" right="30" backgroundColor="clear">
+            <Label id="id_index" left="0" top="-5" width="25" height="34" font="bold;24" textColor="white">2</Label>
+            <ImageView id="id_icon" top="0" right="0" width="100" height="100">AnsweringMachine_guideView_second_icon</ImageView>
+            <Label id="id_content" left="0" top="id_index.bottom+10" right="id_icon.left-23" numberOfLines="0"  font="15" textColor="white">点击微信公众号底部的【绑定设备】，就可以通过公众号给音箱留言；</Label>
+        </LayoutView>
+        <LayoutView id="id_thirdCell" height="100" top="id_secondCell.bottom+45" bottom="0" left="30" right="30" backgroundColor="clear">
+            <Label id="id_index" left="0" top="-5" width="25" height="34" font="bold;24" textColor="white">3</Label>
+            <ImageView id="id_icon" top="0" right="0" width="100" height="100">AnsweringMachine_guideView_third_icon</ImageView>
+            <Label id="id_content" left="0" top="id_index.bottom+10" right="id_icon.left-23" numberOfLines="0"  font="15" textColor="white">音箱旁的家人可通过语音控制，远程收听和回复你的留言。</Label>
+        </LayoutView>
+    </ScrollView>
+    <Button id="id_help" centerX="super.centerX" bottom="22" touchEdgeInsets="{-30, -20, -30, -20}" titleColor="#FBFCFE 100%" highlightedTitleColor="#FBFCFE 50%" imageEdgeInsets="{0, 5, 0, -5}" image="ico_btn_arrow" layoutType="titleLeft" font="13" delaysHighlighting="yes">更多帮助</Button>
+    <Button id="id_goWeChatButton" left="30" right="30" height="49" bottom="61"  centerX="super.centerX" font="bold;17" titleColor="white" backgroundColor="#00C2DE 100%" cornerRadius="3" highlightedBackgroundImage="#000000 50%" delaysHighlighting="yes" highlightedTitleColor="#ffffff 50%">进入微信公众号</Button>
+</ViewController>

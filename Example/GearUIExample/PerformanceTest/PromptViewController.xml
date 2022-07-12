@@ -1,0 +1,8 @@
+<ViewController backgroundColor="#2D323F 98%">
+    <LayoutView id="container" tap="1">
+        <Label id="message" left="30" right="30" top="30" bottom="86" numberOfLines="0" font="24" textAlignment="center" textColor="white">提示文字，提示文字，提示文字，提示文字，提示文字，提示文字，提示文字。</Label>
+        <Button id="btn_left" left="48" bottom="72" height="30" titleColor="#00C2DE 100%" font="bold;24" touchEdgeInsets="{-20, -20, -20, -20}">取消</Button>
+        <Button id="btn_right" right="48" bottom="72" height="30" titleColor="#00C2DE 100%" font="bold;24" touchEdgeInsets="{-20, -20, -20, -20}">确定</Button>
+        <Button id="btn_center" centerX="super.centerX" hidden="1" bottom="37" height="30" titleColor="#00C2DE 100%" font="bold;29" touchEdgeInsets="{-20, -20, -20, -20}">取消</Button>
+    </LayoutView>
+</ViewController>

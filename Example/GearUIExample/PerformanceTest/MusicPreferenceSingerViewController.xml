@@ -1,0 +1,21 @@
+<ViewController title="选择音乐偏好" showNavigationBarShadow="true">
+    <Button id="finish_button" bottom="70" centerX="super.centerX" font="bold;29" titleColor="#00C2DE 100%" tap="#submit">完成</Button>
+    
+    <LayoutView id="selection_view" top="0" left="0" height="68" right="0" backgroundColor="#393F4F 100%">
+        <Label id="empty_label" left="0" right="0" centerY="super.centerY" textAlignment="center" font="13" textColor="#7A7E89 100%" >暂未添加歌手</Label>
+        <CollectionView id="selection_singers" top="0" left="0" bottom="0" right="0" minimumLineSpacing="26" minimumInteritemSpacing="26" contentInset="{6, 0, 6, 22}" backgroundColor="clear">
+            <CollectionViewCell id="singer_cell" width="55" height="55">
+                <ImageView id="avatar" left="0" top="0" width="55" height="55" cornerRadius="27.5"></ImageView>
+            </CollectionViewCell>
+        </CollectionView>
+    </LayoutView>
+    
+    <LayoutView id="point_view" top="selection_view.bottom" left="0" right="0" height="64">
+        <Label left="22" centerY="super.centerY" font="medium;17" textColor="white" >喜欢的歌手</Label>
+        <Button right="22" centerY="super.centerY" width="73" font="17" titleColor="white" image="music_btn_刷新"  layoutType="0" tap="#updateSinger"> 换一批</Button>
+    </LayoutView>
+        
+    <ScrollView id="container_view" top="point_view.bottom" left="0" bottom="finish_button.top" right="0" fixContentWidth="yes" showsHorizontalScrollIndicator="false">
+        <LayoutView id="recommend_singers" file="MusicPrefernceSingerView" top="0" left="0" right="0" height="288" bottom="0"/>
+    </ScrollView>
+</ViewController>

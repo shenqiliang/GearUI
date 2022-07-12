@@ -1,0 +1,11 @@
+<ViewController title="版本更新" backgroundColor="#2D323F 100%">
+    <ImageView left="22" top="34" width="46" height="46">Setting_update_icon_speaker</ImageView>
+    <Label left="85" top="17" font="17" height="24" right="22" textColor="white">音箱</Label>
+    <Label id="version_info" left="85" top="46" font="13" numberOfLines="2" lineSpace="4" right="22" textColor="white">当前版本：<br/>最新版本：</Label>
+    <ScrollView showsHorizontalScrollIndicator="false" top="version_info.bottom" bottom="install_button.top" left="0" right="0" fixContentWidth="yes">
+        <Label id="new_ver_des" left="22" right="22" top="10" font="13" numberOfLines="0" bottom="(=bottom" textColor="#7A7E89 100%" lineBreakMode="0"></Label>
+    </ScrollView>
+    <Button id="install_button" bottom="70" centerX="super.centerX" action="1" font="semibold;29" enabled="0" titleColor="#00C2DE 100%" disabledTitleColor="#4A4E5A 100%">检查中...</Button>
+    <CircularProgressView id="progress" lineWidth="3" progress="0.25" centerY="install_button.centerY" hidden="yes" centerX="super.centerX" width="36" height="36" circleColor="#424652 100%" fillColor="#00C2DE 100%"/>
+    <Label id="alert_label" hidden="1" left="0" right="0" top="0" height="36" textAlignment="center" textColor="#FF633D 100%" font="13" backgroundColor="#393F4F 100%">音箱版本更新中，请勿断开电源。</Label>
+</ViewController>

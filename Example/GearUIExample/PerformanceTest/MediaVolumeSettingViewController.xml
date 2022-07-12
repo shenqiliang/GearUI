@@ -1,0 +1,7 @@
+<ViewController>
+    <LayoutView backgroundColor="#2D323F">
+        <View id="volume_view" class="MusicPlayerVolumeView" backgroundColor="clear" left="0" right="0" top="0" bottom="super.bottom-100" />
+        <Button id="volume_down" image="Music_btn_volumndown" width="super.width*0.333" left="0" bottom="0" height="100" tap="1"/>
+        <Button id="volume_up" image="Music_btn_volumnup" width="super.width*0.333" right="0" bottom="0" height="100" tap="1"/>
+    </LayoutView>
+</ViewController>

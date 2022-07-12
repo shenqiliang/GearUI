@@ -1,0 +1,8 @@
+<ViewController title="最近播放" backgroundColor="#2D323F 100%">
+    <LayoutView backgroundColor="#2D323F 100%">
+        <TableView id="id_media_list" file="MediaItemTable">
+        </TableView>
+    </LayoutView>
+</ViewController>
+
+

@@ -1,0 +1,4 @@
+<ViewController title="设备搜索" backgroundColor="#2D323F 100%" closeMuiscBarWhenPush="1">
+    <View class="HVABonjourSearchAnimationView" id="searching" centerX="super.centerX" centerY="super.centerY-113" width="150" height="150"></View>
+    <Label centerX="super.centerX"  top="searching.bottom+38" textColor="white" height="24" font="17">正在搜索</Label>
+</ViewController>

@@ -1,0 +1,8 @@
+<LayoutView backgroundColor="#393F4F 100%">
+    <Label left="22" top="36" font="medium;17" textColor="white">没有看到白色灯带？</Label>
+    <Label left="22" right="22" top="84" font="15" bottom="97" lineSpace="4.5" numberOfLines="0" textColor="white">1. 在黄色灯带环绕时，单击音箱功能键，才会出现白色灯带环绕，否则无法进入增强联网模式；<line font="6"><br/><br/></line>2. 如果仍未看到白色灯带，请点击右上角“退出”按钮，重新进行联网。</Label>
+    <View height="0.5" bottom="61" left="0" right="0" backgroundColor="#ffffff 10%"/>
+    <Button tap="#dismiss"  bottom="0" left="0" right="0" height="61" font="bold;17" titleColor="white" highlightedTitleColor="#ffffff 50%">关闭</Button>
+    <View top="super.bottom" left="0" right="0" height="50" backgroundColor="#393F4F 100%"/>
+</LayoutView>
+

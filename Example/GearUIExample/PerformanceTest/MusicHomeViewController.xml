@@ -1,0 +1,53 @@
+<ViewController title="音乐" backgroundColor="#2D323F 100%" showNavigationBarShadow="true">
+    <Label id="guide_label" hidden="true" tap="true" left="0" right="0" top="0" height="36" textAlignment="center" textColor="white" font="bold;13" backgroundColor="#393F4F 100%">绑定QQ音乐账号，导入你的QQ音乐歌单，<a color="#00c2de">点击绑定</a></Label>
+    <TableView id="main_table" top="0" left="0" bottom="0" right="0" allowsSelection="no" backgroundColor="#2D323F 100%" separatorStyle="none" hidden="true">
+        <TableViewCell id="id_recommend" height="135" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <LayoutView backgroundColor="clear">
+                <CollectionView id="recommend_collectionView" top="10" left="0" height="113" right="0" backgroundColor="clear">
+                    <CollectionViewCell id="cell_recomemnd_item" width="75" height="113">
+                        <LayoutView>
+                            <Button id="cell_icon"  delaysHighlighting="yes" centerX="super.centerX" top="0" width="67" height="67"></Button>
+                            <Label id="cell_label" left="0" height="18" width="super.width" top="cell_icon.bottom+11" font="13" textColor="#FFFFFF 100%" textAlignment="center">每日推荐</Label>
+                        </LayoutView>
+                    </CollectionViewCell>
+                </CollectionView>
+                <LayoutView top="recommend_collectionView.bottom" left="0" height="0.5" right="0" backgroundColor="#424652 100%"></LayoutView>
+            </LayoutView>
+        </TableViewCell>
+        <TableViewCell id="id_chosen" height="354" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <LayoutView backgroundColor="clear">
+                <Label top="0" left="0" textAlignment="center" width="super.width" font="medium;17" height="24" textColor="#FFFFFF 100%">精选好歌</Label>
+                <CollectionView id="chosen_collectionView" top="24" left="0" height="super.height-24" right="0" backgroundColor="clear">
+                    <CollectionViewCell id="cell_chosen_item" width="118" height="160">
+                        <LayoutView>
+                            <Button id="cell_icon" highlightedBackgroundImage="#000000 50%" delaysHighlighting="yes" centerX="super.centerX" top="8" width="super.width" height="super.width" backgroundColor="#4d515a"></Button>
+                            <Label id="cell_label" left="0" height="18" width="super.width" top="cell_icon.bottom+11" font="13" textColor="#FFFFFF 100%" textAlignment="center">个性电台</Label>
+                        </LayoutView>
+                    </CollectionViewCell>
+                    <CollectionViewCell id="cell_chosen_more" width="118" height="160">
+                        <LayoutView>
+                            <Button id="cell_icon" highlightedBackgroundImage="#000000 50%" delaysHighlighting="yes" centerX="super.centerX" top="8" width="super.width" height="super.width" backgroundColor="#4d515a"></Button>
+                            <LayoutView userInteractionEnabled="false" centerX="super.centerX" top="8" width="super.width" height="super.width" backgroundColor="#41485A 80%">
+                                <Label id="cell_more_label" centerX="super.centerX-7" height="18" width="30" centerY="super.centerY" font="13" textColor="#FFFFFF 100%" textAlignment="center">更多</Label>
+                                <ImageView id="cell_more_icon" left="cell_more_label.right" centerY="cell_more_label.centerY" width="14" height="14">Music_icon_chosen_more</ImageView>
+                            </LayoutView>
+                        </LayoutView>
+                    </CollectionViewCell>
+                </CollectionView>
+            </LayoutView>
+        </TableViewCell>
+        <TableViewCell id="id_hot" height="354" backgroundColor="clear" selectedBackgroundColor="#393F4F">
+            <LayoutView backgroundColor="clear">
+                <Label top="0" left="0" textAlignment="center" width="super.width" font="medium;17" height="24" textColor="#FFFFFF 100%">排行榜</Label>
+                <CollectionView id="hot_collectionView" top="24" left="0" height="super.height-24" right="0" backgroundColor="clear">
+                    <CollectionViewCell id="cell_hot_item" width="118" height="160">
+                        <LayoutView>
+                            <Button id="cell_icon" highlightedBackgroundImage="#000000 50%" delaysHighlighting="yes" centerX="super.centerX" top="8" width="super.width" height="super.width" backgroundColor="#4d515a"></Button>
+                            <Label id="cell_label" left="0" height="18" width="super.width" top="cell_icon.bottom+11" font="13" textColor="#FFFFFF 100%" textAlignment="center">个性电台</Label>
+                        </LayoutView>
+                    </CollectionViewCell>
+                </CollectionView>
+            </LayoutView>
+        </TableViewCell>
+    </TableView>
+</ViewController>

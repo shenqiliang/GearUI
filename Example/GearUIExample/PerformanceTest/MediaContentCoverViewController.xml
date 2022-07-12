@@ -1,0 +1,17 @@
+<ViewController backgroundColor="clear">
+    <LayoutView backgroundColor="clear">
+        <ImageView id="disk" right="id_cover.right" centerY="id_cover.centerY" width="id_cover.width*0.95" height="disk.width">img_disk_l</ImageView>
+        <Animation id="play_animation" target="disk" keyPath="transform.translation.x" timeFunction="easeInEaseOut" duration="0.3" toValue="13.07%"/>
+        <Animation id="pause_animation" target="disk" keyPath="transform.translation.x" timeFunction="easeInEaseOut" duration="0.3" toValue="0"/>
+        <Animation id="rotation_animation" target="disk" keyPath="transform.rotation.z" timeFunction="linear" duration="9" repeatCount="10000" fromValue="0" toValue="6.28"/>
+        <Animation id="play_cover_animation" target="id_cover" keyPath="transform.translation.x" timeFunction="easeInEaseOut" duration="0.3" toValue="-8.27%"/>
+        <Animation id="pause_cover_animation" target="id_cover" keyPath="transform.translation.x" timeFunction="easeInEaseOut" duration="0.3" toValue="0"/>
+        <Label id="id_asr" left="30" right="30" bottom="id_cover.top-34" height="38" textColor="#FBFCFE 100%" font="21" textAlignment="center"/>
+        <Label id="title" left="30" right="30" bottom="id_cover.top-41" height="38" textColor="#FBFCFE 100%" font="bold;21" textAlignment="center"/>
+        <Label id="detail" left="30" right="30" bottom="id_cover.top-25" height="19" textColor="#FBFCFE 100%" font="13" textAlignment="center"/>
+        <Label id="title_news" left="30" right="30" bottom="id_cover.top-32" textColor="#FBFCFE 100%" numberOfLines="2" hidden="true" font="17" textAlignment="center"/>
+        <Label id="detail_news" left="30" right="30" bottom="id_cover.top-9" height="19" textColor="#FBFCFE 100%" hidden="true" font="13" textAlignment="center"/>
+        <ImageView id="id_cover" contentMode="fill" clipsToBounds="1" placeholderImage="player_播放器封面默认图" height="id_cover.width" width="super.width*0.61" centerY="super.centerY+22.5" backgroundColor="darkGray" centerX="super.centerX"/>
+        <Label id="provider_text" left="30" right="30" textAlignment="center" top="id_cover.bottom+15" textColor="#9c999b 100%" font="13"></Label>
+    </LayoutView>
+</ViewController>

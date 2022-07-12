@@ -1,0 +1,15 @@
+
+<TableViewCell class="ChatDialogViewCell">
+    <LayoutView top="0" left="10" right="10" bottom="15" cornerRadius="3" clipsToBounds="1">
+        <LayoutView id="title" left="0" right="0" height="36" top="0" backgroundColor="#3A4152 100%">
+            <ImageView id="domain_image" left="12" top="8" width="20" height="20">ico_chat</ImageView>
+            <Button id="feedback" right="12" top="8" width="20" height="20" image="反馈" touchEdgeInsets="{-20, -20, -20, -20}"></Button>
+        </LayoutView>
+        <LayoutView top="title.bottom" left="0" right="0" bottom="0">
+            <ImageView left="0" top="0" bottom="0" right="0" image="#41485A 100%" highlightedImage="#41485A 50%"  cornerRadius="3"/>
+            <Label id="text" left="12" top="18" font="15" textColor="white" numberOfLines="0" lineSpace="9" right="12">今天天气怎么样</Label>
+            <View id="sep" left="12" right="12" top="text.bottom+16.5" height="0.5" backgroundColor="#FFFFFF 10%"/>
+            <Label id="result" left="12" top="sep.bottom+19.5" font="17" right="12" numberOfLines="0" bottom="19" textColor="#FBFCFE 100%">深圳今天天气晴，气温25到30度</Label>
+        </LayoutView>
+    </LayoutView>
+</TableViewCell>

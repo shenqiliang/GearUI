@@ -1,0 +1,14 @@
+<LayoutView backgroundColor="clear">
+    <Button id="fav_button" centerY="safeArea.bottom-171" centerX="super.left+34" image="btn_favor" tap="#favAction"/>
+    <Button id="mode_button" centerY="play_control.centerY" centerX="fav_button.centerX" image="btn_列表循环" tap="#modeAction"/>
+    <Button id="prev_button" right="play_control.left-34" centerY="play_control.centerY" image="btn_preview" tap="#prevAction"/>
+    <Button id="next_button" left="play_control.right+34" centerY="play_control.centerY" image="btn_next" tap="#nextAction"/>
+    <Button id="volumn_button" centerY="fav_button.centerY" centerX="super.right-34" image="btn_volumn" tap="#volumnAction"/>
+    <Button id="list_button" centerY="play_control.centerY" centerX="volumn_button.centerX" image="btn_list" tap="#listAction"/>
+    <Label id="played_label" left="23" bottom="safeArea.bottom-112" font="13" height="19" textColor="#FBFCFE 50%">0:00</Label>
+    <Slider id="progress" centerX="super.centerX" right="dur_label.left-5" centerY="played_label.centerY" maximumTrackTintColor="#FFFFFF 30%" minimumTrackTintColor="white"/>
+    <Label id="dur_label" right="23" bottom="safeArea.bottom-112" font="13" height="19" textColor="#FBFCFE 50%">0:00</Label>
+    <PageControl id="page_control" height="30" width="100" centerX="super.centerX" centerY="fav_button.centerY" numberOfPages="3"/>
+    <ActivityIndicatorView id="#loadingIndicator" centerX="page_control.centerX" centerY="page_control.centerY" hidesWhenStopped="true"/>
+    <Button id="play_control" bottom="safeArea.bottom-31" centerX="super.centerX" image="btn_stop_l" tap="1"/>
+</LayoutView>

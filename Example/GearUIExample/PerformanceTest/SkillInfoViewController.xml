@@ -1,0 +1,30 @@
+<ViewController title="技能详情" >
+    <TableView id="#tableView" allowsSelection="0" removeRedundantSeparator="true" footerViewNodeId="footer" separatorStyle="none">
+        <TableViewCell id="header" height="119">
+            <ImageView id="icon" left="22" top="28" width="63" height="63"></ImageView>
+            <Label id="title" left="100" centerY="icon.centerY" font="17" height="24" textColor="white">股票</Label>
+            <Button id="button" right="22" height="36" centerY="super.centerY" titleColor="#00C2DE 100%" borderWidth="1" borderColor="#00C2DE 100%" contentEdgeInsets="{0,10,0,10}" tap="#buttonAction" cornerRadius="3" font="bold;16">我的</Button>
+            <View left="22" right="22" bottom="0" height="0.5" backgroundColor="#4D515A 100%"/>
+        </TableViewCell>
+        
+        <LayoutView id="footer" height="1" left="0" right="0">
+        </LayoutView>
+        
+        <TableViewCell id="example">
+            <Label id="title" left="22" top="24" font="17" textColor="white">你可以这么说</Label>
+            <LayoutView top="57" left="0" right="0" bottom="24">
+                <ImageView left="16" top="0" bottom="0" right="22">skill_center_example_bubble</ImageView>
+                <Label id="examples" left="43" right="35" top="9" font="15" bottom="17" numberOfLines="0" lineSpace="4.5" textColor="white">“9420，今天的大盘怎么样”<br/>“9420，腾讯今天是涨了还是跌了”</Label>
+            </LayoutView>
+        </TableViewCell>
+        
+        <TableViewCell id="introduce">
+            <View left="22" right="22" top="0" height="0.5" backgroundColor="#4D515A 100%"/>
+            <Label id="title" left="22" top="24" font="17" textColor="white">技能介绍</Label>
+            <Label id="detail" left="22" right="22" top="57" font="15" textColor="white" lineSpace="4.5" bottom="24" numberOfLines="0">能够通过股票名称查询个股信息或大盘名称，包括当前价格、开盘价、收盘价、涨幅等等</Label>
+        </TableViewCell>
+
+        
+    </TableView>
+
+</ViewController>

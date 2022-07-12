@@ -1,0 +1,5 @@
+<LayoutView class="HVAChatBubbleStatusView" width="36" height="43" backgroundColor="clear">
+    <Label id="id_readTag" centerY="super.centerY" right="super.right-7" font="13" textColor="#7A7E89 100%" hidden="true">已读</Label>
+    <Button id="id_retryButton" width="22" height="22" centerY="super.centerY" right="super.right-8" highlightedBackgroundImage="chatInput_bubble_icon_retry_down" image="chatInput_bubble_icon_retry" hidden="true"></Button>
+    <ActivityIndicatorView id="id_loadingView" width="12" height="12" centerY="super.centerY" right="super.right-11" backgroundColor="#575B65 100%" hidesWhenStopped="true"></ActivityIndicatorView>
+</LayoutView>

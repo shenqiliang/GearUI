@@ -1,0 +1,13 @@
+<ViewController title="选择音乐偏好" showNavigationBarShadow="true">
+    <LayoutView id="point_view" top="0" left="0" height="36" right="0" backgroundColor="#393F4F 100%">
+        <Label left="0" right="0" centerY="super.centerY" textAlignment="center" font="13" textColor="white" >填写音乐喜好，为你推荐你喜欢的歌曲</Label>
+    </LayoutView>
+    
+    <Button id="next_button" bottom="70" centerX="super.centerX" font="bold;29" titleColor="#00C2DE 100%" tap="#nextStep">下一步</Button>
+    
+    <ScrollView id="preference_view" top="point_view.bottom+10" left="0" bottom="next_button.top" right="0" showsHorizontalScrollIndicator="false" fixContentWidth="yes">
+        <LayoutView id="tags_vew" file="MusicPreferenceTagView" top="0" left="0" right="0" height="200.5" bottom="0"/>
+    </ScrollView>
+    
+
+</ViewController>

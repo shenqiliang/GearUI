@@ -1,0 +1,24 @@
+<ViewController backgroundColor="clear">
+    <LayoutView>
+        <VisualEffectView left="0" right="0" top="0" bottom="0" effect="darkBlur"/>
+        <View left="0" right="0" top="0" bottom="0" backgroundColor="#4e525c 70%"/>
+        <LayoutView id="table_container" left="0" right="0" top="50" bottom="safeArea.bottom-80" backgroundColor="clear">
+            <TableView id="id_media_list" separatorInset="{0,30,0,30}" left="0" right="0" top="0" bottom="0" removeRedundantSeparator="yes" backgroundColor="clear" separatorColor="darkGray">
+                <TableViewCell id="id_music" height="65" backgroundColor="clear" selectedBackgroundColor="#FFFFFF 10%">
+                    <Label id="title" textColor="white" font="17" height="24" top="11" left="30" right="indicator.left-10"></Label>
+                    <Label id="detail" textColor="white" font="13" height="19" top="37" left="30" right="indicator.left-10"></Label>
+                    <ImageView id="indicator" right="30" hidden="true" centerY="super.centerY" height="16" width="15" animationDuration="1.16">PlayingMotion_%05d</ImageView>
+                    <ActivityIndicatorView id="indicator_loading" width="15" height="15" right="29.5" centerY="super.centerY" hidden="true" hidesWhenStopped="true"></ActivityIndicatorView>
+                </TableViewCell>
+                <TableViewCell id="id_news" backgroundColor="clear" selectedBackgroundColor="#FFFFFF 10%" height="106">
+                    <Label id="title" textColor="white" font="17" top="15" lineSpace="2" numberOfLines="2" left="30" right="indicator.left-10"></Label>
+                    <Label id="timeLabel" textColor="#7A7E89 100%" font="13" bottom="15" height="19" left="30"></Label>
+                    <Label id="providerLabel" textColor="#7A7E89 100%" font="13" bottom="15" height="19" left="timeLabel.right+14"></Label>
+                    <ImageView id="indicator" right="30" hidden="true" bottom="69" height="16" width="15" animationDuration="1.16">PlayingMotion_%05d</ImageView>
+                    <ActivityIndicatorView id="indicator_loading" width="15" height="15" centerX="indicator.centerX" centerY="indicator.centerY" hidden="true" hidesWhenStopped="true"></ActivityIndicatorView>
+                </TableViewCell>
+            </TableView>
+        </LayoutView>
+        <Button bottom="safeArea.bottom-30" centerX="super.centerX" font="bold;17" height="24" tap="#closeAction">关闭</Button>
+    </LayoutView>
+</ViewController>

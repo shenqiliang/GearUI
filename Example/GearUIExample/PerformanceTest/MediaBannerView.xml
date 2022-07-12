@@ -1,0 +1,13 @@
+<LayoutView id="banner" backgroundColor="#393f4f" tap="#showPlayer" height="100">
+    <LayoutView top="0" left="0" right="0" height="50">
+        <ImageView id="disk" centerX="#coverImageView.centerX" centerY="#coverImageView.centerY" width="45" height="45">img_disk_s</ImageView>
+        <Animation id="play_animation" target="disk" keyPath="position.x" duration="0.3" timeFunction="easeInEaseOut" toValue="45"/>
+        <Animation id="pause_animation" target="disk" keyPath="position.x" duration="0.3" timeFunction="easeInEaseOut" toValue="25"/>
+        <Animation id="rotation_animation" target="disk"  keyPath="transform.rotation.z" timeFunction="linear" duration="9" repeatCount="10000" fromValue="0" toValue="6.28"/>
+        <ImageView id="#coverImageView" placeholderImage="minibar_封面默认图" contentMode="fill" clipsToBounds="1"  backgroundColor="black" left="0" top="0" width="50" height="50"></ImageView>
+        <Label id="#titleLabel" textColor="#FBFCFE" top="8" centerX="super.centerX" height="18" left=")#coverImageView.right+20" right="(#playButton.left-10" font="13" />
+        <Label id="#detailLabel" textColor="#7A7E89" top="#titleLabel.bottom-1" centerX="super.centerX" height="18" font="13" left=")#coverImageView.right+20" right="(#playButton.left-10"/>
+        <Button id="#playButton" showsTouchWhenHighlighted="1" width="32" height="32" centerY="#coverImageView.centerY" right="20" cornerRadius="16" tap="#togglePlayOrPause" touchEdgeInsets="{-20, -30, -20, -30}"/>
+        <ActivityIndicatorView id="#loadingIndicator" centerX="#playButton.centerX" centerY="#playButton.centerY" hidesWhenStopped="true"/>
+    </LayoutView>
+</LayoutView>
