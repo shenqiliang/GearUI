@@ -1,0 +1,9 @@
+#ignore files
+Build/*
+*/xcuserdata/*
+.DS_Store
+*.xcuserdatad
+*.pyc
+.idea
+Pods
+Podfile.lock
